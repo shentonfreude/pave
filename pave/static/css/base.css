@@ -1,9 +1,32 @@
-nav#menubar {
-    background-color: blue;
+nav#menubar ul{
+    background-color: #99c6e7;  /*original PAVE color*/
+    width: 100%;
+    float: left;
+    list-style: none;
+    margin: 0 0 3em 0;
+    padding: 0;
+    border-top: 1px solid red;
+    border-bottom: 2px solid #0183b5; /* worm-logo earth blue */
 }
-header#sectionhad {
-    background-color: teal;
+nav#menubar li {
+    float: left;
+}
+nav#menubar li a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-right: 1px solid #0183b5; /* worm-logo earth blue */
+    }
+
+
+header#sectionhead {
+    background-color: #eef7ff;
 }
 footer#footer {
-    background-color: blue;
+    background-color: #0183b5;  /* worm-logo earth blue */
+    padding: 0.1em 1em 0.1em 1em;
+    color: white;
+    font-size: 75%;
+    font-family: sans-serif;
 }

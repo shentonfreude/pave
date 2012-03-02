@@ -2,7 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <link href="{{STATIC_URL}}/css/base.css" rel="stylesheet" type="text/css" />
-  
   <title>{% block title %}PAVE: Project Announcement Visibility Effort{% endblock %}</title>
 </head>
 
@@ -11,19 +10,20 @@
     <img src="{{STATIC_URL}}/img/paveheader1.gif" />
   </header>
 
-  <header id="sectionhead">
-    <h1>Welcome to PAVE</h1>
-  </header>
-
   <nav id="menubar">
     <ul>
       <li><a href="/">Home</a></li>
-      <li>Browse</li>
-      <li>Search</li>
-      <li>Manage</li>
-      <li>Exit</li>
+      <li><a href="/project">Browse</a></li>
+      <li><a href="/project/search">Search</a></li>
+      <li><a href="/project/manage">Manage</a></li>
+      <li><a href="/exit">Exit</a></li>
     </ul>
   </nav>
+
+
+  <header id="sectionhead">
+    <h1>{% block sectionhead %}Welcome to PAVE{% endblock %}</h1>
+  </header>
 
   <section id="content">
     {% block content %}{% endblock %}
