@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block sectionheader %}
+<h1>Welcome to Pave</h1>
+{% endblock %}
+
+{% block content %}
+<h1>Purpose</h1>
+<p>
+  PAVE is designed to openly solicit applicants for high profile
+  assignments which may lead to greater visibility and career
+  enhancement for the PAVE applicant. The PAVE program enables NASA
+  managers and supervisors to advertise special opportunities to NASA
+  civil servants.
+</p>
+<p class="warning">
+  Please Note PAVE is not a part of the merit promotion and competitive placement plan
+</p>
+
+<h1>View Projects</h1>
+
+<p>
+  You do not need an account to <a href="/project">view and apply for a PAVE project</a>.
+</p>
+<p>
+  (To apply to any project you must have your Supervisor's permission.)
+</p>
+
+<h1>Manage your announcements</h1>
+
+<p>
+  If you are already registered for PAVE, please Login to manage your
+  announcements. Eventually we'll be using eAuth...
+
+  <form id="loginform" method="POST" action=".">
+    <label>Username
+      <input id="username" />
+    </label>
+    <label>Password
+      <input id="password" />
+    </label>
+    <input type="submit" id="submit" value="Login"/>
+  </form>
+
+</p>
+
+{% endblock %}
+

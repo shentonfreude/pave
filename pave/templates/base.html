@@ -2,13 +2,31 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <title>{% block title %}My amazing site{% endblock %}</title>
+    <title>{% block title %}PAVE: Project Announcement Visibility Effort{% endblock %}</title>
 </head>
 
 <body>
-  <h1>PAVE the way...</h1>
-    <div id="content">
-        {% block content %}{% endblock %}
-    </div>
+  <section id="banner">
+    <img src="templates/paveheader1.gif" />
+  </section>
+
+  <section id="sectionhead">
+    <h1>Welcome to PAVE</h1>
+  </section>
+
+  <section id="content">
+    {% block content %}{% endblock %}
+  </section>
+
+  <section id="footer">
+    <p>
+      WARNING: This US Government computer is for authorized users
+      only. By accessing this system you are consenting to complete
+      monitoring with no expectation of privacy. Unauthorized access
+      or use may subject you to disciplinary action and criminal
+      prosecution.
+    </p>
+  </section>
+
 </body>
 </html>
