@@ -19,13 +19,16 @@ nav#menubar li a {
     border-right: 1px solid #0183b5; /* worm-logo earth blue */
     }
 
-
+section#content {
+    background-color: #fffff5;
+}
 header#sectionhead {
     background-color: #eef7ff;
 }
 footer#footer {
     background-color: #0183b5;  /* worm-logo earth blue */
     padding: 0.1em 1em 0.1em 1em;
+    margin-top: 1em;
     color: white;
     font-size: 75%;
     font-family: sans-serif;
