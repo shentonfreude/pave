@@ -1,9 +1,11 @@
-# From PAVE.
+# From PAVE and OPM.
+# This data is now captured by Fixtures, which are checked in,
+# so is probably not needed here.
+.
+
+
+
 # Really?? Numeric codes, non-monotonic, instead of Center names?
-
-# Use list (tuple) of tuples so sorting works in forms.
-# We can always synthesize a dict for easy lookup.
-
 center_codes = (
     ("1000",  "HQ"),
     ("2100",  "ARC"),
@@ -24,7 +26,18 @@ project_statuses = (
     ("3", "Canceled Projects"),
     )
 
-# http://www.compumediausa.com/federal-job-series.html
+# We can generate JSON for job_codes like:
+# import json
+# jobs =[]
+# for (code, name) in job_codes:
+#     jobs.append({'pk': None,
+#                  'model': 'project.jobcode',
+#                  'fields': { 'code': code, 'name': name }
+#                     })
+# print json.dumps(jobs, indent=4)
+
+# Taken from: http://www.compumediausa.com/federal-job-series.html
+# An abbreviated list: http://www.opm.gov/qualifications/standards/group-stds/gs-prof.asp
 # Using a list of tuples to preserve sort-order.
 
 job_codes = [
