@@ -2,15 +2,20 @@
  TODO
 ======
 
-* CSRF for forms
 * Select choices for Center, Codes, etc.
-* CSS
-* Menubar style horizontal
+* Multiselect fields must use ManyToManyField(Choices)
 * project.owner, .status, .applicant
 * URL template references to urls.py names
+* Date-picker
+* CSV, JSON output
 
 Done
 ====
+
+CSS
+---
+
+It's progressing. See static/css/base.css.
 
 How to load images (e.g., <imr src=...>) and css
 ------------------------------------------------
@@ -40,3 +45,44 @@ static assets in:
 - .../pave/static/img/paveheader1.gif
 - .../pave/static/js/*
 
+Menubar style horizontal
+------------------------
+
+base.css::
+  nav#menubar ul{
+      background-color: #99c6e7;  /*original PAVE color*/
+      width: 100%;
+      float: left;
+      list-style: none;
+      margin: 0 0 3em 0;
+      padding: 0;
+      border-top: 1px solid red;
+      border-bottom: 2px solid #0183b5; /* worm-logo earth blue */
+  }
+  nav#menubar li {
+      float: left;
+  }
+  nav#menubar li a {
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      border-right: 1px solid #0183b5; /* worm-logo earth blue */
+      }
+
+CSRF for forms
+--------------
+
+project/views.py::
+
+  from django.core.context_processors import csrf
+  from django.shortcuts import render_to_response
+  from django.template import RequestContext
+  ...
+      return render_to_response('search.html',
+                                {'form': form},
+                                context_instance=RequestContext(request));
+
+search.html::
+
+  <form id="search" method="POST" action=".">{% csrf_token %}
