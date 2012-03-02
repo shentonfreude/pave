@@ -1,0 +1,6650 @@
+[
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0000", 
+            "name": "GS-0000 - Miscellaneous Occupations"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0006", 
+            "name": "GS-0006 - Correctional Institution Administration"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0007", 
+            "name": "GS-0007 - Correctional Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0011", 
+            "name": "GS-0011 - Bond Sales Promotion"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0018", 
+            "name": "GS-0018 - Safety and Occupational Health Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0019", 
+            "name": "GS-0019 - Safety Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0020", 
+            "name": "GS-0020 - Community Planning"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0021", 
+            "name": "GS-0021 - Community Planning Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0023", 
+            "name": "GS-0023 - Outdoor Recreation Planning"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0025", 
+            "name": "GS-0025 - Park Ranger"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0028", 
+            "name": "GS-0028 - Environmental Protection Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0029", 
+            "name": "GS-0029 - Environmental Protection Assistant"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0030", 
+            "name": "GS-0030 - Sports Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0050", 
+            "name": "GS-0050 - Funeral Directing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0060", 
+            "name": "GS-0060 - Chaplain"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0062", 
+            "name": "GS-0062 - Clothing Design"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0072", 
+            "name": "GS-0072 - Fingerprint Identification"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0080", 
+            "name": "GS-0080 - Security Administration"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0081", 
+            "name": "GS-0081 - Fire Protection and Prevention"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0082", 
+            "name": "GS-0082 - United States Marshal"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0083", 
+            "name": "GS-0083 - Police"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0084", 
+            "name": "GS-0084 - Nuclear Materials Courier"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0085", 
+            "name": "GS-0085 - Security Guard"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0086", 
+            "name": "GS-0086 - Security Clerical and Assistance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0090", 
+            "name": "GS-0090 - Guide"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0095", 
+            "name": "GS-0095 - Foreign Law Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0099", 
+            "name": "GS-0099 - General Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0100", 
+            "name": "GS-0100 - Social Science, Psychology and Welfare"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0101", 
+            "name": "GS-0101 - Social Science"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0102", 
+            "name": "GS-0102 - Social Science Aide and Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0105", 
+            "name": "GS-0105 - Social Insurance Administration"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0106", 
+            "name": "GS-0106 - Unemployment Insurance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0107", 
+            "name": "GS-0107 - Health Insurance Administration"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0110", 
+            "name": "GS-0110 - Economist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0119", 
+            "name": "GS-0119 - Economics Assistant"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0130", 
+            "name": "GS-0130 - Foreign Affairs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0131", 
+            "name": "GS-0131 - International Relations"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0132", 
+            "name": "GS-0132 - Intelligence"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0134", 
+            "name": "GS-0134 - Intelligence Aide and Clerk"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0135", 
+            "name": "GS-0135 - Foreign Agricultural Affairs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0136", 
+            "name": "GS-0136 - International Cooperation"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0140", 
+            "name": "GS-0140 - Manpower Research and Analysis"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0142", 
+            "name": "GS-0142 - Manpower Development"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0150", 
+            "name": "GS-0150 - Geography"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0160", 
+            "name": "GS-0160 - Civil Rights Analysis"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0170", 
+            "name": "GS-0170 - History"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0180", 
+            "name": "GS-0180 - Psychology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0181", 
+            "name": "GS-0181 - Psychology Aide and Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0184", 
+            "name": "GS-0184 - Sociology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0185", 
+            "name": "GS-0185 - Social Work"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0186", 
+            "name": "GS-0186 - Social Services Aide and Assistant"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0187", 
+            "name": "GS-0187 - Social Services"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0188", 
+            "name": "GS-0188 - Recreation Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0189", 
+            "name": "GS-0189 - Recreation Aide and Assistant"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0190", 
+            "name": "GS-0190 - General Anthropology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0193", 
+            "name": "GS-0193 - Archeology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0199", 
+            "name": "GS-0199 - Social Science Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0200", 
+            "name": "GS-0200 - Human Resources Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0201", 
+            "name": "GS-0201 - Human Resources Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0203", 
+            "name": "GS-0203 - Human Resources Assistance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0241", 
+            "name": "GS-0241 - Mediation"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0243", 
+            "name": "GS-0243 - Apprenticeship and Training"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0244", 
+            "name": "GS-0244 - Labor Management Relations Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0249", 
+            "name": "GS-0249 - Wage and Hour Compliance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0260", 
+            "name": "GS-0260 - Equal Employment Opportunity"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0299", 
+            "name": "GS-0299 - Human Resources Management Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0300", 
+            "name": "GS-0300 - General Administration, Clerical and Office Services"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0301", 
+            "name": "GS-0301 - Miscellaneous Administration and Program"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0302", 
+            "name": "GS-0302 - Messenger"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0303", 
+            "name": "GS-0303 - Miscellaneous Clerk and Assistant"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0304", 
+            "name": "GS-0304 - Information Receptionist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0305", 
+            "name": "GS-0305 - Mail and File"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0309", 
+            "name": "GS-0309 - Correspondence Clerk"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0312", 
+            "name": "GS-0312 - Clerk-Stenographer and Reporter"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0313", 
+            "name": "GS-0313 - Work Unit Supervising"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0318", 
+            "name": "GS-0318 - Secretary"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0319", 
+            "name": "GS-0319 - Closed Microphone Reporting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0322", 
+            "name": "GS-0322 - Clerk-Typist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0326", 
+            "name": "GS-0326 - Office Automation Clerical and Assistance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0332", 
+            "name": "GS-0332 - Computer Operation"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0335", 
+            "name": "GS-0335 - Computer Clerk and Assistant"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0340", 
+            "name": "GS-0340 - Program Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0341", 
+            "name": "GS-0341 - Administrative Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0342", 
+            "name": "GS-0342 - Support Services Administration"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0343", 
+            "name": "GS-0343 - Management and Program Analysis"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0344", 
+            "name": "GS-0344 - Management and Program Clerical and Assistance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0346", 
+            "name": "GS-0346 - Logistics Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0347", 
+            "name": "GS-0347 - Government Accountability Office Evaluator (GAO Only)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0350", 
+            "name": "GS-0350 - Equipment Operator"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0351", 
+            "name": "GS-0351 - Printing Clerical"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0356", 
+            "name": "GS-0356 - Data Transcriber"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0357", 
+            "name": "GS-0357 - Coding"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0360", 
+            "name": "GS-0360 - Equal Opportunity Compliance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0361", 
+            "name": "GS-0361 - Equal Opportunity Assistance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0382", 
+            "name": "GS-0382 - Telephone Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0390", 
+            "name": "GS-0390 - Telecommunications Processing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0391", 
+            "name": "GS-0391 - Telecommunications"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0392", 
+            "name": "GS-0392 - General Telecommunications"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0394", 
+            "name": "GS-0394 - Communications Clerical"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0399", 
+            "name": "GS-0399 - Administration and Office Support Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0400", 
+            "name": "GS-0400 - Biological Sciences"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0401", 
+            "name": "GS-0401 - General Biological Science"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0403", 
+            "name": "GS-0403 - Microbiology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0404", 
+            "name": "GS-0404 - Biological Science Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0405", 
+            "name": "GS-0405 - Pharmacology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0406", 
+            "name": "GS-0406 - Agricultural Extension"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0408", 
+            "name": "GS-0408 - Ecology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0410", 
+            "name": "GS-0410 - Zoology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0413", 
+            "name": "GS-0413 - Physiology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0414", 
+            "name": "GS-0414 - Entomology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0415", 
+            "name": "GS-0415 - Toxicology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0421", 
+            "name": "GS-0421 - Plant Protection Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0430", 
+            "name": "GS-0430 - Botany"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0434", 
+            "name": "GS-0434 - Plant Pathology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0435", 
+            "name": "GS-0435 - Plant Physiology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0436", 
+            "name": "GS-0436 - Plant Protection and Quarantine"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0437", 
+            "name": "GS-0437 - Horticulture"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0440", 
+            "name": "GS-0440 - Genetics"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0454", 
+            "name": "GS-0454 - Rangeland Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0455", 
+            "name": "GS-0455 - Range Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0457", 
+            "name": "GS-0457 - Soil Conservation"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0458", 
+            "name": "GS-0458 - Soil Conservation Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0459", 
+            "name": "GS-0459 - Irrigation System Operation"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0460", 
+            "name": "GS-0460 - Forestry"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0462", 
+            "name": "GS-0462 - Forestry Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0470", 
+            "name": "GS-0470 - Soil Science"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0471", 
+            "name": "GS-0471 - Agronomy"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0480", 
+            "name": "GS-0480 - General Fish and Wildlife Administration"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0482", 
+            "name": "GS-0482 - Fishery Biology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0485", 
+            "name": "GS-0485 - Wildlife Refuge Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0486", 
+            "name": "GS-0486 - Wildlife Biology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0487", 
+            "name": "GS-0487 - Animal Science"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0493", 
+            "name": "GS-0493 - Home Economics"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0499", 
+            "name": "GS-0499 - Biological Science Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0500", 
+            "name": "GS-0500 - Accounting and Budget"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0501", 
+            "name": "GS-0501 - Financial Administration and Program"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0503", 
+            "name": "GS-0503 - Financial Clerical and Assistance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0505", 
+            "name": "GS-0505 - Financial Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0510", 
+            "name": "GS-0510 - Accounting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0511", 
+            "name": "GS-0511 - Auditing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0512", 
+            "name": "GS-0512 - Internal Revenue Agent"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0525", 
+            "name": "GS-0525 - Accounting Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0526", 
+            "name": "GS-0526 - Tax Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0530", 
+            "name": "GS-0530 - Cash Processing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0540", 
+            "name": "GS-0540 - Voucher Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0544", 
+            "name": "GS-0544 - Civilian Pay"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0545", 
+            "name": "GS-0545 - Military Pay"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0560", 
+            "name": "GS-0560 - Budget Analysis"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0561", 
+            "name": "GS-0561 - Budget Clerical and Assistance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0570", 
+            "name": "GS-0570 - Financial Institution Examining (Federal Reserve System and FDIC Only)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0580", 
+            "name": "GS-0580 - Credit Union Examiner (National Credit Union Administration Only)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0592", 
+            "name": "GS-0592 - Tax Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0593", 
+            "name": "GS-0593 - Insurance Accounts"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0599", 
+            "name": "GS-0599 - Financial Management Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0600", 
+            "name": "GS-0600 - Medical, Hospital, Dental and Public Health"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0601", 
+            "name": "GS-0601 - General Health Science"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0602", 
+            "name": "GS-0602 - Medical Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0603", 
+            "name": "GS-0603 - Physician's Assistant"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0610", 
+            "name": "GS-0610 - Nurse"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0620", 
+            "name": "GS-0620 - Practical Nurse"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0621", 
+            "name": "GS-0621 - Nursing Assistant"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0622", 
+            "name": "GS-0622 - Medical Supply Aide and Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0625", 
+            "name": "GS-0625 - Autopsy Assistant"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0630", 
+            "name": "GS-0630 - Dietitian and Nutritionist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0631", 
+            "name": "GS-0631 - Occupational Therapist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0633", 
+            "name": "GS-0633 - Physical Therapist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0635", 
+            "name": "GS-0635 - Corrective Therapist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0636", 
+            "name": "GS-0636 - Rehabilitation Therapy Assistant"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0637", 
+            "name": "GS-0637 - Manual Arts Therapist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0638", 
+            "name": "GS-0638 - Recreation/Creative Arts Therapist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0639", 
+            "name": "GS-0639 - Educational Therapist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0640", 
+            "name": "GS-0640 - Health Aide and Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0642", 
+            "name": "GS-0642 - Nuclear Medicine Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0644", 
+            "name": "GS-0644 - Medical Technologist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0645", 
+            "name": "GS-0645 - Medical Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0646", 
+            "name": "GS-0646 - Pathology Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0647", 
+            "name": "GS-0647 - Diagnostic Radiologic Technologist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0648", 
+            "name": "GS-0648 - Therapeutic Radiologic Technologist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0649", 
+            "name": "GS-0649 - Medical Instrument Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0650", 
+            "name": "GS-0650 - Medical Technical Assistant"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0651", 
+            "name": "GS-0651 - Respiratory Therapist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0660", 
+            "name": "GS-0660 - Pharmacist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0661", 
+            "name": "GS-0661 - Pharmacy Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0662", 
+            "name": "GS-0662 - Optometrist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0664", 
+            "name": "GS-0664 - Restoration Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0665", 
+            "name": "GS-0665 - Speech Pathology and Audiology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0667", 
+            "name": "GS-0667 - Orthotist and Prosthetist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0668", 
+            "name": "GS-0668 - Podiatrist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0669", 
+            "name": "GS-0669 - Medical Records Administration"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0670", 
+            "name": "GS-0670 - Health System Administration"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0671", 
+            "name": "GS-0671 - Health System Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0672", 
+            "name": "GS-0672 - Prosthetic Representative"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0673", 
+            "name": "GS-0673 - Hospital Housekeeping Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0675", 
+            "name": "GS-0675 - Medical Records Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0679", 
+            "name": "GS-0679 - Medical Support Assistance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0680", 
+            "name": "GS-0680 - Dental Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0681", 
+            "name": "GS-0681 - Dental Assistant"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0682", 
+            "name": "GS-0682 - Dental Hygiene"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0683", 
+            "name": "GS-0683 - Dental Laboratory Aide and Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0685", 
+            "name": "GS-0685 - Public Health Program Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0688", 
+            "name": "GS-0688 - Sanitarian"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0690", 
+            "name": "GS-0690 - Industrial Hygiene"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0696", 
+            "name": "GS-0696 - Consumer Safety"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0698", 
+            "name": "GS-0698 - Environmental Health Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0699", 
+            "name": "GS-0699 - Medical and Health Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0700", 
+            "name": "GS-0700 - Veterinary Medical Science"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0701", 
+            "name": "GS-0701 - Veterinary Medical Science"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0704", 
+            "name": "GS-0704 - Animal Health Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0799", 
+            "name": "GS-0799 - Veterinary Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0800", 
+            "name": "GS-0800 - Engineering and Architecture"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0801", 
+            "name": "GS-0801 - General Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0802", 
+            "name": "GS-0802 - Engineering Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0803", 
+            "name": "GS-0803 - Safety Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0804", 
+            "name": "GS-0804 - Fire Protection Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0806", 
+            "name": "GS-0806 - Materials Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0807", 
+            "name": "GS-0807 - Landscape Architecture"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0808", 
+            "name": "GS-0808 - Architecture"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0809", 
+            "name": "GS-0809 - Construction Control"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0810", 
+            "name": "GS-0810 - Civil Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0817", 
+            "name": "GS-0817 - Surveying Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0818", 
+            "name": "GS-0818 - Engineering Drafting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0819", 
+            "name": "GS-0819 - Environmental Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0828", 
+            "name": "GS-0828 - Construction Analyst"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0830", 
+            "name": "GS-0830 - Mechanical Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0840", 
+            "name": "GS-0840 - Nuclear Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0850", 
+            "name": "GS-0850 - Electrical Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0854", 
+            "name": "GS-0854 - Computer Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0855", 
+            "name": "GS-0855 - Electronics Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0856", 
+            "name": "GS-0856 - Electronics Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0858", 
+            "name": "GS-0858 - Biomedical Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0861", 
+            "name": "GS-0861 - Aerospace Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0871", 
+            "name": "GS-0871 - Naval Architecture"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0873", 
+            "name": "GS-0873 - Ship Surveying"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0880", 
+            "name": "GS-0880 - Mining Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0881", 
+            "name": "GS-0881 - Petroleum Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0890", 
+            "name": "GS-0890 - Agricultural Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0892", 
+            "name": "GS-0892 - Ceramic Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0893", 
+            "name": "GS-0893 - Chemical Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0894", 
+            "name": "GS-0894 - Welding Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0895", 
+            "name": "GS-0895 - Industrial Engineering Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0896", 
+            "name": "GS-0896 - Industrial Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0898", 
+            "name": "GS-0898 - Engineering Trainee (National Institute of Standards and Technology Only)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0899", 
+            "name": "GS-0899 - Engineering and Architecture Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0900", 
+            "name": "GS-0900 - Legal and Kindred"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0901", 
+            "name": "GS-0901 - General Legal and Kindred Administration"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0904", 
+            "name": "GS-0904 - Law Clerk"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0905", 
+            "name": "GS-0905 - General Attorney"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0920", 
+            "name": "GS-0920 - Estate Tax Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0930", 
+            "name": "GS-0930 - Hearings and Appeals"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0935", 
+            "name": "GS-0935 - Administrative Law Judge (Used with Pay Plan Code \"AL\" Only)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0945", 
+            "name": "GS-0945 - Clerk of Court"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0950", 
+            "name": "GS-0950 - Paralegal Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0958", 
+            "name": "GS-0958 - Pension Law Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0962", 
+            "name": "GS-0962 - Contact Representative"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0963", 
+            "name": "GS-0963 - Legal Instruments Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0965", 
+            "name": "GS-0965 - Land Law Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0967", 
+            "name": "GS-0967 - Passport and Visa Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0986", 
+            "name": "GS-0986 - Legal Assistance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0987", 
+            "name": "GS-0987 - Tax Law Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0991", 
+            "name": "GS-0991 - Workers' Compensation Claims Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0993", 
+            "name": "GS-0993 - Railroad Retirement Claims Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0996", 
+            "name": "GS-0996 - Veterans Claims Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0998", 
+            "name": "GS-0998 - Claims Assistance and Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-0999", 
+            "name": "GS-0999 - Legal Occupations Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1000", 
+            "name": "GS-1000 - Information and Arts"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1001", 
+            "name": "GS-1001 - General Arts and Information"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1008", 
+            "name": "GS-1008 - Interior Design"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1010", 
+            "name": "GS-1010 - Exhibits Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1015", 
+            "name": "GS-1015 - Museum Curator"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1016", 
+            "name": "GS-1016 - Museum Specialist and Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1020", 
+            "name": "GS-1020 - Illustrating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1021", 
+            "name": "GS-1021 - Office Drafting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1035", 
+            "name": "GS-1035 - Public Affairs"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1040", 
+            "name": "GS-1040 - Language Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1046", 
+            "name": "GS-1046 - Language Clerical"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1051", 
+            "name": "GS-1051 - Music Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1054", 
+            "name": "GS-1054 - Theater Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1056", 
+            "name": "GS-1056 - Art Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1060", 
+            "name": "GS-1060 - Photography"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1071", 
+            "name": "GS-1071 - Audiovisual Production"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1082", 
+            "name": "GS-1082 - Writing and Editing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1083", 
+            "name": "GS-1083 - Technical Writing and Editing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1084", 
+            "name": "GS-1084 - Visual Information"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1087", 
+            "name": "GS-1087 - Editorial Assistance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1099", 
+            "name": "GS-1099 - Information and Arts Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1100", 
+            "name": "GS-1100 - Business and Industry"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1101", 
+            "name": "GS-1101 - General Business and Industry"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1102", 
+            "name": "GS-1102 - Contracting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1103", 
+            "name": "GS-1103 - Industrial Property Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1104", 
+            "name": "GS-1104 - Property Disposal"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1105", 
+            "name": "GS-1105 - Purchasing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1106", 
+            "name": "GS-1106 - Procurement Clerical and Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1107", 
+            "name": "GS-1107 - Property Disposal Clerical and Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1130", 
+            "name": "GS-1130 - Public Utilities Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1140", 
+            "name": "GS-1140 - Trade Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1144", 
+            "name": "GS-1144 - Commissary Store Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1145", 
+            "name": "GS-1145 - Agricultural Program Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1146", 
+            "name": "GS-1146 - Agricultural Marketing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1147", 
+            "name": "GS-1147 - Agricultural Market Reporting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1150", 
+            "name": "GS-1150 - Industrial Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1152", 
+            "name": "GS-1152 - Production Control"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1160", 
+            "name": "GS-1160 - Financial Analysis"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1161", 
+            "name": "GS-1161 - Crop Insurance Administration"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1162", 
+            "name": "GS-1162 - Crop Insurance Underwriting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1163", 
+            "name": "GS-1163 - Insurance Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1165", 
+            "name": "GS-1165 - Loan Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1169", 
+            "name": "GS-1169 - Internal Revenue Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1170", 
+            "name": "GS-1170 - Realty"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1171", 
+            "name": "GS-1171 - Appraising"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1173", 
+            "name": "GS-1173 - Housing Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1176", 
+            "name": "GS-1176 - Building Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1199", 
+            "name": "GS-1199 - Business and Industry Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1200", 
+            "name": "GS-1200 - Copyright, Patent and Trademark"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1202", 
+            "name": "GS-1202 - Patent Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1210", 
+            "name": "GS-1210 - Copyright"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1211", 
+            "name": "GS-1211 - Copyright Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1220", 
+            "name": "GS-1220 - Patent Administration"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1221", 
+            "name": "GS-1221 - Patent Advisor"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1222", 
+            "name": "GS-1222 - Patent Attorney"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1223", 
+            "name": "GS-1223 - Patent Classifying"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1224", 
+            "name": "GS-1224 - Patent Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1226", 
+            "name": "GS-1226 - Design Patent Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1299", 
+            "name": "GS-1299 - Copyright and Patent Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1300", 
+            "name": "GS-1300 - Physical Sciences"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1301", 
+            "name": "GS-1301 - General Physical Science"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1306", 
+            "name": "GS-1306 - Health Physics"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1310", 
+            "name": "GS-1310 - Physics"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1311", 
+            "name": "GS-1311 - Physical Science Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1313", 
+            "name": "GS-1313 - Geophysics"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1315", 
+            "name": "GS-1315 - Hydrology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1316", 
+            "name": "GS-1316 - Hydrologic Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1320", 
+            "name": "GS-1320 - Chemistry"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1321", 
+            "name": "GS-1321 - Metallurgy"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1330", 
+            "name": "GS-1330 - Astronomy and Space Science"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1340", 
+            "name": "GS-1340 - Meteorology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1341", 
+            "name": "GS-1341 - Meteorological Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1350", 
+            "name": "GS-1350 - Geology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1360", 
+            "name": "GS-1360 - Oceanography"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1361", 
+            "name": "GS-1361 - Navigational Information"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1370", 
+            "name": "GS-1370 - Cartography"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1371", 
+            "name": "GS-1371 - Cartographic Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1372", 
+            "name": "GS-1372 - Geodesy"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1373", 
+            "name": "GS-1373 - Land Surveying"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1374", 
+            "name": "GS-1374 - Geodetic Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1380", 
+            "name": "GS-1380 - Forest Products Technology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1382", 
+            "name": "GS-1382 - Food Technology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1384", 
+            "name": "GS-1384 - Textile Technology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1386", 
+            "name": "GS-1386 - Photographic Technology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1397", 
+            "name": "GS-1397 - Document Analysis"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1398", 
+            "name": "GS-1398 - Physical Science Trainee (National Institute of Standards and Technology Only)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1399", 
+            "name": "GS-1399 - Physical Science Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1400", 
+            "name": "GS-1400 - Library and Archives"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1410", 
+            "name": "GS-1410 - Librarian"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1411", 
+            "name": "GS-1411 - Library Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1412", 
+            "name": "GS-1412 - Technical Information Services"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1420", 
+            "name": "GS-1420 - Archivist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1421", 
+            "name": "GS-1421 - Archives Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1499", 
+            "name": "GS-1499 - Library and Archives Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1500", 
+            "name": "GS-1500 - Mathematics and Statistics"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1510", 
+            "name": "GS-1510 - Actuary"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1515", 
+            "name": "GS-1515 - Operations Research"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1520", 
+            "name": "GS-1520 - Mathematics"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1521", 
+            "name": "GS-1521 - Mathematics Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1529", 
+            "name": "GS-1529 - Mathematical Statistician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1530", 
+            "name": "GS-1530 - Statistician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1531", 
+            "name": "GS-1531 - Statistical Assistant"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1540", 
+            "name": "GS-1540 - Cryptography"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1541", 
+            "name": "GS-1541 - Cryptanalysis"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1550", 
+            "name": "GS-1550 - Computer Science"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1598", 
+            "name": "GS-1598 - Mathematics or Computer Science Trainee (Natl. Inst. of Standards and Tech. Only)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1599", 
+            "name": "GS-1599 - Mathematics and Statistics Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1600", 
+            "name": "GS-1600 - Equipment, Facilities and Services"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1601", 
+            "name": "GS-1601 - General Facilities and Equipment"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1630", 
+            "name": "GS-1630 - Cemetery Administration"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1640", 
+            "name": "GS-1640 - Facility Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1654", 
+            "name": "GS-1654 - Printing Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1658", 
+            "name": "GS-1658 - Laundry and Dry Cleaning Plant Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1667", 
+            "name": "GS-1667 - Steward"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1670", 
+            "name": "GS-1670 - Equipment Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1699", 
+            "name": "GS-1699 - Equipment and Facilities Management Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1700", 
+            "name": "GS-1700 - Education"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1701", 
+            "name": "GS-1701 - General Education and Training"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1702", 
+            "name": "GS-1702 - Education and Training Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1710", 
+            "name": "GS-1710 - Education and Vocational Training"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1712", 
+            "name": "GS-1712 - Training Instruction"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1715", 
+            "name": "GS-1715 - Vocational Rehabilitation"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1720", 
+            "name": "GS-1720 - Education Program"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1725", 
+            "name": "GS-1725 - Public Health Educator"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1730", 
+            "name": "GS-1730 - Education Research"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1740", 
+            "name": "GS-1740 - Education Services"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1750", 
+            "name": "GS-1750 - Instructional Systems"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1799", 
+            "name": "GS-1799 - Education Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1800", 
+            "name": "GS-1800 - Investigation"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1801", 
+            "name": "GS-1801 - General Inspection, Investigation and Compliance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1802", 
+            "name": "GS-1802 - Compliance Inspection and Support"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1810", 
+            "name": "GS-1810 - General Investigating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1811", 
+            "name": "GS-1811 - Criminal Investigating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1812", 
+            "name": "GS-1812 - Game Law Enforcement"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1815", 
+            "name": "GS-1815 - Air Safety Investigating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1816", 
+            "name": "GS-1816 - Immigration Inspection"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1822", 
+            "name": "GS-1822 - Mine Safety and Health"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1825", 
+            "name": "GS-1825 - Aviation Safety"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1831", 
+            "name": "GS-1831 - Securities Compliance Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1850", 
+            "name": "GS-1850 - Agricultural Commodity Warehouse Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1854", 
+            "name": "GS-1854 - Alcohol, Tobacco and Firearms Inspection"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1862", 
+            "name": "GS-1862 - Consumer Safety Inspection"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1863", 
+            "name": "GS-1863 - Food Inspection"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1864", 
+            "name": "GS-1864 - Public Health Quarantine Inspection"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1884", 
+            "name": "GS-1884 - Customs Patrol Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1889", 
+            "name": "GS-1889 - Import Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1890", 
+            "name": "GS-1890 - Customs Inspection"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1894", 
+            "name": "GS-1894 - Customs Entry and Liquidating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1896", 
+            "name": "GS-1896 - Border Patrol Agent"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1897", 
+            "name": "GS-1897 - Customs Aide"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1899", 
+            "name": "GS-1899 - Investigation Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1900", 
+            "name": "GS-1900 - Quality Assurance, Inspection and Grading"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1910", 
+            "name": "GS-1910 - Quality Assurance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1980", 
+            "name": "GS-1980 - Agricultural Commodity Grading"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1981", 
+            "name": "GS-1981 - Agricultural Commodity Aide"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-1999", 
+            "name": "GS-1999 - Quality Inspection Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2000", 
+            "name": "GS-2000 - Supply"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2001", 
+            "name": "GS-2001 - General Supply"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2003", 
+            "name": "GS-2003 - Supply Program Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2005", 
+            "name": "GS-2005 - Supply Clerical and Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2010", 
+            "name": "GS-2010 - Inventory Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2030", 
+            "name": "GS-2030 - Distribution Facilities and Storage Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2032", 
+            "name": "GS-2032 - Packaging"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2050", 
+            "name": "GS-2050 - Supply Cataloging"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2091", 
+            "name": "GS-2091 - Sales Store Clerical"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2099", 
+            "name": "GS-2099 - Supply Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2100", 
+            "name": "GS-2100 - Transportation"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2101", 
+            "name": "GS-2101 - Transportation Specialist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2102", 
+            "name": "GS-2102 - Transportation Clerk and Assistant"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2110", 
+            "name": "GS-2110 - Transportation Industry Analysis"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2121", 
+            "name": "GS-2121 - Railroad Safety"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2123", 
+            "name": "GS-2123 - Motor Carrier Safety"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2125", 
+            "name": "GS-2125 - Highway Safety"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2130", 
+            "name": "GS-2130 - Traffic Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2131", 
+            "name": "GS-2131 - Freight Rate"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2135", 
+            "name": "GS-2135 - Transportation Loss and Damage Claims Examining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2144", 
+            "name": "GS-2144 - Cargo Scheduling"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2150", 
+            "name": "GS-2150 - Transportation Operations"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2151", 
+            "name": "GS-2151 - Dispatching"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2152", 
+            "name": "GS-2152 - Air Traffic Control"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2154", 
+            "name": "GS-2154 - Air Traffic Assistance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2161", 
+            "name": "GS-2161 - Marine Cargo"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2181", 
+            "name": "GS-2181 - Aircraft Operation"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2183", 
+            "name": "GS-2183 - Air Navigation"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2185", 
+            "name": "GS-2185 - Aircrew Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2186", 
+            "name": "GS-2186 - Technical Systems Program Manager (Federal Aviation Administration Only)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2199", 
+            "name": "GS-2199 - Transportation Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2200", 
+            "name": "GS-2200 - Information Technology"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2210", 
+            "name": "GS-2210 - Information Technology Management"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "GS-2299", 
+            "name": "GS-2299 - Information Technology Student Trainee"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-2500", 
+            "name": "WG-2500 - Wire Communications Equipment Installation and Maintenance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-2502", 
+            "name": "WG-2502 - Telecommunications Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-2504", 
+            "name": "WG-2504 - Wire Communications Cable Splicing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-2508", 
+            "name": "WG-2508 - Communications Line Installing and Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-2600", 
+            "name": "WG-2600 - Electronic Equipment Installation and Maintenance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-2602", 
+            "name": "WG-2602 - Electronic Measurement Equipment Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-2604", 
+            "name": "WG-2604 - Electronics Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-2606", 
+            "name": "WG-2606 - Electronic Industrial Controls Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-2608", 
+            "name": "WG-2608 - Electronic Digital Computer Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-2610", 
+            "name": "WG-2610 - Electronic Integrated Systems Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-2800", 
+            "name": "WG-2800 - Electrical Installation and Maintenance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-2805", 
+            "name": "WG-2805 - Electrician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-2810", 
+            "name": "WG-2810 - High Voltage Electrician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-2854", 
+            "name": "WG-2854 - Electrical Equipment Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-2892", 
+            "name": "WG-2892 - Aircraft Electrician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3100", 
+            "name": "WG-3100 - Fabric and Leather Work"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3103", 
+            "name": "WG-3103 - Shoe Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3105", 
+            "name": "WG-3105 - Fabric Working"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3106", 
+            "name": "WG-3106 - Upholstering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3111", 
+            "name": "WG-3111 - Sewing Machine Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3119", 
+            "name": "WG-3119 - Broom and Brush Making"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3300", 
+            "name": "WG-3300 - Instrument Work"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3306", 
+            "name": "WG-3306 - Optical Instrument Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3314", 
+            "name": "WG-3314 - Instrument Making"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3359", 
+            "name": "WG-3359 - Instrument Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3400", 
+            "name": "WG-3400 - Machine Tool Work"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3414", 
+            "name": "WG-3414 - Machining"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3416", 
+            "name": "WG-3416 - Toolmaking"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3417", 
+            "name": "WG-3417 - Tool Grinding"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3428", 
+            "name": "WG-3428 - Die Sinking"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3500", 
+            "name": "WG-3500 - General Services and Support Work"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3502", 
+            "name": "WG-3502 - Laboring"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3511", 
+            "name": "WG-3511 - Laboratory Working"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3513", 
+            "name": "WG-3513 - Coin/Currency Checking"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3515", 
+            "name": "WG-3515 - Laboratory Support Working"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3543", 
+            "name": "WG-3543 - Stevedoring"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3546", 
+            "name": "WG-3546 - Railroad Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3566", 
+            "name": "WG-3566 - Custodial Working"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3600", 
+            "name": "WG-3600 - Structural and Finishing Work"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3602", 
+            "name": "WG-3602 - Cement Finishing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3603", 
+            "name": "WG-3603 - Masonry"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3604", 
+            "name": "WG-3604 - Tile Setting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3605", 
+            "name": "WG-3605 - Plastering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3606", 
+            "name": "WG-3606 - Roofing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3609", 
+            "name": "WG-3609 - Floor Covering Installing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3610", 
+            "name": "WG-3610 - Insulating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3611", 
+            "name": "WG-3611 - Glazing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3653", 
+            "name": "WG-3653 - Asphalt Working"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3700", 
+            "name": "WG-3700 - Metal Processing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3702", 
+            "name": "WG-3702 - Flame/Arc Cutting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3703", 
+            "name": "WG-3703 - Welding"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3705", 
+            "name": "WG-3705 - Nondestructive Testing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3707", 
+            "name": "WG-3707 - Metalizing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3711", 
+            "name": "WG-3711 - Electroplating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3712", 
+            "name": "WG-3712 - Heat Treating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3716", 
+            "name": "WG-3716 - Leadburning"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3725", 
+            "name": "WG-3725 - Battery Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3727", 
+            "name": "WG-3727 - Buffing and Polishing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3735", 
+            "name": "WG-3735 - Metal Phototransferring"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3736", 
+            "name": "WG-3736 - Circuit Board Making"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3741", 
+            "name": "WG-3741 - Furnace Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3769", 
+            "name": "WG-3769 - Shot Peening Machine Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3800", 
+            "name": "WG-3800 - Metal Work"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3802", 
+            "name": "WG-3802 - Metal Forging"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3806", 
+            "name": "WG-3806 - Sheet Metal Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3807", 
+            "name": "WG-3807 - Structural/Ornamental Iron Working"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3808", 
+            "name": "WG-3808 - Boilermaking"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3809", 
+            "name": "WG-3809 - Mobile Equipment Metal Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3816", 
+            "name": "WG-3816 - Engraving"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3819", 
+            "name": "WG-3819 - Airframe Jig Fitting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3820", 
+            "name": "WG-3820 - Shipfitting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3833", 
+            "name": "WG-3833 - Transfer Engraving"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3858", 
+            "name": "WG-3858 - Metal Tank and Radiator Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3869", 
+            "name": "WG-3869 - Metal Forming Machine Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3872", 
+            "name": "WG-3872 - Metal Tube Making, Installing, and Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3900", 
+            "name": "WG-3900 - Motion Picture, Radio, Television and Sound Equipment Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3910", 
+            "name": "WG-3910 - Motion Picture Projection"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-3940", 
+            "name": "WG-3940 - Broadcasting Equipment Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4000", 
+            "name": "WG-4000 - Lens and Crystal Work"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4005", 
+            "name": "WG-4005 - Optical Element Working"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4010", 
+            "name": "WG-4010 - Prescription Eyeglass Making"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4100", 
+            "name": "WG-4100 - Painting and Paper"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4102", 
+            "name": "WG-4102 - Painting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4103", 
+            "name": "WG-4103 - Paperhanging"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4104", 
+            "name": "WG-4104 - Sign Painting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4200", 
+            "name": "WG-4200 - Plumbing and Pipefitting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4204", 
+            "name": "WG-4204 - Pipefitting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4206", 
+            "name": "WG-4206 - Plumbing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4255", 
+            "name": "WG-4255 - Fuel Distribution Systems Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4300", 
+            "name": "WG-4300 - Pliable Materials Work"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4351", 
+            "name": "WG-4351 - Plastic Molding Equipment Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4352", 
+            "name": "WG-4352 - Plastic Fabricating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4360", 
+            "name": "WG-4360 - Rubber Products Molding"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4361", 
+            "name": "WG-4361 - Rubber Equipment Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4370", 
+            "name": "WG-4370 - Glassblowing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4373", 
+            "name": "WG-4373 - Molding"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4400", 
+            "name": "WG-4400 - Printing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4402", 
+            "name": "WG-4402 - Bindery Working"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4403", 
+            "name": "WG-4403 - Hand Composing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4405", 
+            "name": "WG-4405 - Film Assembly-Stripping"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4406", 
+            "name": "WG-4406 - Letterpress Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4413", 
+            "name": "WG-4413 - Negative Engraving"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4414", 
+            "name": "WG-4414 - Offset Photography"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4416", 
+            "name": "WG-4416 - Platemaking"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4417", 
+            "name": "WG-4417 - Offset Press Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4419", 
+            "name": "WG-4419 - Silk Screen Making and Printing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4425", 
+            "name": "WG-4425 - Photoengraving"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4440", 
+            "name": "WG-4440 - Stereotype Platemaking"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4441", 
+            "name": "WG-4441 - Bookbinding"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4445", 
+            "name": "WG-4445 - Bank Note Designing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4446", 
+            "name": "WG-4446 - Bank Note Engraving"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4447", 
+            "name": "WG-4447 - Sculptural Engraving"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4448", 
+            "name": "WG-4448 - Siderographic Transferring"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4449", 
+            "name": "WG-4449 - Electrolytic Intaglio Platemaking"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4450", 
+            "name": "WG-4450 - Intaglio Die and Plate Finishing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4454", 
+            "name": "WG-4454 - Intaglio Press Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4600", 
+            "name": "WG-4600 - Wood Work"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4602", 
+            "name": "WG-4602 - Blocking and Bracing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4604", 
+            "name": "WG-4604 - Wood Working"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4605", 
+            "name": "WG-4605 - Wood Crafting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4607", 
+            "name": "WG-4607 - Carpentry"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4616", 
+            "name": "WG-4616 - Patternmaking"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4639", 
+            "name": "WG-4639 - Timber Working"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4654", 
+            "name": "WG-4654 - Form Block Making"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4700", 
+            "name": "WG-4700 - General Maintenance and Operations Work"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4714", 
+            "name": "WG-4714 - Model Making"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4715", 
+            "name": "WG-4715 - Exhibits Making/Modeling"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4716", 
+            "name": "WG-4716 - Railroad Car Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4717", 
+            "name": "WG-4717 - Boat Building and Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4737", 
+            "name": "WG-4737 - General Equipment Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4741", 
+            "name": "WG-4741 - General Equipment Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4742", 
+            "name": "WG-4742 - Utility Systems Repairing-Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4745", 
+            "name": "WG-4745 - Research Laboratory Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4749", 
+            "name": "WG-4749 - Maintenance Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4754", 
+            "name": "WG-4754 - Cemetery Caretaking"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4800", 
+            "name": "WG-4800 - General Equipment Maintenance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4804", 
+            "name": "WG-4804 - Locksmithing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4805", 
+            "name": "WG-4805 - Medical Equipment Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4806", 
+            "name": "WG-4806 - Office Appliance Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4807", 
+            "name": "WG-4807 - Chemical Equipment Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4808", 
+            "name": "WG-4808 - Custodial Equipment Servicing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4816", 
+            "name": "WG-4816 - Protective and Safety Equipment Fabricating and Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4818", 
+            "name": "WG-4818 - Aircraft Survival and Flight Equipment Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4819", 
+            "name": "WG-4819 - Bowling Equipment Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4820", 
+            "name": "WG-4820 - Vending Machine Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4840", 
+            "name": "WG-4840 - Tool and Equipment Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4845", 
+            "name": "WG-4845 - Orthopedic Appliance Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4848", 
+            "name": "WG-4848 - Mechanical Parts Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4850", 
+            "name": "WG-4850 - Bearing Reconditioning"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-4855", 
+            "name": "WG-4855 - Domestic Appliance Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5000", 
+            "name": "WG-5000 - Plant and Animal Work"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5002", 
+            "name": "WG-5002 - Farming"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5003", 
+            "name": "WG-5003 - Gardening"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5026", 
+            "name": "WG-5026 - Pest Controlling"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5031", 
+            "name": "WG-5031 - Insects Production Working"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5034", 
+            "name": "WG-5034 - Dairy Farming"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5035", 
+            "name": "WG-5035 - Livestock Ranching/Wrangling"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5042", 
+            "name": "WG-5042 - Tree Trimming and Removing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5048", 
+            "name": "WG-5048 - Animal Caretaking"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5200", 
+            "name": "WG-5200 - Miscellaneous Occupations"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5205", 
+            "name": "WG-5205 - Gas and Radiation Detecting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5210", 
+            "name": "WG-5210 - Rigging"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5220", 
+            "name": "WG-5220 - Shipwright"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5221", 
+            "name": "WG-5221 - Lofting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5235", 
+            "name": "WG-5235 - Test Range Tracking"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5300", 
+            "name": "WG-5300 - Industrial Equipment Maintenance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5306", 
+            "name": "WG-5306 - Air Conditioning Equipment Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5309", 
+            "name": "WG-5309 - Heating and Boiler Plant Equipment Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5310", 
+            "name": "WG-5310 - Kitchen/Bakery Equipment Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5313", 
+            "name": "WG-5313 - Elevator Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5317", 
+            "name": "WG-5317 - Laundry and Dry Cleaning Equipment Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5318", 
+            "name": "WG-5318 - Lock and Dam Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5323", 
+            "name": "WG-5323 - Oiling and Greasing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5330", 
+            "name": "WG-5330 - Printing Equipment Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5334", 
+            "name": "WG-5334 - Marine Machinery Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5335", 
+            "name": "WG-5335 - Wind Tunnel Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5341", 
+            "name": "WG-5341 - Industrial Furnace Building and Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5350", 
+            "name": "WG-5350 - Production Machinery Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5352", 
+            "name": "WG-5352 - Industrial Equipment Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5364", 
+            "name": "WG-5364 - Door Systems Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5365", 
+            "name": "WG-5365 - Physiological Trainer Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5378", 
+            "name": "WG-5378 - Powered Support Systems Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5384", 
+            "name": "WG-5384 - Gasdynamic Facility Installing and Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5400", 
+            "name": "WG-5400 - Industrial Equipment Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5402", 
+            "name": "WG-5402 - Boiler Plant Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5403", 
+            "name": "WG-5403 - Incinerator Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5406", 
+            "name": "WG-5406 - Utility Systems Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5407", 
+            "name": "WG-5407 - Electric Power Controlling"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5408", 
+            "name": "WG-5408 - Wastewater Treatment Plant Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5409", 
+            "name": "WG-5409 - Water Treatment Plant Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5413", 
+            "name": "WG-5413 - Fuel Distribution System Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5415", 
+            "name": "WG-5415 - Air Conditioning Equipment Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5419", 
+            "name": "WG-5419 - Stationary-Engine Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5423", 
+            "name": "WG-5423 - Sandblasting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5424", 
+            "name": "WG-5424 - Weighing Machine Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5426", 
+            "name": "WG-5426 - Lock and Dam Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5427", 
+            "name": "WG-5427 - Chemical Plant Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5433", 
+            "name": "WG-5433 - Gas Generating Plant Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5435", 
+            "name": "WG-5435 - Carton/Bag Making Machine Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5438", 
+            "name": "WG-5438 - Elevator Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5439", 
+            "name": "WG-5439 - Testing Equipment Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5440", 
+            "name": "WG-5440 - Packaging Machine Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5446", 
+            "name": "WG-5446 - Textile Equipment Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5455", 
+            "name": "WG-5455 - Paper Pulping Machine Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5478", 
+            "name": "WG-5478 - Portable Equipment Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5479", 
+            "name": "WG-5479 - Dredging Equipment Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5484", 
+            "name": "WG-5484 - Counting Machine Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5485", 
+            "name": "WG-5485 - Aircraft Weight and Balance Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5700", 
+            "name": "WG-5700 - Transportation/Mobile Equipment Operation"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5703", 
+            "name": "WG-5703 - Motor Vehicle Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5704", 
+            "name": "WG-5704 - Fork Lift Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5705", 
+            "name": "WG-5705 - Tractor Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5706", 
+            "name": "WG-5706 - Road Sweeper Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5716", 
+            "name": "WG-5716 - Engineering Equipment Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5725", 
+            "name": "WG-5725 - Crane Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5729", 
+            "name": "WG-5729 - Drill Rig Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5736", 
+            "name": "WG-5736 - Braking-Switching and Conducting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5737", 
+            "name": "WG-5737 - Locomotive Engineering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5738", 
+            "name": "WG-5738 - Railroad Maintenance Vehicle Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5767", 
+            "name": "WG-5767 - Airfield Clearing Equipment Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5782", 
+            "name": "WG-5782 - Ship Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5784", 
+            "name": "WG-5784 - Riverboat Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5786", 
+            "name": "WG-5786 - Small Craft Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5788", 
+            "name": "WG-5788 - Deckhand"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5800", 
+            "name": "WG-5800 - Transportation/Mobile Equipment Maintenance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5803", 
+            "name": "WG-5803 - Heavy Mobile Equipment Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5806", 
+            "name": "WG-5806 - Mobile Equipment Servicing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5823", 
+            "name": "WG-5823 - Automotive Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-5876", 
+            "name": "WG-5876 - Electromotive Equipment Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6500", 
+            "name": "WG-6500 - Ammunition, Explosives and Toxic Materials Work"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6502", 
+            "name": "WG-6502 - Explosives Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6505", 
+            "name": "WG-6505 - Munitions Destroying"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6511", 
+            "name": "WG-6511 - Missile/Toxic Materials Handling"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6517", 
+            "name": "WG-6517 - Explosives Test Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6600", 
+            "name": "WG-6600 - Armament Work"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6605", 
+            "name": "WG-6605 - Artillery Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6606", 
+            "name": "WG-6606 - Artillery Testing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6610", 
+            "name": "WG-6610 - Small Arms Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6641", 
+            "name": "WG-6641 - Ordnance Equipment Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6652", 
+            "name": "WG-6652 - Aircraft Ordnance Systems Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6656", 
+            "name": "WG-6656 - Special Weapons Systems Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6900", 
+            "name": "WG-6900 - Warehousing and Stock Handling"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6903", 
+            "name": "WG-6903 - Coal Handling"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6904", 
+            "name": "WG-6904 - Tools and Parts Attending"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6907", 
+            "name": "WG-6907 - Materials Handler"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6910", 
+            "name": "WG-6910 - Materials Expediting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6912", 
+            "name": "WG-6912 - Materials Examining and Identifying"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6913", 
+            "name": "WG-6913 - Hazardous Waste Disposing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6914", 
+            "name": "WG-6914 - Store Working"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6941", 
+            "name": "WG-6941 - Bulk Money Handling"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-6968", 
+            "name": "WG-6968 - Aircraft Freight Loading"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7000", 
+            "name": "WG-7000 - Packing and Processing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7002", 
+            "name": "WG-7002 - Packing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7006", 
+            "name": "WG-7006 - Preservation Servicing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7009", 
+            "name": "WG-7009 - Equipment Cleaning"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7010", 
+            "name": "WG-7010 - Parachute Packing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7300", 
+            "name": "WG-7300 - Laundry, Dry Cleaning and Pressing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7304", 
+            "name": "WG-7304 - Laundry Working"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7305", 
+            "name": "WG-7305 - Laundry Machine Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7306", 
+            "name": "WG-7306 - Pressing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7400", 
+            "name": "WG-7400 - Food Preparation and Serving"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7402", 
+            "name": "WG-7402 - Baking"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7404", 
+            "name": "WG-7404 - Cooking"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7405", 
+            "name": "WG-7405 - Bartending"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7407", 
+            "name": "WG-7407 - Meatcutting"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7408", 
+            "name": "WG-7408 - Food Service Working"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7420", 
+            "name": "WG-7420 - Waiter"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7600", 
+            "name": "WG-7600 - Personal Services"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7603", 
+            "name": "WG-7603 - Barbering"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-7641", 
+            "name": "WG-7641 - Beautician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-8200", 
+            "name": "WG-8200 - Fluid Systems Maintenance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-8255", 
+            "name": "WG-8255 - Pneudraulic Systems Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-8268", 
+            "name": "WG-8268 - Aircraft Pneudraulic Systems Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-8600", 
+            "name": "WG-8600 - Engine Overhaul"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-8602", 
+            "name": "WG-8602 - Aircraft Engine Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-8610", 
+            "name": "WG-8610 - Small Engine Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-8675", 
+            "name": "WG-8675 - Liquid Fuel Rocket Engine Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-8800", 
+            "name": "WG-8800 - Aircraft Overhaul"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-8810", 
+            "name": "WG-8810 - Aircraft Propeller Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-8840", 
+            "name": "WG-8840 - Aircraft Mechanical Parts Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-8852", 
+            "name": "WG-8852 - Aircraft Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-8862", 
+            "name": "WG-8862 - Aircraft Attending"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-8882", 
+            "name": "WG-8882 - Airframe Test Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-9000", 
+            "name": "WG-9000 - Film Processing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-9003", 
+            "name": "WG-9003 - Film Assembling and Repairing"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "WG-9004", 
+            "name": "WG-9004 - Motion Picture Developing/Printing Machine Operating"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9901", 
+            "name": "9901 - Miscellaneous"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9902", 
+            "name": "9902 - Master"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9903", 
+            "name": "9903 - Chief Officer Cable"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9904", 
+            "name": "9904 - Ship Pilot"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9905", 
+            "name": "9905 - First Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9906", 
+            "name": "9906 - Second Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9907", 
+            "name": "9907 - Third Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9908", 
+            "name": "9908 - Junior Deck Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9909", 
+            "name": "9909 - Radio Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9910", 
+            "name": "9910 - First Assistant Radio Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9911", 
+            "name": "9911 - Radio Electronics Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9912", 
+            "name": "9912 - First Assistant Radio Electronics Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9913", 
+            "name": "9913 - Relief Deck Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9914", 
+            "name": "9914 - Damage Control Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9915", 
+            "name": "9915 - Assistant Damage Control Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9916", 
+            "name": "9916 - Master-Mate (Fishing Vessel)"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9917", 
+            "name": "9917 - Deck Midshipman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9918", 
+            "name": "9918 - Damage Control Leader"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9919", 
+            "name": "9919 - Damage Control Assistant Leader"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9920", 
+            "name": "9920 - Boatswain"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9921", 
+            "name": "9921 - Carpenter"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9922", 
+            "name": "9922 - Carpenter-Maintenance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9923", 
+            "name": "9923 - Boatswain's Mate"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9924", 
+            "name": "9924 - Able Seaman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9925", 
+            "name": "9925 - Able Seaman-Maintenance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9926", 
+            "name": "9926 - Quartermaster"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9927", 
+            "name": "9927 - Seaman-Fisherman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9928", 
+            "name": "9928 - Ordinary Seaman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9929", 
+            "name": "9929 - Damage Controlman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9931", 
+            "name": "9931 - Chief Engineer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9932", 
+            "name": "9932 - First Assistant Engineer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9933", 
+            "name": "9933 - Second Assistant Engineer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9934", 
+            "name": "9934 - Third Assistant Engineer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9935", 
+            "name": "9935 - Relief Engineer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9936", 
+            "name": "9936 - Engine Midshipman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9939", 
+            "name": "9939 - Chief Electrician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9940", 
+            "name": "9940 - Electrician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9941", 
+            "name": "9941 - Electrician-Maintenance"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9942", 
+            "name": "9942 - Second Electrician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9943", 
+            "name": "9943 - Third Electrician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9944", 
+            "name": "9944 - Electronics Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9945", 
+            "name": "9945 - Refrigeration Engineer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9946", 
+            "name": "9946 - Second Refrigeration Engineer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9947", 
+            "name": "9947 - Third Refrigeration Engineer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9948", 
+            "name": "9948 - Plumber"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9949", 
+            "name": "9949 - Assistant Plumber"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9950", 
+            "name": "9950 - Plumber Machinist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9951", 
+            "name": "9951 - Deck Engineer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9952", 
+            "name": "9952 - Deck Engineer-Machinist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9953", 
+            "name": "9953 - Deck Engineer-Mechanic"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9954", 
+            "name": "9954 - Unlicensed Junior Engineer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9955", 
+            "name": "9955 - Pumpman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9956", 
+            "name": "9956 - Engineman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9957", 
+            "name": "9957 - Engine Utilityman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9958", 
+            "name": "9958 - Evaporator-Utilityman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9959", 
+            "name": "9959 - Machinist"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9960", 
+            "name": "9960 - Oiler"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9961", 
+            "name": "9961 - Oiler-Diesel"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9962", 
+            "name": "9962 - Refrigeration Oiler"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9963", 
+            "name": "9963 - Fireman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9964", 
+            "name": "9964 - Fireman-Watertender"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9965", 
+            "name": "9965 - Wiper"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9968", 
+            "name": "9968 - Chief Steward"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9969", 
+            "name": "9969 - Third Steward"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9971", 
+            "name": "9971 - Chief Cook"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9972", 
+            "name": "9972 - Steward Cook"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9973", 
+            "name": "9973 - Second Cook"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9974", 
+            "name": "9974 - Third Cook"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9975", 
+            "name": "9975 - Assistant Cook"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9976", 
+            "name": "9976 - Cook-Baker"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9977", 
+            "name": "9977 - Second Cook-Baker"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9978", 
+            "name": "9978 - Night Cook and Baker"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9979", 
+            "name": "9979 - Steward-Baker"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9980", 
+            "name": "9980 - Third Pantryman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9981", 
+            "name": "9981 - Galleyman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9982", 
+            "name": "9982 - Laundryman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9983", 
+            "name": "9983 - Assistant Laundryman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9984", 
+            "name": "9984 - Messman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9985", 
+            "name": "9985 - Steward-Utilityman"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9988", 
+            "name": "9988 - Purser"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9989", 
+            "name": "9989 - Junior Purser"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9990", 
+            "name": "9990 - Disbursing Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9991", 
+            "name": "9991 - Supply Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9992", 
+            "name": "9992 - Assistant Supply Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9993", 
+            "name": "9993 - Junior Supply Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9994", 
+            "name": "9994 - Assistant Storekeeper"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9995", 
+            "name": "9995 - Chief, Radio Electronics Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9996", 
+            "name": "9996 - Medical Services Officer"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9997", 
+            "name": "9997 - First Radio Electronics Technician"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9998", 
+            "name": "9998 - Yeoman-Storekeeper"
+        }
+    }, 
+    {
+        "pk": null, 
+        "model": "project.jobcode", 
+        "fields": {
+            "code": "9999", 
+            "name": "9999 - Second Radio Electronics Technician"
+        }
+    }
+]

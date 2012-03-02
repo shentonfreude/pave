@@ -1,0 +1,90 @@
+[
+    {
+        "pk": 1,
+        "model": "project.center",
+        "fields": {
+            "code": 1000,
+            "name":  "HQ"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "project.center",
+        "fields": {
+            "code": 2100,
+            "name":  "ARC"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "project.center",
+        "fields": {
+            "code": 2200,
+            "name":  "GRC"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "project.center",
+        "fields": {
+            "code": 2300,
+            "name":  "LARC"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "project.center",
+        "fields": {
+            "code": 2400,
+            "name":  "DFRC"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "project.center",
+        "fields": {
+            "code": 5100,
+            "name":  "GSFC"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "project.center",
+        "fields": {
+            "code": 6200,
+            "name":  "MSFC"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "project.center",
+        "fields": {
+            "code": 6400,
+            "name":  "SSC"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "project.center",
+        "fields": {
+            "code": 7200,
+            "name":  "JSC"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "project.center",
+        "fields": {
+            "code": 7300,
+            "name":  "SSPO"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "project.center",
+        "fields": {
+            "code": 7600,
+            "name":  "KSC"
+        }
+    }
+]
