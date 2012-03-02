@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %} Listing Projects {% endblock %}
+
+{% block content %}
+    {% for project in object_list %}
+        <p>{{ project.position_title }}</p>
+    {% endfor %}
+{% endblock %}
