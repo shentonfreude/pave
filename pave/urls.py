@@ -6,10 +6,10 @@ admin.autodiscover()
 
 urlpatterns = patterns(
     '',
-    url(r'^$', direct_to_template, {'template': 'home.html'}, ), #name='home'),
+    url(r'^$', direct_to_template, {'template': 'home.html'}, name='home'),
 
     # url(r'^pave/', include('pave.foo.urls')),
-    (r'^project/', include('project.urls')), 
+    (r'^project/', include('project.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
