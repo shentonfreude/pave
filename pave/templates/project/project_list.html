@@ -9,7 +9,7 @@
     <tr>
       <th>Project ID</th>
       <th>Position Title</th>
-      <th>Closing Date</th>
+      <th>Announcement Closing Date</th>
       <th>Brief Description</th>
       <th>Targeted Groups</th>
     </tr>
@@ -18,16 +18,15 @@
 
     {% for project in object_list %}
     <tr>
-      <td>{{project.project_id}} (id={{project.id}})</td>
+      <td>{{project.project_number}} (id={{project.id}})</td>
       <td>{{project.position_title}}</td>
-      <td>{{project.closing_date}}</td>
+      <td>{{project.announcement_closes}}</td>
       <td>{{project.brief_description}}</td>
       <td>
-        Pay Plan: {{project.pay_plan}}<br/>
-        <!-- will need to .join() the following multiselects? -->
-        Series:   {{project.series_codes}}<br/> 
-        Grades:   {{project.grade_levels}}<br/>
-        Centers:  {{project.nasa_centers}}
+        <span class="subtitle">Pay Plan:</span> {{project.pay_plan}}<br/>
+        <span class="subtitle">Series:</span>   {{project.series_codes.all|join:", "}}<br/> 
+        <span class="subtitle">Grades:</span>   {{project.grade_levels.all|join:", "}}<br/>
+        <span class="subtitle">Centers:</span>  {{project.nasa_centers.all|join:", "}}
       </td>
     </tr>
     {% endfor %}
