@@ -3,9 +3,40 @@
 ======
 
 * CSRF for forms
-* How to load images (e.g., <imr src=...>)
 * Select choices for Center, Codes, etc.
 * CSS
+* Menubar style horizontal
+* project.owner, .status, .applicant
+* URL template references to urls.py names
 
 Done
 ====
+
+How to load images (e.g., <imr src=...>) and css
+------------------------------------------------
+
+settings.py::
+
+  PROJECT_PATH = os.path.abspath(os.path.split(__file__)[0])
+  TEMPLATE_DIRS = (
+      os.path.join(PROJECT_PATH, "templates"),
+  )
+  STATICFILES_DIRS = (
+      os.path.join(PROJECT_PATH, "static"), # put /css/ and /js/ under this
+  )
+
+templates/base.html::
+
+  <head>
+    <link href="{{STATIC_URL}}/css/base.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header id="banner">
+      <img src="{{STATIC_URL}}/img/paveheader1.gif" />
+    </header>
+
+static assets in:
+- .../pave/static/css/base.css
+- .../pave/static/img/paveheader1.gif
+- .../pave/static/js/*
+

@@ -1,24 +1,35 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <title>{% block title %}PAVE: Project Announcement Visibility Effort{% endblock %}</title>
+  <link href="{{STATIC_URL}}/css/base.css" rel="stylesheet" type="text/css" />
+  
+  <title>{% block title %}PAVE: Project Announcement Visibility Effort{% endblock %}</title>
 </head>
 
 <body>
-  <section id="banner">
-    <img src="templates/paveheader1.gif" />
-  </section>
+  <header id="banner">
+    <img src="{{STATIC_URL}}/img/paveheader1.gif" />
+  </header>
 
-  <section id="sectionhead">
+  <header id="sectionhead">
     <h1>Welcome to PAVE</h1>
-  </section>
+  </header>
+
+  <nav id="menubar">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li>Browse</li>
+      <li>Search</li>
+      <li>Manage</li>
+      <li>Exit</li>
+    </ul>
+  </nav>
 
   <section id="content">
     {% block content %}{% endblock %}
   </section>
 
-  <section id="footer">
+  <footer id="footer">
     <p>
       WARNING: This US Government computer is for authorized users
       only. By accessing this system you are consenting to complete
@@ -26,7 +37,7 @@
       or use may subject you to disciplinary action and criminal
       prosecution.
     </p>
-  </section>
+  </footer>
 
 </body>
 </html>
