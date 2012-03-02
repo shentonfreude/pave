@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %} PAVE Search{% endblock %}
+{% block sectionhead %} PAVE Search {% endblock %}
+
+{% block content %}
+
+<form id="search" method="POST" action=".">{% csrf_token %}
+  <label>Project ID:
+    <input type="search" id="projectid" />
+  </label>
+  <br/>
+
+  <label>Project Status
+    <input type="text" id="status">
+  </label>
+  <br/>
+
+  <label>Center(s) multiselect:
+    <input type="text" id="centers" multiselect="you bet" />
+  </label>
+  <br/>
+
+  <p>Project Start Dates (select only one [this is a painful UI])</p>
+
+  <label>Specific Date
+    <input type="date" id="date" />
+  </label>
+  or
+  <br/>
+  Date Range:
+  <label>From Date:
+    <input type="date" id="datestart" />
+  </label>
+  <label>To Date:
+    <input type="date" id="dateend" />
+  </label>
+
+  </br>
+  <input type="submit" id="submit" value="Search">
+</form>
+
+{% endblock %}
