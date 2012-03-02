@@ -1,8 +1,6 @@
 # From PAVE and OPM.
 # This data is now captured by Fixtures, which are checked in,
 # so is probably not needed here.
-.
-
 
 
 # Really?? Numeric codes, non-monotonic, instead of Center names?
