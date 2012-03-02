@@ -21,7 +21,17 @@ nav#menubar li a {
 
 section#content {
     background-color: #fffff5;
+    font-family: sans-serif;
 }
+section#content table {
+    font-size: 75%;
+    }
+section#content table .subtitle {
+    color: black;
+    }
+section#content table td {
+    color: #666666;
+    }
 header#sectionhead {
     background-color: #eef7ff;
 }
