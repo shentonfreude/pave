@@ -1,3 +1,5 @@
+import os
+
 # Django settings for pave project.
 
 DEBUG = True
@@ -43,6 +45,10 @@ USE_I18N = True
 # calendars according to the current locale
 USE_L10N = True
 
+PROJECT_PATH = os.path.abspath(os.path.split(__file__)[0])
+
+
+
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
 MEDIA_ROOT = ''
@@ -69,9 +75,7 @@ ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
-    # Put strings here, like "/home/html/static" or "C:/www/django/static".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
+    os.path.join(PROJECT_PATH, "static"), # put /css/ and /js/ under this
 )
 
 # List of finder classes that know how to find static files in
@@ -102,13 +106,7 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'pave.urls'
 
-import os
-PROJECT_PATH = os.path.abspath(os.path.split(__file__)[0])
-
 TEMPLATE_DIRS = (
-    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
     os.path.join(PROJECT_PATH, "templates"),
 )
 
