@@ -3,10 +3,14 @@
 ======
 
 * Select choices for Center, Codes, etc.
+  - why isn't Center populating in Admin UI
+  - why is applicant ---
+  - series codes showing just key (see __unicode__ ?)
+  - Project.applicant can't be null
 * Multiselect fields must use ManyToManyField(Choices)
 * project.owner, .status, .applicant
-* URL template references to urls.py names
 * Date-picker
+* cycle bars on table displays: {% cycle ... %}
 * CSV, JSON output
 
 Done
@@ -86,3 +90,13 @@ project/views.py::
 search.html::
 
   <form id="search" method="POST" action=".">{% csrf_token %}
+
+
+URL template references to urls.py names
+----------------------------------------
+
+Use {% url ... %} template tag in base.html::
+
+  <li><a href="{% url home %}">Home</a></li>
+  <li><a href="{% url projects %}">Browse</a></li>
+  <li><a href="{% url search %}">Search</a></li>

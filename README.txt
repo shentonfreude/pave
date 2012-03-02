@@ -10,7 +10,7 @@ opportunities; allow unauthenticated people to view and apply for
 them.
 
 Project Management
-==================
+------------------
 
 Project opportunities specify skill sets, GS levels, NASA Center for work, (?)
 eligible Centers, start- and stop-dates, descriptions, etc.
@@ -23,7 +23,7 @@ applicant, or canceled.
 
 
 Applicants
-==========
+----------
 
 Applicants do not need to authenticate to *browse* and *search* projects.
 
@@ -35,6 +35,35 @@ Once a project is selected, the applicant enters their name and is
 verified by NASA Directory lookup. 
 
 They then ...
+
+
+Installation
+============
+
+Virtualenv, Django
+------------------
+
+Something like this::
+
+  /usr/local/python/2.7/bin/virtualenv --no-site-packages --distribute pave
+  cd pave
+  source bin/activate
+  pip install django
+  git clone .../pave.git
+
+Sync the DB to the model::
+
+  ./manage.py syncdb
+
+(Note that if you change your models/schema, a syncdb won't *change*
+existing table schemas; you'll need to wipe the .sqlite DB file and
+reload fixtures. There are 'evolution' mechanisms and we could dump
+and reload via fixtures.)
+
+Load fixture data (centers, job codes, etc)::
+
+  ./manage.py loaddata fixtures/*.json
+
 
 
 WARTS IN PAVE
