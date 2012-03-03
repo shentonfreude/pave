@@ -17,8 +17,8 @@
   <tbody>
 
     {% for project in object_list %}
-    <tr>
-      <td>{{project.project_number}} (id={{project.id}})</td>
+    <tr class="{% cycle 'odd' 'even' %}">
+      <td><a href="{% url details object_id=project.id %}">{{project.project_number}}</a></td>
       <td>{{project.position_title}}</td>
       <td>{{project.announcement_closes}}</td>
       <td>{{project.brief_description}}</td>

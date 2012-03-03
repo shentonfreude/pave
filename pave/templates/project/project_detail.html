@@ -1,11 +1,38 @@
 {% extends "base.html" %}
 
 {% block title %} Project Detail {% endblock %}
+{% block sectionhead %} Project Detail {% endblock %}
 
 {% block content %}
+<h1>{{object.position_title}}</h1>
+<h2>{{object.project_number}}</h1>
+
 <table>
-  <tr><td>Position Title</td><td>{{ object.position_title }}</td></tr>
-  <tr><td>Brief Description</td><td>{{ object.brief_description }}</td></tr>
-  <tr><td>Objectives</td><td>{{ object.objectives }}</td></tr>
+  <tr><th>Position Title             </th> <td>{{ object.position_title }}</td></tr>
+  <tr><th>Brief Description          </th> <td>{{ object.brief_description }}</td></tr>
+  <tr><th>Objectives                 </th> <td>{{ object.objectives }}</td></tr>
+  <tr><th>Contact Name               </th> <td>{{object.contact_name}}</td></tr>
+  <tr><th>Contact Phone              </th> <td>{{object.contact_phone}}</td></tr>
+  <tr><td></td></tr>
+  <tr><th>Project Starts             </th> <td>{{object.project_starts}}</td></tr>
+  <tr><th>Project Ends               </th> <td>{{object.project_ends}}</td></tr>
+  <tr><th>Announcement Closes        </th> <td>{{object.announcement_closes}}</td></tr>
+  <tr><td></td></tr>
+  <tr><th>Security Clearance Required</th> <td>{{object.security_clearance_required}}</td></tr>
+  <tr><td></td></tr>
+  <tr><th>NASA Center                </th> <td>{{object.nasa_center}}                </td></tr>
+  <tr><th>Office ID                  </th> <td>{{object.office_id}}                  </td></tr>
+  <tr><th>Office Title	             </th> <td>{{object.office_title}}	       </td></tr>
+  <tr><td></td></tr>
+  <tr><th>Skill Mix                  </th> <td>{{object.skill_mix}}                  </td></tr>
+  <tr><th>Detail Description         </th> <td>{{object.detail_description}}         </td></tr>
+  <tr><th>Pay Plan                   </th> <td>{{object.pay_plan}}                   </td></tr>
+  <tr><td></td></tr>
+  <tr><th>Series Codes	             </th> <td>{{object.series_codes.all|join:", "}}	       </td></tr>
+  <tr><th>Grade Levels	             </th> <td>{{object.grade_levels.all|join:", "}}	       </td></tr>
+  <tr><th>NASA Centers	             </th> <td>{{object.nasa_centers.all|join:", "}}	       </td></tr>
+  <tr><td></td></tr>
+  <tr><th>Owner                      </th> <td>{{object.owner}}                      </td></tr>
+  <tr><th>Applicant                  </th> <td>{{object.applicant}}                  </td></tr>
 </table>
 {% endblock %}
