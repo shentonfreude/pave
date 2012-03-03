@@ -12,6 +12,7 @@
       <th>Announcement Closing Date</th>
       <th>Brief Description</th>
       <th>Targeted Groups</th>
+      <th>Status</th>
     </tr>
   </thead>
   <tbody>
@@ -28,6 +29,7 @@
         <span class="subtitle">Grades:</span>   {{project.grade_levels.all|join:", "}}<br/>
         <span class="subtitle">Centers:</span>  {{project.nasa_centers.all|join:", "}}
       </td>
+      <td class="{{project.status}}">{{project.status}}</td>
     </tr>
     {% endfor %}
   </tbody>
