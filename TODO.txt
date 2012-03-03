@@ -1,16 +1,19 @@
-======
- TODO
-======
+===========
+ TODO/Done
+===========
 
-* Select choices for Center, Codes, etc.
-  - why isn't Center populating in Admin UI
-  - why is applicant ---
-  - series codes showing just key (see __unicode__ ?)
-  - Project.applicant can't be null
-* Multiselect fields must use ManyToManyField(Choices)
-* project.owner, .status, .applicant
+To Do
+=====
+
+* Search: do query based on form input, return results using same project_list.html
+* Display Job Series in Projects List as just the number, not description; while leaving it descriptive in the Admin UI
+* Sane defaults, e.g., Status=Approved, PayCode=GS
+* Why doesn't PAVE Project Details show: Pay Plan, Series Codes, Grade Levels, NASA Centers
+* Admin date input doesn't accetp: 03/16/2012 -- what does it want? 2012-03-02
+* Generate project_number: PAVE-yyyy-center-office-####
+* Specific field types like EmailField: see https://docs.djangoproject.com/en/dev/ref/models/fields/
 * Date-picker
-* cycle bars on table displays: {% cycle ... %}
+* Apply for Project: center and name verificaiton, supervisor info, justification: needs LDAP access
 * CSV, JSON output
 
 Done
@@ -100,3 +103,52 @@ Use {% url ... %} template tag in base.html::
   <li><a href="{% url home %}">Home</a></li>
   <li><a href="{% url projects %}">Browse</a></li>
   <li><a href="{% url search %}">Search</a></li>
+
+
+Multiselect fields must use ManyToManyField(Choices)
+----------------------------------------------------
+
+Define foreign models and link to them in models.py::
+
+  class Project(Model):
+      ...
+      series_codes		= ManyToManyField(JobCode)
+      grade_levels		= ManyToManyField(GradeLevel)
+      nasa_centers		= ManyToManyField(Center, related_name='Centers')
+      owner                       = ForeignKey(User, unique=False, blank=False)
+      applicant                   = ForeignKey(Applicant, unique=False, blank=True, null=True)
+
+Cycle bars on table displays
+----------------------------
+
+In base.css::
+  table tr.odd {
+      background-color: #dddddd;
+  }
+  table tr.even {
+      background-color: #eeeeee;
+  }
+
+In project_list.html::
+
+  {% for project in object_list %}
+  <tr class="{% cycle 'odd' 'even' %}">
+
+
+Link project_listing to individual project details
+--------------------------------------------------
+
+project/urls.py::
+
+    url(r'^(?P<object_id>\d+)/$',  object_detail, info_dict, name="details"),
+
+project_list.html::
+
+      <td><a href="{% url details object_id=project.id %}">{{project.project_number}}</a></td>
+
+Detailed listing
+----------------
+
+See project_details.html
+
+
