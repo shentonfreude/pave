@@ -7,6 +7,7 @@ nav#menubar ul{
     padding: 0;
     border-top: 1px solid red;
     border-bottom: 2px solid #0183b5; /* worm-logo earth blue */
+    font-family: sans-serif;
 }
 nav#menubar li {
     float: left;
@@ -23,15 +24,24 @@ section#content {
     background-color: #fffff5;
     font-family: sans-serif;
 }
-section#content table {
+
+table {
     font-size: 75%;
-    }
-section#content table .subtitle {
+}
+table .subtitle {
     color: black;
-    }
-section#content table td {
+}
+table td {
     color: #666666;
-    }
+}
+table tr.odd {
+    background-color: #dddddd;
+}
+table tr.even {
+    background-color: #eeeeee;
+}
+
+
 header#sectionhead {
     background-color: #eef7ff;
 }
