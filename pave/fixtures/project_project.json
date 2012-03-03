@@ -1,0 +1,299 @@
+[
+    {
+        "pk": 1, 
+        "model": "project.project", 
+        "fields": {
+            "grade_levels": [
+                7, 
+                8
+            ], 
+            "skill_mix": "Time management and organizational skills ", 
+            "project_number": "PAVE-12-SSC-1130-373", 
+            "position_title": "Site-wide Stennis Diversity Council (SDC) Planning Committee Member ", 
+            "owner": 1, 
+            "contact_name": "JoAnn Larson", 
+            "project_starts": "2012-03-16", 
+            "project_ends": "2012-06-15", 
+            "detail_description": "..Am I in a SOAP OPERA??\r\nGOOD-NIGHT, everybody..  Now I have to go administer FIRST-AID\r\n to my pet LEISURE SUIT!!\r\nAm I elected yet?\r\nWhat UNIVERSE is this, please??\r\nIf this is the DATING GAME I want to know your FAVORITE PLANET!  Do I\r\n get th' MICROWAVE MOPED?\r\nYOW!!  What should the entire human race DO??  Consume a fifth\r\n of CHIVAS REGAL, ski NUDE down MT. EVEREST, and have a wild\r\n SEX WEEKEND!\r\n\r\nbroadside Security Council fundamentalist LLNL brigand InfoSec\r\nKhaddafi NWO spies Arnett wire transfer Perl-RSA S Box ASO INSCOM\r\n", 
+            "objectives": "Develop skills in diversity and leadership", 
+            "nasa_centers": [
+                1, 
+                2, 
+                3, 
+                4
+            ], 
+            "nasa_center": 8, 
+            "contact_phone": "228-688-3698", 
+            "status": 1, 
+            "series_codes": [
+                68, 
+                70
+            ], 
+            "office_title": "Office of Diversity and Equal Opportunity", 
+            "security_clearance_required": false, 
+            "applicant": null, 
+            "announcement_closes": "2012-03-02",
+            "cancel_date": null,
+            "cancel_reason": "",
+            "office_id": "1130", 
+            "brief_description": "Participate on the SDC by chairing one of the Planning Committees i.e. Logistics; Exhibits; Entertainment; Food etc. The SDC plans a Diversity Day event every 2 years. ", 
+            "pay_plan": "GS"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "project.project", 
+        "fields": {
+            "grade_levels": [
+                1, 
+                2, 
+                3, 
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10, 
+                11, 
+                12, 
+                13, 
+                14, 
+                15
+            ], 
+            "skill_mix": "communication skills ", 
+            "project_number": "PAVE-12-SSC-004-370", 
+            "position_title": "NASA Exchange Coffee House ", 
+            "owner": 1, 
+            "contact_name": "Ashley Speed", 
+            "project_starts": "2012-03-16", 
+            "project_ends": "2012-04-27", 
+            "detail_description": "Bush Wired STARLAN fundamentalist crypto anarchy virus corporate\r\nsecurity lynch USCOI benelux Rubin Albanian Ceridian NASA industrial\r\nintelligence constitution\r\n", 
+            "objectives": "serve", 
+            "nasa_centers": [
+                8
+            ], 
+            "nasa_center": 8, 
+            "contact_phone": "228-688-3698", 
+            "status": 1, 
+            "series_codes": [
+                59
+            ], 
+            "office_title": "Office of Human Capital", 
+            "security_clearance_required": false, 
+            "applicant": null, 
+            "announcement_closes": "2012-03-09",
+            "cancel_date": null,
+            "cancel_reason": "",
+            "office_id": "004", 
+            "brief_description": "Serve as the Liason between the coffee Shop and the exchange council ", 
+            "pay_plan": "GS"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "project.project", 
+        "fields": {
+            "grade_levels": [
+                12, 
+                13, 
+                14, 
+                15
+            ], 
+            "skill_mix": "Strong communication skills, ability to multi task ", 
+            "project_number": "PAVE-12-SSC-002-371", 
+            "position_title": "Diversity and Inclusion (D&I) Initiative ", 
+            "owner": 1, 
+            "contact_name": "Anita Douglas", 
+            "project_starts": "2012-03-16", 
+            "project_ends": "2012-03-29", 
+            "detail_description": "Establish a focus groupEstablish a focus groupEstablish a focus groupEstablish a focus groupEstablish a focus groupEstablish a focus groupEstablish a focus groupEstablish a focus groupEstablish a focus groupEstablish a focus groupEstablish a focus groupEstablish a focus groupEstablish a focus groupEstablish a focus groupEstablish a focus groupEstablish a focus group", 
+            "objectives": "Develop skills in team building", 
+            "nasa_centers": [
+                6, 
+                7, 
+                8, 
+                9
+            ], 
+            "nasa_center": 8, 
+            "contact_phone": "228-688-3698", 
+            "status": 1, 
+            "series_codes": [
+                59, 
+                102, 
+                178
+            ], 
+            "office_title": "Office of Human Capital", 
+            "security_clearance_required": false, 
+            "applicant": null, 
+            "announcement_closes": "2012-03-09", 
+            "cancel_date": null,
+            "cancel_reason": "",
+            "office_id": "002", 
+            "brief_description": "Establish a focus group ", 
+            "pay_plan": "GS"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "project.project", 
+        "fields": {
+            "grade_levels": [
+                13, 
+                15
+            ], 
+            "skill_mix": "Candidates must have superb written and oral communication skills, have a high d", 
+            "project_number": "PAVE-05-LA-2175", 
+            "position_title": "professional manager to serve as the Combined Federal Campaign Loan Executive fo", 
+            "owner": 1, 
+            "contact_name": "Rhonda Holstein", 
+            "project_starts": "2005-08-01", 
+            "project_ends": "2006-01-31", 
+            "detail_description": "The applicant will support the CFC of the National Capital Area. Activities include providing outstanding customer service to Federal agencies. Such as: o Become well-versed through training and self-study in the purpose, history, regulatory framework of the CFC; o Apply analytical and project management skills in assisting Federal agencies to identify opportunities to improve their Campaign results; o Utilize interpersonal skills and communication abilities to train, motivate, and monitor Federal employee campaign volunteers. \" Work within the extended team of staff and volunteers. \" Act as a \"catalyst for success.\" ", 
+            "objectives": "The CFC Loan Executive provides outstanding customer service to Federal agencies", 
+            "nasa_centers": [
+                1, 
+                2, 
+                3, 
+                4, 
+                5, 
+                6, 
+                7, 
+                8, 
+                9, 
+                10
+            ], 
+            "nasa_center": 1, 
+            "contact_phone": "358-2532", 
+            "status": 2, 
+            "series_codes": [
+                1
+            ], 
+            "office_title": "Unspecified", 
+            "security_clearance_required": false, 
+            "applicant": null, 
+            "announcement_closes": "2005-07-18", 
+            "cancel_date": null,
+            "cancel_reason": "",
+            "office_id": "LA", 
+            "brief_description": "The Office of Institutions and Management seeks a professional manager to serve as the Combined Federal Campaign Loan Executive for the 2005 activities. ", 
+            "pay_plan": "GS"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "project.project", 
+        "fields": {
+            "grade_levels": [
+                13, 
+                14
+            ], 
+            "skill_mix": "Hands on experience in the full lifecycle implementation of software and web app", 
+            "project_number": "PAVE-11-HQ-LM022-343", 
+            "position_title": "Information Technology Specialist (Application Software) ", 
+            "owner": 1, 
+            "contact_name": "Yvette Flowers", 
+            "project_starts": "2011-07-11", 
+            "project_ends": "2012-04-04", 
+            "detail_description": "Provide technical guidance, leadership, and project management oversight for the development, delivery, and support of software application services for NASA HQ. Serve as a SME and HQ liaison for agency-wide contract transitions and initiatives. Provide leadership and oversight in all phase of the software development lifecycle as well as a thorough and applied understanding of current industry standards and government policies. Serve as the focal point for guiding the development of software application services. Formulate a vision for future applications of systems and Internet services. Represent the customer service discipline on application development teams to ensure that customer service requirements are addressed during the systems development process from translation of functional requirements through systems and end-user acceptance testing. Negotiate with other senior members of the applications development team to ensure applications are customer oriented. Exercise considerable judgment and ingenuity in advocating the benefits of implementing business-driven quality and process improvements using information technology solutions. Reviews technical and design specifications. Recommend changes needed to address customer requirements.Serve as a technical authority for new and advanced software technologies, particularly service architectures, web technologies as well as understanding legacy systems in order to plan, direct and coordinate migration efforts. Serves as the primary conduit between the customer and contractor on all ITCD supported applications software projects. Advise senior management on major IT application projects and/or service issues. Lead, conduct, or participate in complex studies and reviews. Conduct systems and architectural analysis, oversees IT systems hardware and/or software baselines, services, and maintenance in multi-year IT contracts.", 
+            "objectives": "The Division provides leadership, planning, policy direction, and oversight for ", 
+            "nasa_centers": [
+                1, 
+                6
+            ], 
+            "nasa_center": 1, 
+            "contact_phone": "202.358.4808", 
+            "status": 2, 
+            "series_codes": [
+                453
+            ], 
+            "office_title": "Information Technology and Communications Division, Customer Service Branch", 
+            "security_clearance_required": false, 
+            "applicant": null, 
+            "announcement_closes": "2011-10-14", 
+            "cancel_date": null,
+            "cancel_reason": "",
+            "office_id": "LM022", 
+            "brief_description": "The HQ Operations Information Technology and Communications Division Customer Service Branch has a 6-month detail opportunity for a person to serve as an applications software manager. The position manages the development, delivery, and support of software application and web services for NASA HQ. The position represents the customer service discipline on applications development and project management activities. The position provides Subject Matter Expertise for agency-wide contract transitions and initiatives.Provide leadership and oversight in all phases of the software development lifecycle, as well as a thorough and applied understanding of current industry standards and government policies.Serve as the focal point for guiding the development of software application services. ", 
+            "pay_plan": "GS"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "project.project", 
+        "fields": {
+            "grade_levels": [
+                10, 
+                11, 
+                12
+            ], 
+            "skill_mix": "Great communication, presentation, and negotiation skills. Able to project a pos", 
+            "project_number": "PAVE-11-HQ-LM043-307", 
+            "position_title": "Program Analyst (1 Position) ", 
+            "owner": 1, 
+            "contact_name": "Michelle McNair", 
+            "project_starts": "2011-03-14", 
+            "project_ends": "2011-09-30", 
+            "detail_description": "Full reliance is placed by IPCE and IPAO senior management on the incumbent as a recognized authority in the field of business management, responsible for making substantial contributions to broad programs of NASA. The incumbent is responsible for developing the budgetary requirements and integration with the Program/project and the AM&O funds to ensure a complete budget is developed. The incumbent is responsible for coordinating the Program/project funds with multiple Mission Directorates (e.g. ESMD, SMD, SOMD), and for the execution, monitoring, and reporting of Program/project funds to IPAO management and the Resource Managers at Centers . Additionally, the incumbent advises and assists IPAO management regarding decisions related to Program/project funding supporting the IPAO. Incumbent is responsible for the resource related tracking and reporting and general ad hoc actions as required. Incumbent will work directly with the IPCE/IPAO and the Contracting Officer\u2019s Technical Representative (COTR) as required for major procurements performing such functions as: drafting Government Cost Estimates, approving invoices, and coordinating procurement requirements. In addition, inputs from multiple IPAO personnel and appropriate Resource Analysts will have to be coordinated for proposing and approving phasing and spending plans. Incumbent serves as agency expert on financial management issues and activities for the assigned program(s). Assists IPAO management in Center/Agency meetings and presentations. Develop and make more routine the budgetary requirements development and integration, management, monitoring, and execution of the Program/project funds portion of the IPAO budget for office functioning, and programs and projects for board reviews and programmatic analyses managed by IPAO. The incumbent is expected to support the IPCE Resource Team with LaRC resource system functions as requested for AM&O funds.", 
+            "objectives": "The objective of this role, is to provide business management support to the Dir", 
+            "nasa_centers": [
+                1, 
+                4
+            ], 
+            "nasa_center": 1, 
+            "contact_phone": "(202) 358-1764", 
+            "status": 3, 
+            "series_codes": [
+                82
+            ], 
+            "office_title": "Independent Program Assessment Office at NASA Langley", 
+            "security_clearance_required": false, 
+            "applicant": null, 
+            "announcement_closes": "2011-03-09", 
+            "cancel_date": null,
+            "cancel_reason": "",
+            "office_id": "LM043", 
+            "brief_description": "This is a unique leadership opportunity for a Program Analyst within the Independent Program and Cost Evaluation (IPCE) Office, Independent Program Assessment Office (IPAO) located at NASA Langley. The employee would serve as the Business Manager and point of contact for budgetary requirements and integration, coordinating, initiating, and funding procurements and other resource and business related activities for the IPAO with particular focus on Program/project funds from multiple appropriations and mission directorates. The incumbent will be able to gain experience with the operations and business model of IPAO and the management of a diverse portfolio of Program/project and AM&O funds. ", 
+            "pay_plan": "GS"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "project.project", 
+        "fields": {
+            "grade_levels": [
+                10, 
+                11
+            ], 
+            "skill_mix": "Great communication and negotiation skills, ability to project a positive image,", 
+            "project_number": "PAVE-11-HQ-LM043-306", 
+            "position_title": "Secretary (1 position) ", 
+            "owner": 1, 
+            "contact_name": "Robert Moreland", 
+            "project_starts": "2011-03-14", 
+            "project_ends": "2011-07-31", 
+            "detail_description": "Selectee will independently carry out clerical and administrative support functions, coordinating with staff members. Receive calls and visitors and disseminate mail, information, forms, and other requested materials. Coordinate meeting locations, dates, participants, and agendas on behalf of the Division Directors within the OCFO. Prepare notes and generate draft minutes for meetings. Research background information and send it to meeting participants, as required. Plan and coordinate travel for the Division Directors and assist in the preparation of travel authorization/vouchers. Attend conferences and meetings, when required, to take notes; or is briefed on meetings immediately after they take place, in order to know what developments have occurred in matters of concern to the supervisor and other organizations. Keep informed of the current status of work in process throughout the organization and communicate this information to the supervisor. Reply to mail not requiring the supervisor's attention, routing all other matters to the appropriate subordinate unit. Use full range of office automation equipment and word processing software to produce a variety of documents. Use data base or spreadsheet software to enter, revise, sort or calculate, and retrieve data for a variety of standard and one-time reports. Compose non-technical correspondence and reports from oral instructions, information obtained from files, and data obtained from staff members. Review non-technical materials prepared by others for grammar, punctuation, spelling, and clarity. Responsible for all facets of travel to include making travel arrangements. Prepare high-level and complex presentations, compose routine correspondence, develop forms, and spreadsheets. Prepare reports and other related activities using office automation software, such as, Meeting Maker and Travel Manager, Word, Excel, Power Point, and etc. The position requires ability to communicate well orally and in writing.", 
+            "objectives": "The incumbent provides clerical and administrative support to the Division and o", 
+            "nasa_centers": [
+                1, 
+                2, 
+                3
+            ], 
+            "nasa_center": 1, 
+            "contact_phone": "(202) 358-5461", 
+            "status": 3, 
+            "series_codes": [
+                76
+            ], 
+            "office_title": "Office of the Chief Financial Officer (OFCO)", 
+            "security_clearance_required": false, 
+            "applicant": null, 
+            "announcement_closes": "2011-03-04", 
+            "cancel_date": null,
+            "cancel_reason": "",
+            "office_id": "LM043", 
+            "brief_description": "The Office of the Chief Financial Officer (OCFO) is recruiting for a short-term (4-6 months), excellent career development opportunity. The incumbent serves as a Secretary within the Mission Support Office of the OCFO. ", 
+            "pay_plan": "GS"
+        }
+    }
+]

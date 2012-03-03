@@ -53,24 +53,27 @@ class Applicant(Model):         # aren't there phone, email and other validating
 class Project(Model):
     position_title		= CharField(max_length=80)
     brief_description           = TextField(max_length=2000)
-    objectives                  = CharField(max_length=80, blank=True)
+    objectives                  = TextField(max_length=2000, blank=True)
     contact_name		= CharField(max_length=80)
     contact_phone		= CharField(max_length=80)
-    project_starts		= DateField()
-    project_ends		= DateField()
-    announcement_closes         = DateField()
+    project_starts		= DateField(help_text="YYYY-MM-DD")
+    project_ends		= DateField(help_text="YYYY-MM-DD")
+    announcement_closes         = DateField(help_text="YYYY-MM-DD")
+    cancel_date                 = DateField(blank=True, null=True, help_text="YYYY-MM-DD") # move these to end of schema?
+    cancel_reason               = TextField(max_length=2000, blank=True)
     project_number		= CharField(max_length=80)#generated PAVE-yy-center-orgcode-###
     security_clearance_required = BooleanField()
     nasa_center                 = ForeignKey(Center, related_name='Center')
     office_id                   = CharField(max_length=80)
     office_title		= CharField(max_length=80)
-    skill_mix                   = CharField(max_length=80, blank=True)
+    skill_mix                   = TextField(max_length=2000, blank=True)
     detail_description          = TextField(max_length=2000, blank=True)
-    pay_plan                    = CharField(max_length=80) # GS, are there others?
+    pay_plan                    = CharField(max_length=80, default='GS') # GS, are there others?
     series_codes		= ManyToManyField(JobCode)
     grade_levels		= ManyToManyField(GradeLevel)
     nasa_centers		= ManyToManyField(Center, related_name='Centers')
     owner                       = ForeignKey(User, unique=False, blank=False)
+    status                      = ForeignKey(Status, unique=False, blank=False)
     applicant                   = ForeignKey(Applicant, unique=False, blank=True, null=True)
 
     def __unicode__(self):

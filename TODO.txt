@@ -5,15 +5,19 @@
 To Do
 =====
 
+
 * Search: do query based on form input, return results using same project_list.html
+* Main Browse: show Open and recently Closed Projects
 * Display Job Series in Projects List as just the number, not description; while leaving it descriptive in the Admin UI
 * Sane defaults, e.g., Status=Approved, PayCode=GS
 * Why doesn't PAVE Project Details show: Pay Plan, Series Codes, Grade Levels, NASA Centers
-* Admin date input doesn't accetp: 03/16/2012 -- what does it want? 2012-03-02
+* Admin date input doesn't accept: 03/16/2012 -- what does it want? 2012-03-02
+* Admin: selector for All NASA Centers, All Job Code Series (or use Empty as signifier; how affects search?)
 * Generate project_number: PAVE-yyyy-center-office-####
 * Specific field types like EmailField: see https://docs.djangoproject.com/en/dev/ref/models/fields/
 * Date-picker
-* Apply for Project: center and name verificaiton, supervisor info, justification: needs LDAP access
+* Apply for Project: center and name verificaiton, supervisor info, justification: needs LDAP access ("fieldset"?)
+* Apply: LDAP lookup to verify first, last, center.
 * CSV, JSON output
 
 Done
@@ -64,7 +68,7 @@ base.css::
       margin: 0 0 3em 0;
       padding: 0;
       border-top: 1px solid red;
-      border-bottom: 2px solid #0183b5; /* worm-logo earth blue */
+      border-bottom: 2px solid #0183b5; /*worm-logo earth blue*/
   }
   nav#menubar li {
       float: left;
@@ -74,7 +78,7 @@ base.css::
       padding: 8px 15px;
       text-decoration: none;
       font-weight: bold;
-      border-right: 1px solid #0183b5; /* worm-logo earth blue */
+      border-right: 1px solid #0183b5; /*worm-logo earth blue*/
       }
 
 CSRF for forms
@@ -152,3 +156,38 @@ Detailed listing
 See project_details.html
 
 
+Create sample Closed and Cancelled jobs, Export sample jobs as fixture
+----------------------------------------------------------------------
+
+We manually cut-paste Projects from PAVE into Django PAVE to create content.
+
+In a virtual environment at /Users/cshenton/Projects/core/pave/pave::
+
+ ./manage.py dumpdata --format=json --indent=4 --exclude=auth --exclude=admin project.project > fixtures/project_project.json
+
+Then we can load all the fixtures with::
+
+  ./manage.py loaddata fixtures/*.json
+
+Make Objectives a TextField (bigger)
+------------------------------------
+
+In models.py, change CharField(max_length=80,...) to::
+
+    objectives                  = TextField(max_length=2000, blank=True)
+    skill_mix                   = TextField(max_length=2000, blank=True)
+
+Add Cancel Date and Cancel Reason to project
+--------------------------------------------
+
+Add to models.py::
+
+  cancel_date                 = DateField(blank=True, null=True, help_text="YYYY-MM-DD")
+  cancel_reason               = TextField(max_length=2000, blank=True)
+
+Add cancel_date to each project in fixtures/project_project.json::
+
+            "cancel_date": null,
+            "cancel_reason": "",
+
+Wipe the DB, syncdb, and reload the fixtures.

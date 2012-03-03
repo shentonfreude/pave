@@ -69,6 +69,11 @@ Load fixture data (centers, job codes, etc)::
 WARTS IN PAVE
 =============
 
+Slow
+----
+
+Even returning from Search Results to Search Query form takes 5-10 seconds.
+
 Free-form text input, unvalidated
 ---------------------------------
 
@@ -89,3 +94,30 @@ Centers examples:
 - SSC
 - GSFC, HQ
 - XX
+
+Inconsistent Search result format
+---------------------------------
+
+If we query PAVE for Closed, it shows listing in different format than
+normal listing, with a Closed PAVE Projects header TBD::
+
+  project_id, position_title, start_date, closed_date, canceled date
+  brief description,                                        CANCELED
+
+
+If we query for Canceled projects it shows a similar format to above
+with a "Canceled PAVE Projects" header::
+
+  project_id, position_title, start_date, closed_date, canceled date
+  brief description,                                        CANCELED
+
+
+If we query for Closed or Canceled projects we get no header, but the
+CLOSED or CANCELED status are shown under the date of closure or
+cancelation::
+
+  project_id, position_title, start_date, closed_date, canceled date
+  brief description,                      CLOSED     or     CANCELED
+
+Perhaps we should just show the status as an item? Possibly color
+coded? Or group by status?
