@@ -40,6 +40,15 @@ table tr.odd {
 table tr.even {
     background-color: #eeeeee;
 }
+table td.Approved {
+    color: green;
+}
+table td.Closed {
+    color: blue;
+}
+table td.Canceled {            /*spelling!*/
+    color: red;
+}
 
 
 header#sectionhead {
