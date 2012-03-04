@@ -121,3 +121,23 @@ cancelation::
 
 Perhaps we should just show the status as an item? Possibly color
 coded? Or group by status?
+
+Search by Project ID
+--------------------
+
+Search by Project ID doesn't remove trailing spaces, so if you search
+for "PAVE-12-SSC-002-372 " (e.g., from cut-n-paste) it won't find
+anything; you have to enter "PAVE-12-SSC-002-372".
+
+You have to enter the entire Project ID; no partial matching is
+done. I don't know if it would be useful to do partial matches.  PAVE
+encodes project data into the ID (year, center, office code), which is
+generally not a good idea: it means if you edit the object (e.g., to
+correct the Center) then the ID is misleading, or has to be changed
+(which would break links).
+
+Search by Date and Range
+------------------------
+
+The Date Range is not described, especially how it's different than
+Specific Date.

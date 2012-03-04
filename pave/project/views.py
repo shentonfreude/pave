@@ -9,11 +9,11 @@ from models import Project
 
 class SearchForm(Form):
     project_id = CharField(max_length=80, required=False)
-    status = MultipleChoiceField(required=False, choices=project_statuses)
+    status       = MultipleChoiceField(required=False, choices=project_statuses)
     nasa_centers = MultipleChoiceField(required=False, choices=center_codes)
-    date = DateField(required=False, help_text="MM/DD/YYYY YYYY-MM-DD")
-    date_start = DateField(required=False, help_text="MM/DD/YYYY YYYY-MM-DD")
-    date_end = DateField(required=False, help_text="MM/DD/YYYY YYYY-MM-DD")
+    date         = DateField(required=False, help_text="MM/DD/YYYY or YYYY-MM-DD")
+    date_start   = DateField(required=False, help_text="MM/DD/YYYY or YYYY-MM-DD")
+    date_end     = DateField(required=False, help_text="MM/DD/YYYY or YYYY-MM-DD")
 
 def search(request):
     if request.method == 'POST':
@@ -22,6 +22,9 @@ def search(request):
             # Form gives us nasa_centers *code* not *name*
             # We want Centers and Status each to be logical OR, but then ANDed with other criteria.
             q = Q()
+            project_id = form.cleaned_data['project_id'].strip()
+            if project_id:
+                q = q & Q(project_number=project_id)
             nasa_centers = form.cleaned_data['nasa_centers']
             if nasa_centers:
                 q = q & Q(nasa_centers__code__in=nasa_centers)
@@ -37,8 +40,8 @@ def search(request):
                 date_end   = form.cleaned_data['date_end']
                 if date_start and date_end:
                     q = q & Q(project_starts__lte=date_start) & Q(project_ends__gte=date_end)
-#            import pdb; pdb.set_trace()
             projects = Project.objects.filter(q)
+#            import pdb; pdb.set_trace()
             return render_to_response('project/project_list.html', # reduce, reuse, recycle
                                       {'object_list': projects},
                                       context_instance=RequestContext(request));
