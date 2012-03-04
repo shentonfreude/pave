@@ -11,9 +11,9 @@ class SearchForm(Form):
     project_id = CharField(max_length=80, required=False)
     status = MultipleChoiceField(required=False, choices=project_statuses)
     nasa_centers = MultipleChoiceField(required=False, choices=center_codes)
-    date = DateField(required=False)
-    date_start = DateField(required=False)
-    date_end = DateField(required=False)
+    date = DateField(required=False, help_text="MM/DD/YYYY YYYY-MM-DD")
+    date_start = DateField(required=False, help_text="MM/DD/YYYY YYYY-MM-DD")
+    date_end = DateField(required=False, help_text="MM/DD/YYYY YYYY-MM-DD")
 
 def search(request):
     if request.method == 'POST':
@@ -29,6 +29,15 @@ def search(request):
             status = form.cleaned_data['status']
             if status:
                 q = q & Q(status__in=status)
+            date = form.cleaned_data['date']
+            if date:
+                q = q & Q(project_starts__lte=date) & Q(project_ends__gte=date)
+            else:
+                date_start = form.cleaned_data['date_start']
+                date_end   = form.cleaned_data['date_end']
+                if date_start and date_end:
+                    q = q & Q(project_starts__lte=date_start) & Q(project_ends__gte=date_end)
+#            import pdb; pdb.set_trace()
             projects = Project.objects.filter(q)
             return render_to_response('project/project_list.html', # reduce, reuse, recycle
                                       {'object_list': projects},

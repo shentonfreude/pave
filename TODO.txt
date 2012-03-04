@@ -8,6 +8,7 @@ To Do
 
 * Search: do query based on form input, return results using same project_list.html
 * Search form should get choices from DB, not from constants.py file
+* Search: date fields should provide picker like Admin UI does (why doesn't it?)
 * Main Browse: show Open and recently Closed Projects
 * Display Job Series in Projects List as just the number, not description; while leaving it descriptive in the Admin UI
 * Sane defaults, e.g., Status=Approved, PayCode=GS
