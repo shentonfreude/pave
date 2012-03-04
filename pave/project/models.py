@@ -1,5 +1,6 @@
 from django.contrib.auth.models import User
-from django.db.models import Model, BooleanField, CharField, DateField, IntegerField, TextField, ForeignKey, ManyToManyField
+from django.db.models import Model, ForeignKey, ManyToManyField
+from django.db.models import BooleanField, CharField, DateField, EmailField, IntegerField, TextField
 
 # TBD for forms get choices:
 # class ProfileForm(forms.ModelForm):
@@ -37,12 +38,12 @@ class Applicant(Model):         # aren't there phone, email and other validating
     last_name                   = CharField(max_length=80)
     first_name                  = CharField(max_length=80)
     # Second form not verified: why not populated from LDAP?
-    email                       = CharField(max_length=80)
+    email                       = EmailField(max_length=80)
     phone                       = CharField(max_length=80)
     # Third form
     supervisor_name             = CharField(max_length=80) # combined first and last, stupidly
     supervisor_phone            = CharField(max_length=80) # why not looked up from LDAP?
-    supervisor_email            = CharField(max_length=80) # why not looked up from LDAP?
+    supervisor_email            = EmailField(max_length=80) # why not looked up from LDAP?
     comments                    = TextField(max_length=800)
     relevant_experience         = TextField(max_length=2000)
     anticipated_gain            = TextField(max_length=2000)

@@ -1,16 +1,15 @@
 from django.core.context_processors import csrf
 from django.db.models import Q
-from django.forms import Form, CharField, DateField, ChoiceField, MultipleChoiceField
+from django.forms import Form, CharField, DateField, ModelMultipleChoiceField
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 
-from constants import center_codes, project_statuses
-from models import Project
+from models import Project, Center, Status
 
 class SearchForm(Form):
-    project_id = CharField(max_length=80, required=False)
-    status       = MultipleChoiceField(required=False, choices=project_statuses)
-    nasa_centers = MultipleChoiceField(required=False, choices=center_codes)
+    project_id   = CharField(max_length=80, required=False)
+    status       = ModelMultipleChoiceField(queryset=Status.objects.all(), required=False)
+    nasa_centers = ModelMultipleChoiceField(queryset=Center.objects.all(), required=False)
     date         = DateField(required=False, help_text="MM/DD/YYYY or YYYY-MM-DD")
     date_start   = DateField(required=False, help_text="MM/DD/YYYY or YYYY-MM-DD")
     date_end     = DateField(required=False, help_text="MM/DD/YYYY or YYYY-MM-DD")

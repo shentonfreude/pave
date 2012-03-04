@@ -141,3 +141,11 @@ Search by Date and Range
 
 The Date Range is not described, especially how it's different than
 Specific Date.
+
+Details doesn't always show all fields?
+---------------------------------------
+
+PAVE Project Details frequently doesn't show fields "after the fold":
+Pay Plan, Series Codes, Grade Levels, NASA Centers.  Is this because
+they're somehow marked as "ALL"? Some other reason?
+

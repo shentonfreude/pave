@@ -6,12 +6,11 @@ To Do
 =====
 
 
-* Search form should get choices from DB, not from constants.py file
 * Search: date fields should provide picker like Admin UI does (why doesn't it?)
 * Main Browse: show Open and recently Closed Projects
 * Display Job Series in Projects List as just the number, not description; while leaving it descriptive in the Admin UI
 * Sane defaults, e.g., Status=Approved, PayCode=GS
-* Why doesn't PAVE Project Details show: Pay Plan, Series Codes, Grade Levels, NASA Centers
+* Should we use the same 2-different-templates for Browse and Search like PAVE does?
 * Admin date input doesn't accept: 03/16/2012 -- what does it want? 2012-03-02
 * Admin: selector for All NASA Centers, All Job Code Series (or use Empty as signifier; how affects search?)
 * Generate project_number: PAVE-yyyy-center-office-####
@@ -202,7 +201,7 @@ query on (say) Center if the user didn't enter a Center. Center and
 Status are multiselect so those values are logical-ORed, but we
 connect each field with a logical AND. From project/views.py::
 
-           q = Q()
+            q = Q()
             project_id = form.cleaned_data['project_id'].strip()
             if project_id:
                 q = q & Q(project_number=project_id)
@@ -222,3 +221,17 @@ connect each field with a logical AND. From project/views.py::
                 if date_start and date_end:
                     q = q & Q(project_starts__lte=date_start) & Q(project_ends__gte=date_end)
             projects = Project.objects.filter(q)
+
+Search form should get choices from DB, not from constants.py file
+------------------------------------------------------------------
+
+Instead of MultipleChoiceField and 'choices', use
+ModelMultipleChoiceField and 'queryset' into the Model we want to
+populate from::
+
+  from django.forms import Form, CharField, DateField, ModelMultipleChoiceField
+
+  class SearchForm(Form):
+      ...
+      status       = ModelMultipleChoiceField(queryset=Status.objects.all(), required=False)
+      nasa_centers = ModelMultipleChoiceField(queryset=Center.objects.all(), required=False)
