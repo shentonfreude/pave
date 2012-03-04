@@ -6,7 +6,6 @@ To Do
 =====
 
 
-* Search: do query based on form input, return results using same project_list.html
 * Search form should get choices from DB, not from constants.py file
 * Search: date fields should provide picker like Admin UI does (why doesn't it?)
 * Main Browse: show Open and recently Closed Projects
@@ -193,3 +192,33 @@ Add cancel_date to each project in fixtures/project_project.json::
             "cancel_reason": "",
 
 Wipe the DB, syncdb, and reload the fixtures.
+
+Search: do query based on form input, return results using same project_list.html
+---------------------------------------------------------------------------------
+
+We have to start with an empty query and build it up based on which
+fields are populated in the search form; we can't have a hard-coded
+query on (say) Center if the user didn't enter a Center. Center and
+Status are multiselect so those values are logical-ORed, but we
+connect each field with a logical AND. From project/views.py::
+
+           q = Q()
+            project_id = form.cleaned_data['project_id'].strip()
+            if project_id:
+                q = q & Q(project_number=project_id)
+            nasa_centers = form.cleaned_data['nasa_centers']
+            if nasa_centers:
+                q = q & Q(nasa_centers__code__in=nasa_centers)
+            #import pdb; pdb.set_trace()
+            status = form.cleaned_data['status']
+            if status:
+                q = q & Q(status__in=status)
+            date = form.cleaned_data['date']
+            if date:
+                q = q & Q(project_starts__lte=date) & Q(project_ends__gte=date)
+            else:
+                date_start = form.cleaned_data['date_start']
+                date_end   = form.cleaned_data['date_end']
+                if date_start and date_end:
+                    q = q & Q(project_starts__lte=date_start) & Q(project_ends__gte=date_end)
+            projects = Project.objects.filter(q)
