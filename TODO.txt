@@ -6,19 +6,18 @@ To Do
 =====
 
 
-* Search: date fields should provide picker like Admin UI does (why doesn't it?)
 * Main Browse: show Open and recently Closed Projects
+* Search: date fields should provide picker like Admin UI does (why doesn't it?)
 * Display Job Series in Projects List as just the number, not description; while leaving it descriptive in the Admin UI
 * Sane defaults, e.g., Status=Approved, PayCode=GS
 * Should we use the same 2-different-templates for Browse and Search like PAVE does?
 * Admin date input doesn't accept: 03/16/2012 -- what does it want? 2012-03-02
 * Admin: selector for All NASA Centers, All Job Code Series (or use Empty as signifier; how affects search?)
 * Generate project_number: PAVE-yyyy-center-office-####
-* Specific field types like EmailField: see https://docs.djangoproject.com/en/dev/ref/models/fields/
-* Date-picker
 * Apply for Project: center and name verificaiton, supervisor info, justification: needs LDAP access ("fieldset"?)
 * Apply: LDAP lookup to verify first, last, center.
 * CSV, JSON output
+* Social Media: post to FaceBook, Twitter, etc.
 
 Done
 ====
@@ -222,6 +221,19 @@ connect each field with a logical AND. From project/views.py::
                     q = q & Q(project_starts__lte=date_start) & Q(project_ends__gte=date_end)
             projects = Project.objects.filter(q)
 
+In the above there's a problem: our first version of the search form
+populated the Center select field from choices=((1000,"HQ"), ...)
+tuples, and the form gave us the Center *code* which we then queried
+for.  Now we're populating the form with a ModelMultipleCoiceField and
+queryset is the Center model, so the form now gives us full-on Center
+objects. Now that portion of our query is more simple and robust::
+
+            if nasa_centers:
+                q = q & Q(nasa_centers__in=nasa_centers)
+
+It was dumb luck that the Status worked -- I didn't try to explicitely
+force the query to use its name and it "just worked". See next section.
+
 Search form should get choices from DB, not from constants.py file
 ------------------------------------------------------------------
 
@@ -235,3 +247,17 @@ populate from::
       ...
       status       = ModelMultipleChoiceField(queryset=Status.objects.all(), required=False)
       nasa_centers = ModelMultipleChoiceField(queryset=Center.objects.all(), required=False)
+
+Specific field types like EmailField
+------------------------------------
+
+In https://docs.djangoproject.com/en/dev/ref/models/fields/, there's
+an EmailField, but no field for phone numbers or other more specific
+things. In models.py::
+
+class Applicant(Model):
+    ...
+    email                       = EmailField(max_length=80)
+    project_starts		= DateField(help_text="YYYY-MM-DD")
+
+

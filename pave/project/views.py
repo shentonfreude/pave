@@ -18,15 +18,16 @@ def search(request):
     if request.method == 'POST':
         form = SearchForm(data=request.POST)
         if form.is_valid():
-            # Form gives us nasa_centers *code* not *name*
+            # Form gives us nasa_centers as Center objects, not text strings.
             # We want Centers and Status each to be logical OR, but then ANDed with other criteria.
             q = Q()
             project_id = form.cleaned_data['project_id'].strip()
             if project_id:
                 q = q & Q(project_number=project_id)
             nasa_centers = form.cleaned_data['nasa_centers']
+            import pdb; pdb.set_trace()
             if nasa_centers:
-                q = q & Q(nasa_centers__code__in=nasa_centers)
+                q = q & Q(nasa_centers__in=nasa_centers)
             #import pdb; pdb.set_trace()
             status = form.cleaned_data['status']
             if status:

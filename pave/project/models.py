@@ -32,7 +32,7 @@ class JobCode(Model):
     def __unicode__(self):
         return u'%s' % self.name
 
-class Applicant(Model):         # aren't there phone, email and other validating models?
+class Applicant(Model):
     # First form verified against LDAP
     center                      = ForeignKey(Center)
     last_name                   = CharField(max_length=80)
