@@ -35,11 +35,18 @@ table td {
     color: #666666;
 }
 table tr.odd {
-    background-color: #dddddd;
+    background-color: #cccccc;
 }
 table tr.even {
     background-color: #eeeeee;
 }
+table tbody.odd {
+    background-color: #cccccc;
+}
+table tbody.even {
+    background-color: #eeeeee;
+}
+
 table td.Approved {
     color: green;
 }

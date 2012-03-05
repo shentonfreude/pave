@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
-{% block title %} PAVE Projects List{% endblock %}
-{% block sectionhead %} Projects List {% endblock %}
+{% block title %} PAVE Search Results{% endblock %}
+{% block sectionhead %} Search Results {% endblock %}
 
 {% block content %}
 <table>
@@ -9,30 +9,30 @@
     <tr>
       <th>Project ID</th>
       <th>Position Title</th>
-      <th>Announcement Closing Date</th>
-      <th>Brief Description</th>
-      <th>Targeted Groups</th>
+      <th>Announcement Close</th>
+      <th>Start</th>
+      <th>End</th>
+      <th>Canceled</th>
       <th>Status</th>
     </tr>
   </thead>
-  <tbody>
-
-    {% for project in object_list %}
-    <tr class="{% cycle 'odd' 'even' %}">
+  
+  {% for project in object_list %}
+  <tbody class="{% cycle 'odd' 'even' %}">
+    <tr>
       <td><a href="{% url details object_id=project.id %}">{{project.project_number}}</a></td>
       <td>{{project.position_title}}</td>
-      <td>{{project.announcement_closes}}</td>
-      <td>{{project.brief_description}}</td>
-      <td>
-        <span class="subtitle">Pay Plan:</span> {{project.pay_plan}}<br/>
-        <span class="subtitle">Series:</span>   {{project.series_codes.all|join:", "}}<br/> 
-        <span class="subtitle">Grades:</span>   {{project.grade_levels.all|join:", "}}<br/>
-        <span class="subtitle">Centers:</span>  {{project.nasa_centers.all|join:", "}}
-      </td>
+      <td>{{project.announcement_closes|date:"m/d/Y"}}</td>
+      <td>{{project.project_starts|date:"m/d/Y"}}</td>
+      <td>{{project.project_ends|date:"m/d/Y"}}</td>
+      <td>{{project.cancel_date|date:"m/d/Y"|default:""}}</td>
       <td class="{{project.status}}">{{project.status}}</td>
     </tr>
-    {% endfor %}
+    <tr>
+      <td colspan="7" scope="row">{{project.brief_description}}</td>
+    </tr>
   </tbody>
+  {% endfor %}
 </table>
 
 {% endblock %}

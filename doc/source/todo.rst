@@ -5,14 +5,12 @@
 To Do
 =====
 
-* Search: make output like urPAVE format
 * Browse: provide links to browse options like PAVE's All Open or All Closed
 * Browse: make display table a reusable template, not cut-paste for Approved, Closed
 * eAuth: make Django plugin to NASA eAuth system
 * Search: date fields should provide picker like Admin UI does (why doesn't it?)
 * Display Job Series in Projects List as just the number, not description; while leaving it descriptive in the Admin UI
 * Sane defaults, e.g., Status=Approved, PayCode=GS
-* Should we use the same 2-different-templates for Browse and Search like PAVE does?
 * Admin date input doesn't accept: 03/16/2012 -- what does it want? 2012-03-02
 * Admin: selector for All NASA Centers, All Job Code Series (or use Empty as signifier; how affects search?)
 * Generate project_number: PAVE-yyyy-center-office-####
@@ -282,3 +280,34 @@ what we pass to the template. In view.py browse()::
                                },
                               context_instance=RequestContext(request));
 
+
+Search: make output like urPAVE format
+--------------------------------------
+
+See templates/proejct/search_results.html and use of <tbody> wrapping two <tr>::
+
+  {% for project in object_list %}
+  <tbody class="{% cycle 'odd' 'even' %}">
+    <tr>
+      <td><a href="{% url details object_id=project.id %}">{{project.project_number}}</a></td>
+      <td>{{project.position_title}}</td>
+      <td>{{project.announcement_closes|date:"m/d/Y"}}</td>
+      <td>{{project.project_starts|date:"m/d/Y"}}</td>
+      <td>{{project.project_ends|date:"m/d/Y"}}</td>
+      <td>{{project.cancel_date|date:"m/d/Y"|default:""}}</td>
+      <td class="{{project.status}}">{{project.status}}</td>
+    </tr>
+    <tr>
+      <td colspan="7" scope="row">{{project.brief_description}}</td>
+    </tr>
+  </tbody>
+
+and we have to add a couple lines to base.css since we're striping the
+<tbody/> instead of the <tr/>::
+
+  table tbody.odd {
+      background-color: #cccccc;
+  }
+  table tbody.even {
+      background-color: #eeeeee;
+  }

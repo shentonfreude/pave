@@ -82,3 +82,25 @@ PAVE Project Details frequently doesn't show fields "after the fold":
 Pay Plan, Series Codes, Grade Levels, NASA Centers.  Is this because
 they're somehow marked as "ALL"? Some other reason?
 
+Browse/search have different output formats
+-------------------------------------------
+
+Different output format for main 'browse' list and search
+results. Wouldn't we want to see the same data, in a consistent
+format, regardless of whether we're browsing or searching?
+
+Browse:
+
+  project id, position title, closing date, brief description, targeted group
+
+Search:
+
+  Project id, position title, start date, closed date
+  Brief description text
+
+Search has not Canceled date header
+-----------------------------------
+
+It has haders for Start, Closed (project? or announcement?), but if
+the project is Canceled, the data and status pop out on the right
+without a header.
