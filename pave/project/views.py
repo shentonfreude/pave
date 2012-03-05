@@ -25,7 +25,6 @@ def search(request):
             if project_id:
                 q = q & Q(project_number=project_id)
             nasa_centers = form.cleaned_data['nasa_centers']
-            import pdb; pdb.set_trace()
             if nasa_centers:
                 q = q & Q(nasa_centers__in=nasa_centers)
             #import pdb; pdb.set_trace()
@@ -42,7 +41,7 @@ def search(request):
                     q = q & Q(project_starts__lte=date_start) & Q(project_ends__gte=date_end)
             projects = Project.objects.filter(q)
 #            import pdb; pdb.set_trace()
-            return render_to_response('project/project_list.html', # reduce, reuse, recycle
+            return render_to_response('project/search_results.html',
                                       {'object_list': projects},
                                       context_instance=RequestContext(request));
     else:
@@ -58,7 +57,6 @@ def browse(request):
     LIMIT = 2
     approved = Project.objects.filter(status__name="Approved").order_by('announcement_closes').reverse()
     closed = Project.objects.filter(status__name="Closed").order_by('announcement_closes').reverse()
-#            import pdb; pdb.set_trace()
     return render_to_response('project/project_browse.html', # reduce, reuse, recycle
                               {'limit': LIMIT,
                                'approved': approved[0:LIMIT],

@@ -5,8 +5,10 @@
 To Do
 =====
 
+* Search: make output like urPAVE format
 * Browse: provide links to browse options like PAVE's All Open or All Closed
 * Browse: make display table a reusable template, not cut-paste for Approved, Closed
+* eAuth: make Django plugin to NASA eAuth system
 * Search: date fields should provide picker like Admin UI does (why doesn't it?)
 * Display Job Series in Projects List as just the number, not description; while leaving it descriptive in the Admin UI
 * Sane defaults, e.g., Status=Approved, PayCode=GS
