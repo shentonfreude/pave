@@ -1,8 +1,8 @@
 Installation
 ============
 
-Virtualenv, Django
-------------------
+Virtualenv, Sphinx, Django
+--------------------------
 
 Something like this::
 
@@ -11,7 +11,8 @@ Something like this::
   source bin/activate
   pip install sphinx
   pip install django
-  git clone .../pave.git
+  git clone https://github.com/shentonfreude/pave.git
+  cd pave
 
 Make the docs
 -------------
@@ -28,6 +29,10 @@ in doc/build/epub/.
 
 Get the Django application running
 ----------------------------------
+
+Seems like one-too-many layers, but::
+
+  cd pave
 
 Sync the DB to the model::
 
