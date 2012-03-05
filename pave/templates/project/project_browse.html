@@ -4,7 +4,13 @@
 {% block sectionhead %} Projects List {% endblock %}
 
 {% block content %}
-<h2>Approved (most recent {{limit}} of {{approved_num}})</h2>
+{% if limit %}
+<p>Showing {{limit}} most recent Approved and Closed projects.</p>
+{% endif %}
+
+{% if approved %}
+<h2>Approved ({{approved_num}}){% if limit %} <a href="{% url approved %}">View All</a>{% endif %}</h2>
+
 <table>
   <thead>
     <tr>
@@ -33,8 +39,10 @@
     {% endfor %}
   </tbody>
 </table>
+{% endif %}
 
-<h2>Closed (most recent {{limit}} of {{closed_num}})</h2>
+{% if closed %}
+<h2>Closed ({{closed_num}}){% if limit %} <a href="{% url closed %}">View All</a>{% endif %}</h2>
 <table>
   <thead>
     <tr>
@@ -63,4 +71,6 @@
     {% endfor %}
   </tbody>
 </table>
+{% endif %}
+
 {% endblock %}

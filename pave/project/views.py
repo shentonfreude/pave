@@ -51,18 +51,48 @@ def search(request):
                               context_instance=RequestContext(request));
 
 
-def browse(request):
+def browse(request, status=None):
     """Show 10 most recent Approved and 10 most recent Closed, with total count of each.
     """
     LIMIT = 2
     approved = Project.objects.filter(status__name="Approved").order_by('announcement_closes').reverse()
     closed = Project.objects.filter(status__name="Closed").order_by('announcement_closes').reverse()
-    return render_to_response('project/project_browse.html', # reduce, reuse, recycle
+    return render_to_response('project/project_browse.html',
                               {'limit': LIMIT,
                                'approved': approved[0:LIMIT],
                                'approved_num': len(approved),
                                'closed' : closed[0:LIMIT],
-                               'closed_num': len(closed)
+                               'closed_num': len(closed),
+                               },
+                              context_instance=RequestContext(request));
+
+def approved(request):
+    """Show all Approved projects
+    If we had lots of different statuses, we'd use an option on the url,
+    but this is cleaner for the two simple cases.
+    """
+    approved = Project.objects.filter(status__name="Approved").order_by('announcement_closes').reverse()
+    return render_to_response('project/project_browse.html', # reduce, reuse, recycle
+                              {'limit': 0,
+                               'approved': approved,
+                               'approved_num': len(approved),
+                               'closed' : [],
+                               'closed_num': 0,
+                               },
+                              context_instance=RequestContext(request));
+
+def closed(request):
+    """Show all Approved projects
+    If we had lots of different statuses, we'd use an option on the url,
+    but this is cleaner for the two simple cases.
+    """
+    closed = Project.objects.filter(status__name="Closed").order_by('announcement_closes').reverse()
+    return render_to_response('project/project_browse.html', # reduce, reuse, recycle
+                              {'limit': 0,
+                               'approved': [],
+                               'approved_num': 0,
+                               'closed' : closed,
+                               'closed_num': len(closed),
                                },
                               context_instance=RequestContext(request));
 

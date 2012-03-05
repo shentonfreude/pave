@@ -5,7 +5,6 @@
 To Do
 =====
 
-* Browse: provide links to browse options like PAVE's All Open or All Closed
 * Browse: make display table a reusable template, not cut-paste for Approved, Closed
 * eAuth: make Django plugin to NASA eAuth system
 * Search: date fields should provide picker like Admin UI does (why doesn't it?)
@@ -311,3 +310,20 @@ and we have to add a couple lines to base.css since we're striping the
   table tbody.even {
       background-color: #eeeeee;
   }
+
+Browse: provide links to browse options like PAVE's All Open or All Closed
+--------------------------------------------------------------------------
+
+Create new urls for projects/approved and projects/ in project/urls.py::
+
+    url(r'^approved$',             approved, name="approved"),
+    url(r'^closed$',               closed, name="closed"),
+
+Then define thin views in views.py for approved() and closed(). We use
+the same template, so it's not as wet as you might think.
+
+We could do this with a variable-substituting url and parsing the type
+in the view argument list, but urPAVE's formatting is too
+different. Perhaps try later.
+
+
