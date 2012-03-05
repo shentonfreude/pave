@@ -20,7 +20,7 @@ Make the docs
 The document source is in doc/source and you can format them to HTML
 and epub with `sphinx`::
 
-  pushd docs/
+  pushd doc/
   make html epub
   popd
 
