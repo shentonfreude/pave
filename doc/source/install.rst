@@ -9,9 +9,24 @@ Something like this::
   /usr/local/python/2.7/bin/virtualenv --no-site-packages --distribute pave
   cd pave
   source bin/activate
-  pip install django
   pip install sphinx
+  pip install django
   git clone .../pave.git
+
+Make the docs
+-------------
+
+The document source is in doc/source and you can format them to HTML
+with `sphinx`::
+
+  pushd docs/
+  make html
+  popd
+
+The HTML documents are now in doc/build/html/.
+
+Get the Django application running
+----------------------------------
 
 Sync the DB to the model::
 

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # pave documentation build configuration file, created by
-# sphinx-quickstart on Mon Mar  5 09:04:40 2012.
+# sphinx-quickstart on Mon Mar  5 09:25:05 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
@@ -25,7 +25,7 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.todo', 'sphinx.ext.viewcode']
+extensions = ['sphinx.ext.autodoc']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -64,7 +64,7 @@ release = '2.0'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+exclude_patterns = []
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None

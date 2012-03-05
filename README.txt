@@ -39,9 +39,10 @@ verified by NASA Directory lookup.
 They then ...
 
 
-
-
 Documentation
 =============
 
-See the docs/ directory for installation, todo, and warts information.
+See the docs/source/ directory for installation, todo, and warts
+information. Sources are in source, and after following the install
+directions, you should have neatly formatted documents in
+docs/build/html/.
