@@ -10,6 +10,7 @@ Something like this::
   cd pave
   source bin/activate
   pip install django
+  pip install sphinx
   git clone .../pave.git
 
 Sync the DB to the model::
@@ -24,4 +25,8 @@ and reload via fixtures.)
 Load fixture data (centers, job codes, etc)::
 
   ./manage.py loaddata fixtures/*.json
+
+Run the app with the development server::
+
+  ./manage.py runserver
 
