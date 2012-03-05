@@ -17,13 +17,14 @@ Make the docs
 -------------
 
 The document source is in doc/source and you can format them to HTML
-with `sphinx`::
+and epub with `sphinx`::
 
   pushd docs/
-  make html
+  make html epub
   popd
 
-The HTML documents are now in doc/build/html/.
+The HTML documents are now in doc/build/html/ and the epub format is
+in doc/build/epub/.
 
 Get the Django application running
 ----------------------------------
