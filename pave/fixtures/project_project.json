@@ -25,6 +25,8 @@
             "nasa_center": 8, 
             "contact_phone": "228-688-3698", 
             "status": 1, 
+            "cancel_reason": "", 
+            "cancel_date": null, 
             "series_codes": [
                 68, 
                 70
@@ -32,9 +34,7 @@
             "office_title": "Office of Diversity and Equal Opportunity", 
             "security_clearance_required": false, 
             "applicant": null, 
-            "announcement_closes": "2012-03-02",
-            "cancel_date": null,
-            "cancel_reason": "",
+            "announcement_closes": "2012-03-02", 
             "office_id": "1130", 
             "brief_description": "Participate on the SDC by chairing one of the Planning Committees i.e. Logistics; Exhibits; Entertainment; Food etc. The SDC plans a Diversity Day event every 2 years. ", 
             "pay_plan": "GS"
@@ -76,15 +76,15 @@
             "nasa_center": 8, 
             "contact_phone": "228-688-3698", 
             "status": 1, 
+            "cancel_reason": "", 
+            "cancel_date": null, 
             "series_codes": [
                 59
             ], 
             "office_title": "Office of Human Capital", 
             "security_clearance_required": false, 
             "applicant": null, 
-            "announcement_closes": "2012-03-09",
-            "cancel_date": null,
-            "cancel_reason": "",
+            "announcement_closes": "2012-03-09", 
             "office_id": "004", 
             "brief_description": "Serve as the Liason between the coffee Shop and the exchange council ", 
             "pay_plan": "GS"
@@ -118,6 +118,8 @@
             "nasa_center": 8, 
             "contact_phone": "228-688-3698", 
             "status": 1, 
+            "cancel_reason": "", 
+            "cancel_date": null, 
             "series_codes": [
                 59, 
                 102, 
@@ -127,8 +129,6 @@
             "security_clearance_required": false, 
             "applicant": null, 
             "announcement_closes": "2012-03-09", 
-            "cancel_date": null,
-            "cancel_reason": "",
             "office_id": "002", 
             "brief_description": "Establish a focus group ", 
             "pay_plan": "GS"
@@ -166,6 +166,8 @@
             "nasa_center": 1, 
             "contact_phone": "358-2532", 
             "status": 2, 
+            "cancel_reason": "", 
+            "cancel_date": null, 
             "series_codes": [
                 1
             ], 
@@ -173,8 +175,6 @@
             "security_clearance_required": false, 
             "applicant": null, 
             "announcement_closes": "2005-07-18", 
-            "cancel_date": null,
-            "cancel_reason": "",
             "office_id": "LA", 
             "brief_description": "The Office of Institutions and Management seeks a professional manager to serve as the Combined Federal Campaign Loan Executive for the 2005 activities. ", 
             "pay_plan": "GS"
@@ -204,6 +204,8 @@
             "nasa_center": 1, 
             "contact_phone": "202.358.4808", 
             "status": 2, 
+            "cancel_reason": "", 
+            "cancel_date": null, 
             "series_codes": [
                 453
             ], 
@@ -211,8 +213,6 @@
             "security_clearance_required": false, 
             "applicant": null, 
             "announcement_closes": "2011-10-14", 
-            "cancel_date": null,
-            "cancel_reason": "",
             "office_id": "LM022", 
             "brief_description": "The HQ Operations Information Technology and Communications Division Customer Service Branch has a 6-month detail opportunity for a person to serve as an applications software manager. The position manages the development, delivery, and support of software application and web services for NASA HQ. The position represents the customer service discipline on applications development and project management activities. The position provides Subject Matter Expertise for agency-wide contract transitions and initiatives.Provide leadership and oversight in all phases of the software development lifecycle, as well as a thorough and applied understanding of current industry standards and government policies.Serve as the focal point for guiding the development of software application services. ", 
             "pay_plan": "GS"
@@ -243,6 +243,8 @@
             "nasa_center": 1, 
             "contact_phone": "(202) 358-1764", 
             "status": 3, 
+            "cancel_reason": "Leap year", 
+            "cancel_date": "2012-02-29", 
             "series_codes": [
                 82
             ], 
@@ -250,8 +252,6 @@
             "security_clearance_required": false, 
             "applicant": null, 
             "announcement_closes": "2011-03-09", 
-            "cancel_date": null,
-            "cancel_reason": "",
             "office_id": "LM043", 
             "brief_description": "This is a unique leadership opportunity for a Program Analyst within the Independent Program and Cost Evaluation (IPCE) Office, Independent Program Assessment Office (IPAO) located at NASA Langley. The employee would serve as the Business Manager and point of contact for budgetary requirements and integration, coordinating, initiating, and funding procurements and other resource and business related activities for the IPAO with particular focus on Program/project funds from multiple appropriations and mission directorates. The incumbent will be able to gain experience with the operations and business model of IPAO and the management of a diverse portfolio of Program/project and AM&O funds. ", 
             "pay_plan": "GS"
@@ -282,6 +282,8 @@
             "nasa_center": 1, 
             "contact_phone": "(202) 358-5461", 
             "status": 3, 
+            "cancel_reason": "Wouldn't be prudent", 
+            "cancel_date": "2001-09-11", 
             "series_codes": [
                 76
             ], 
@@ -289,8 +291,6 @@
             "security_clearance_required": false, 
             "applicant": null, 
             "announcement_closes": "2011-03-04", 
-            "cancel_date": null,
-            "cancel_reason": "",
             "office_id": "LM043", 
             "brief_description": "The Office of the Chief Financial Officer (OCFO) is recruiting for a short-term (4-6 months), excellent career development opportunity. The incumbent serves as a Secretary within the Mission Support Office of the OCFO. ", 
             "pay_plan": "GS"

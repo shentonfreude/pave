@@ -21,7 +21,7 @@
     <tr class="{% cycle 'odd' 'even' %}">
       <td><a href="{% url details object_id=project.id %}">{{project.project_number}}</a></td>
       <td>{{project.position_title}}</td>
-      <td>{{project.announcement_closes}}</td>
+      <td>{{project.announcement_closes|date:"m/d/Y"}}</td>
       <td>{{project.brief_description}}</td>
       <td>
         <span class="subtitle">Pay Plan:</span> {{project.pay_plan}}<br/>
@@ -51,7 +51,7 @@
     <tr class="{% cycle 'odd' 'even' %}">
       <td><a href="{% url details object_id=project.id %}">{{project.project_number}}</a></td>
       <td>{{project.position_title}}</td>
-      <td>{{project.announcement_closes}}</td>
+      <td>{{project.announcement_closes|date:"m/d/Y"}}</td>
       <td>{{project.brief_description}}</td>
       <td>
         <span class="subtitle">Pay Plan:</span> {{project.pay_plan}}<br/>
