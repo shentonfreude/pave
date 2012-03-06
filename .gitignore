@@ -4,3 +4,4 @@
 /lib/
 /pave/pave.sqlite3
 /doc/build/
+/pave/db/pave.sqlite3
