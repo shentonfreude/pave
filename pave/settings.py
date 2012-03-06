@@ -2,7 +2,7 @@ import os
 
 PROJECT_PATH = os.path.abspath(os.path.split(__file__)[0])
 
-print PROJECT_PATH
+print "###settings.py PROJECT_PATH=%s" % PROJECT_PATH
 
 # Django settings for pave project.
 
