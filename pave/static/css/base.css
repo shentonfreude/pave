@@ -27,6 +27,7 @@ section#content {
 
 table {
     font-size: 75%;
+    width: 100%;
 }
 table .subtitle {
     color: black;
@@ -47,6 +48,11 @@ table tbody.even {
     background-color: #eeeeee;
 }
 
+table.project_browse td {  /* Donnie has way too long desc with no spaces */
+    max-width: 25em;       /* Not happy with this; why doesn't 50% work? */
+    overflow: hidden;      /* or auto */
+    word-wrap: break-word; /* CSS3 */
+}
 table td.Approved {
     color: green;
 }
