@@ -7,6 +7,8 @@ admin.autodiscover()
 urlpatterns = patterns(
     '',
     url(r'^$', direct_to_template, {'template': 'home.html'}, name='home'),
+    url(r'^manage$', direct_to_template, {'template': 'manage.html'}, name='manage'),
+    url(r'^exit$', direct_to_template, {'template': 'exit.html'}, name='exit'),
 
     # url(r'^pave/', include('pave.foo.urls')),
     (r'^project/', include('project.urls')),

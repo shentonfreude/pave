@@ -11,7 +11,7 @@
 {% if approved %}
 <h2>Approved ({{approved_num}}){% if limit %} <a href="{% url approved %}">View All</a>{% endif %}</h2>
 
-<table>
+<table class="project_browse">
   <thead>
     <tr>
       <th>Project ID</th>
@@ -43,7 +43,8 @@
 
 {% if closed %}
 <h2>Closed ({{closed_num}}){% if limit %} <a href="{% url closed %}">View All</a>{% endif %}</h2>
-<table>
+
+<table class="project_browse">
   <thead>
     <tr>
       <th>Project ID</th>

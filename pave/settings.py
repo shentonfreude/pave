@@ -1,5 +1,9 @@
 import os
 
+PROJECT_PATH = os.path.abspath(os.path.split(__file__)[0])
+
+print "###settings.py PROJECT_PATH=%s" % PROJECT_PATH
+
 # Django settings for pave project.
 
 DEBUG = True
@@ -14,7 +18,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'pave.sqlite3',                      # Or path to database file if using sqlite3.
+        'NAME': os.path.join(PROJECT_PATH, "db/pave.sqlite3"),  # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -44,10 +48,6 @@ USE_I18N = True
 # If you set this to False, Django will not format dates, numbers and
 # calendars according to the current locale
 USE_L10N = True
-
-PROJECT_PATH = os.path.abspath(os.path.split(__file__)[0])
-
-
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
@@ -101,13 +101,13 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.auth.middleware.RemoteUserMiddleware',
+#    'django.contrib.auth.middleware.RemoteUserMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
 AUTHENTICATION_BACKENDS = (
-    'django.contrib.auth.backends.RemoteUserBackend',
     'django.contrib.auth.backends.ModelBackend',
+#    'django.contrib.auth.backends.RemoteUserBackend',
 )
 
 ROOT_URLCONF = 'pave.urls'

@@ -5,6 +5,7 @@
 To Do
 =====
 
+* BUG: Project.applicant should be Many2Many
 * Browse: make display table a reusable template, not cut-paste for Approved, Closed
 * eAuth: make Django plugin to NASA eAuth system
 * Search: date fields should provide picker like Admin UI does (why doesn't it?)
@@ -15,8 +16,9 @@ To Do
 * Generate project_number: PAVE-yyyy-center-office-####
 * Apply for Project: center and name verificaiton, supervisor info, justification: needs LDAP access ("fieldset"?)
 * Apply: LDAP lookup to verify first, last, center.
-* CSV, JSON output
 * Social Media: post to FaceBook, Twitter, etc.
+* Social Media: post to GovLoop
+* CSV, JSON output
 
 Done
 ====
