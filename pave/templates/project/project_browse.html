@@ -1,9 +1,10 @@
 {% extends "base.html" %}
 
 {% block title %} PAVE Projects List{% endblock %}
-{% block sectionhead %} Projects List {% endblock %}
 
 {% block content %}
+<h1>PAVE Projects List</h1>
+
 {% if limit %}
 <p>Showing {{limit}} most recent Approved and Closed projects.</p>
 {% endif %}
@@ -16,7 +17,8 @@
   {% endif %}
 </h2>
 
-<table class="project_browse">
+<table class="table">
+
   <thead>
     <tr>
       <th>Project ID</th>
@@ -26,15 +28,15 @@
       <th>Targeted Groups</th>
     </tr>
   </thead>
-  <tbody>
 
+  <tbody>
     {% for project in approved %}
-    <tr class="{% cycle 'odd' 'even' %}">
+    <tr>
       <td><a href="{% url details object_id=project.id %}">{{project.project_number}}</a></td>
       <td>{{project.position_title}}</td>
       <td>{{project.announcement_closes|date:"m/d/Y"}}</td>
       <td>{{project.brief_description}}</td>
-      <td>
+      <td> <!-- how can we remove the initial blank line in the cell -->
         <dl>
           <dt>Pay Plan:</dt> <dd>{{project.pay_plan}}</dd>
           <dt>Series:</dt>   <dd>{{project.series_codes.all|join:", "}}</dd>
@@ -44,7 +46,9 @@
       </td>
     </tr>
     {% endfor %}
+
   </tbody>
+
 </table>
 {% endif %}
 
@@ -56,7 +60,7 @@
   {% endif %}
 </h2>
 
-<table class="project_browse">
+<table class="table">
   <thead>
     <tr>
       <th>Project ID</th>
@@ -75,7 +79,7 @@
       <td>{{project.announcement_closes|date:"m/d/Y"}}</td>
       <td>{{project.brief_description}}</td>
       <td>
-        <dl>
+        <dl> <!-- how can we remove the initial blank line in the cell -->
           <dt>Pay Plan:</dt> <dd>{{project.pay_plan}}</dd>
           <dt>Series:</dt>   <dd>{{project.series_codes.all|join:", "}}</dd>
           <dt>Grades:</dt>   <dd>{{project.grade_levels.all|join:", "}}</dd>

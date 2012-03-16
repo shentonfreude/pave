@@ -54,7 +54,7 @@ def search(request):
 def browse(request, status=None):
     """Show 10 most recent Approved and 10 most recent Closed, with total count of each.
     """
-    LIMIT = 2
+    LIMIT = 5
     approved = Project.objects.filter(status__name="Approved").order_by('announcement_closes').reverse()
     closed = Project.objects.filter(status__name="Closed").order_by('announcement_closes').reverse()
     return render_to_response('project/project_browse.html',
