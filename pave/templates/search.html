@@ -1,19 +1,26 @@
 {% extends "base.html" %}
+{% load bootstrap %}
 
 {% block title %} PAVE Search{% endblock %}
-{% block sectionhead %} PAVE Search {% endblock %}
 
 {% block content %}
+<h1>Search</h1>
 
 <!-- To customize form UI see https://docs.djangoproject.com/en/dev/topics/forms/ -->
 
-<p>Hint: You can multi-select Centers and Project Statuses.</p>
-<form id="search" method="POST" action=".">{% csrf_token %}
+<p>You can multi-select Centers and Project Statuses.<p>
+
+<p>Specify the singular Date, or the pair of Date start and Date end.
+(Yeah, this is a hack: we need to understand the use case.)</p>
+
+
+<form id="search" method="POST" action="." class="well form-horizontal">{% csrf_token %}
   <table>
-  {{ form.as_table }} <!-- also: as_p, as_ul -->
+  {# {{ form.as_table }} <!-- also: as_p, as_ul --> #}
+  {{ form|bootstrap }}
   </table>
   </br>
-  <input type="submit" id="submit" value="Search">
+  <button type="submit" class="btn btn-primary"><i class="icon-search icon-white"></i> Search</button>
 </form>
 
 {% endblock %}
