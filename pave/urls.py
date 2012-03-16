@@ -12,6 +12,7 @@ urlpatterns = patterns(
 
     # trying Twitter Bootstrap fluid-grid
     url(r'^bootstrap$', direct_to_template, {'template': 'bootstrap.html'}, name='bootstrap'),
+    url(r'^about$',     direct_to_template, {'template': 'about.html'},     name='about'),
 
     # url(r'^pave/', include('pave.foo.urls')),
     (r'^project/', include('project.urls')),
