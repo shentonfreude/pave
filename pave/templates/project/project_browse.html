@@ -9,7 +9,12 @@
 {% endif %}
 
 {% if approved %}
-<h2>Approved ({{approved_num}}){% if limit %} <a href="{% url approved %}">View All</a>{% endif %}</h2>
+<h2>Approved ({{approved_num}})
+  {% if limit %}
+  <a class="btn btn-info"
+     href="{% url approved %}">View All Approved</a>
+  {% endif %}
+</h2>
 
 <table class="project_browse">
   <thead>
@@ -30,10 +35,12 @@
       <td>{{project.announcement_closes|date:"m/d/Y"}}</td>
       <td>{{project.brief_description}}</td>
       <td>
-        <span class="subtitle">Pay Plan:</span> {{project.pay_plan}}<br/>
-        <span class="subtitle">Series:</span>   {{project.series_codes.all|join:", "}}<br/> 
-        <span class="subtitle">Grades:</span>   {{project.grade_levels.all|join:", "}}<br/>
-        <span class="subtitle">Centers:</span>  {{project.nasa_centers.all|join:", "}}
+        <dl>
+          <dt>Pay Plan:</dt> <dd>{{project.pay_plan}}</dd>
+          <dt>Series:</dt>   <dd>{{project.series_codes.all|join:", "}}</dd>
+          <dt>Grades:</dt>   <dd>{{project.grade_levels.all|join:", "}}</dd>
+          <dt>Centers:</dt>  <dd>{{project.nasa_centers.all|join:", "}}</dd>
+        </dl>
       </td>
     </tr>
     {% endfor %}
@@ -42,7 +49,12 @@
 {% endif %}
 
 {% if closed %}
-<h2>Closed ({{closed_num}}){% if limit %} <a href="{% url closed %}">View All</a>{% endif %}</h2>
+<h2>Closed ({{closed_num}})
+  {% if limit %}
+  <a class="btn btn-info"
+     href="{% url closed %}">View All Closed</a>
+  {% endif %}
+</h2>
 
 <table class="project_browse">
   <thead>
@@ -63,10 +75,12 @@
       <td>{{project.announcement_closes|date:"m/d/Y"}}</td>
       <td>{{project.brief_description}}</td>
       <td>
-        <span class="subtitle">Pay Plan:</span> {{project.pay_plan}}<br/>
-        <span class="subtitle">Series:</span>   {{project.series_codes.all|join:", "}}<br/> 
-        <span class="subtitle">Grades:</span>   {{project.grade_levels.all|join:", "}}<br/>
-        <span class="subtitle">Centers:</span>  {{project.nasa_centers.all|join:", "}}
+        <dl>
+          <dt>Pay Plan:</dt> <dd>{{project.pay_plan}}</dd>
+          <dt>Series:</dt>   <dd>{{project.series_codes.all|join:", "}}</dd>
+          <dt>Grades:</dt>   <dd>{{project.grade_levels.all|join:", "}}</dd>
+          <dt>Centers:</dt>  <dd>{{project.nasa_centers.all|join:", "}}</dd>
+        </dl>
       </td>
     </tr>
     {% endfor %}
