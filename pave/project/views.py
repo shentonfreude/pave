@@ -1,6 +1,8 @@
 from django.core.context_processors import csrf
 from django.db.models import Q
 from django.forms import Form, CharField, DateField, ModelMultipleChoiceField
+from django.forms import SelectMultiple
+
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 
@@ -8,8 +10,11 @@ from models import Project, Center, Status
 
 class SearchForm(Form):
     project_id   = CharField(max_length=80, required=False)
-    status       = ModelMultipleChoiceField(queryset=Status.objects.all(), required=False)
-    nasa_centers = ModelMultipleChoiceField(queryset=Center.objects.all(), required=False)
+    status       = ModelMultipleChoiceField(queryset=Status.objects.all(), required=False,
+                                            widget=SelectMultiple(attrs={'size':len(Status.objects.all())}))
+    nasa_centers = ModelMultipleChoiceField(queryset=Center.objects.all(), required=False,
+                                            label="NASA Centers",
+                                            widget=SelectMultiple(attrs={'size':len(Center.objects.all())}))
     date         = DateField(required=False, help_text="MM/DD/YYYY or YYYY-MM-DD")
     date_start   = DateField(required=False, help_text="MM/DD/YYYY or YYYY-MM-DD")
     date_end     = DateField(required=False, help_text="MM/DD/YYYY or YYYY-MM-DD")
@@ -27,7 +32,6 @@ def search(request):
             nasa_centers = form.cleaned_data['nasa_centers']
             if nasa_centers:
                 q = q & Q(nasa_centers__in=nasa_centers)
-            #import pdb; pdb.set_trace()
             status = form.cleaned_data['status']
             if status:
                 q = q & Q(status__in=status)
@@ -40,7 +44,6 @@ def search(request):
                 if date_start and date_end:
                     q = q & Q(project_starts__lte=date_start) & Q(project_ends__gte=date_end)
             projects = Project.objects.filter(q)
-#            import pdb; pdb.set_trace()
             return render_to_response('project/search_results.html',
                                       {'object_list': projects},
                                       context_instance=RequestContext(request));
