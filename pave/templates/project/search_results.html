@@ -1,11 +1,14 @@
 {% extends "base.html" %}
 
-{% block title %} PAVE Search Results{% endblock %}
-{% block sectionhead %} Search Results {% endblock %}
+{% block title %} PAVE: Search Results{% endblock %}
+
+{# Would like to get Bootstrap tabbable section by Status #}
 
 {% block content %}
-<table class="table">
-  <thead>
+<h1>Search Results</h1>
+
+<table rules="groups"> <!-- Bootstrap class breaks rules class="table table-striped"  -->
+  <Thead>
     <tr>
       <th>Project ID</th>
       <th>Position Title</th>
