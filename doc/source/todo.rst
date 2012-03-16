@@ -6,7 +6,6 @@ To Do
 =====
 
 * BUG: Project.applicant should be Many2Many
-* Browse: make display table a reusable template, not cut-paste for Approved, Closed
 * eAuth: make Django plugin to NASA eAuth system
 * Search: date fields should provide picker like Admin UI does (why doesn't it?)
 * Display Job Series in Projects List as just the number, not description; while leaving it descriptive in the Admin UI
@@ -327,5 +326,29 @@ the same template, so it's not as wet as you might think.
 We could do this with a variable-substituting url and parsing the type
 in the view argument list, but urPAVE's formatting is too
 different. Perhaps try later.
+
+
+Browse: make display table a reusable template, not cut-paste for Approved, Closed
+----------------------------------------------------------------------------------
+
+In project_browse.html, include a 'snippet' and pass the list of projects::
+
+  {% include "project/project_browse_table.html" with projects=approved %}
+  ...
+  {% include "project/project_browse_table.html" with projects=closed %}
+
+And the snippet project_browse_table.html looks like::
+
+  <table class="table">
+  ...
+    <tbody>
+      {% for project in projects %}
+      <tr>
+        ...
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
 
 
