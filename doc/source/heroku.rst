@@ -61,3 +61,13 @@ that we could do a fresh `syncdb`::
 
 Then do the normal `syncdb` and `loaddata` again.
 
+Push to Heroku
+==============
+
+We push into a branch named `master` at Heroku and it does its magic.
+If we're trying to push a different branch, we must specify Heroku's
+name `master` as a destination::
+
+  $ git push heroku cs/feature.heroku:master
+
+
