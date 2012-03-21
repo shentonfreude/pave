@@ -185,3 +185,15 @@ For these, you have to specify the full path relative to your app's
 
  $ heroku run python pave/manage.py loaddata pave/fixtures/"*.json"
 
+Updating the Heroku App
+=======================
+
+After you've updated your code, commit to the local git repo.  Then push as normal::
+
+  git push heroku cs/feature.heroku:master
+
+If the pip requirements are already satisfied, the upgrade will take
+under a minute. Very cool.  No Ops Department was harmed in the making
+of this update.
+
+
