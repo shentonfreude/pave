@@ -99,6 +99,21 @@ that we could do a fresh `syncdb`::
 
 Then do the normal `syncdb` and `loaddata` again.
 
+Setting up Heroku
+=================
+
+Follow the guide at http://devcenter.heroku.com/articles/django
+
+Specifically, get the Heroku tool belt which provides the `heroku`
+command line tool.
+
+Then if this machine is new to commit to an existing Heroku app,
+you'll have to add your machine's ssh keys with::
+
+  heroku keys:add ~/.ssh/id_rsa.pub
+
+You'll need to provide your Heroku password for this.
+
 Push to Heroku
 ==============
 
