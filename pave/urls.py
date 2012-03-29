@@ -1,14 +1,18 @@
 from django.conf.urls.defaults import patterns, include, url
 from django.contrib import admin
-from django.views.generic.simple import direct_to_template
+from django.views.generic.simple import direct_to_template, redirect_to
+from views import home
 
 admin.autodiscover()
 
 urlpatterns = patterns(
     '',
-    url(r'^$', direct_to_template, {'template': 'home.html'}, name='home'),
+    #url(r'^$', direct_to_template, {'template': 'home.html'}, name='home'),
+    url(r'^$', home, name='home'), # give csrf ctx
+
     url(r'^manage$', direct_to_template, {'template': 'manage.html'}, name='manage'),
     url(r'^exit$', direct_to_template, {'template': 'exit.html'}, name='exit'),
+    url(r'^whats_new$', direct_to_template, {'template': 'whats_new.html'}, name='whats_new'),
 
     # trying Twitter Bootstrap fluid-grid
     url(r'^bootstrap$', direct_to_template, {'template': 'bootstrap.html'}, name='bootstrap'),

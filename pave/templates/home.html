@@ -25,13 +25,13 @@
     for a PAVE project</a>.</p>
     <p>To apply to any project you must have your Supervisor's
     permission.</p>
-    <p><a class="btn" href="{% url projects %}">View projects &raquo;</a></p>
+    <p><a class="btn btn-primary" href="{% url projects %}">View projects &raquo;</a></p>
   </div>
   <div class="span6">
     <h2>Manage Your Announcements</h2>
     <p>If you are already registered for PAVE, please Login to manage
       your announcements. Eventually we'll be using eAuth...
-      <form id="loginform" method="POST" action=".">
+      <form id="loginform" method="POST" action=".">{% csrf_token %}
         <label>Username
           <input id="username" />
         </label>

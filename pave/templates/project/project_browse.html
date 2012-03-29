@@ -2,6 +2,12 @@
 
 {% block title %} PAVE Projects List{% endblock %}
 
+{% block leftnav %}
+<li class="nav-header">Jump to...</li>
+<li><a href="#approved">Approved</a></li>
+<li><a href="#closed">Closed</a></li>
+{% endblock %}
+
 {% block content %}
 <h1>PAVE Projects List</h1>
 
@@ -13,24 +19,29 @@
 
 {% if approved %}
 
-<h2>Approved ({{approved_num}})
-  {% if limit %}
-  <a class="btn btn-info"
-     href="{% url approved %}">View All Approved</a>
-  {% endif %}
-</h2>
+<a name="approved">
+  <h2>Approved ({{approved_num}})
+    {% if limit %}
+    <a class="btn btn-info"
+       href="{% url approved %}">View All Approved</a>
+    {% endif %}
+  </h2>
+</a>
 {% include "project/project_browse_table.html" with projects=approved %}
 
 {% endif %}
 
 {% if closed %}
 
-<h2>Closed ({{closed_num}})
-  {% if limit %}
-  <a class="btn btn-info"
-     href="{% url closed %}">View All Closed</a>
-  {% endif %}
-</h2>
+<a name="closed">
+  <h2>Closed ({{closed_num}})
+    {% if limit %}
+    <a class="btn btn-info"
+       href="{% url closed %}">View All Closed</a>
+    {% endif %}
+  </h2>
+</a>
+
 {% include "project/project_browse_table.html" with projects=closed %}
 
 {% endif %}
