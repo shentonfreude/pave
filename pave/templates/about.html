@@ -39,7 +39,6 @@
       announcement/opportunity to a specific audience(s) (i.e. Series,
       Grade, Pay Plan and/or all of NASA or certain Centers) through
       the system.</p>
-    <p><a class="btn btn-primary" href="{% url projects %}">View projects &raquo;</a></p>
   </div><!--/span-->
 
   <div class="span4">
@@ -50,4 +49,13 @@
   </div><!--/span-->
 </div>
 
+<div class="row-fluid">
+  <div class="span8">
+    <h2>What's New</h2>
+    {% include "whats_new_items.html" with projects=approved %}
+  </div>
+  <div class="span4">
+    <p><a class="btn btn-primary" href="{% url projects %}">View projects &raquo;</a></p>
+  </div>
+</div>
 {% endblock %} {# content #}

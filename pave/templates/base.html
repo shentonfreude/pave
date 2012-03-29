@@ -26,7 +26,7 @@
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="{{STATIC_URL}}bootstrap/ico/favicon.ico">
+    <link rel="shortcut icon" href="{{STATIC_URL}}img/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{STATIC_URL}}bootstrap/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{STATIC_URL}}bootstrap/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="{{STATIC_URL}}bootstrap/ico/apple-touch-icon-57-precomposed.png">
@@ -65,31 +65,15 @@
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               {% block leftnav %}
-              <li class="nav-header">NASA HQ</li>
+              <li class="nav-header">PAVE</li>
+              <li><a href="{% url whats_new %}">What's new</a></li>
+              <li><a href="{% url projects %}">Recent Projects</a></li>
+              <li class="nav-header">EOEB</li>
               <li><a href="http://eoeb.hq.nasa.gov/index.html">EOEB Home</a></li>
-              <li><a href="http://eoeb.hq.nasa.gov/ccp.html">Career Counseling Services</a></li>
               <li><a href="http://eoeb.hq.nasa.gov/wlrc.html">Work/Life Resource Services</a></li>
               <li><a href="http://eoeb.hq.nasa.gov/training.html">HQ Training Opportunities</a></li>
               <li><a href="http://eoeb.hq.nasa.gov/coaching.html">Coaching</a></li>
               <li><a href="http://eoeb.hq.nasa.gov/mentoring.html">Mentoring</a></li>
-              <li><a href="http://eoeb.hq.nasa.gov/pave.html">PAVE Special Projects</a></li>
-              <li><a href="http://employeeorientation.nasa.gov/hqs/default.htm">HQ New Employee Orientation</a></li>
-              <li class="nav-header">NASA</li>
-              <li><a href="http://www.nasa.gov/">Visit NASA.gov</a></li>
-              <li><a href="http://www1.nasa.gov/about/contact/index.html">Contact NASA</a></li>
-              <li class="nav-header">Government</li>
-              <li><a href="http://www.hq.nasa.gov/office/pao/FOIA/agency/">Freedom of Information Act</a></li>
-              <li><a href="http://www.nasa.gov/about/budget/index.html">Budgets, Strategic Plans and Accountability Reports</a></li>
-              <li><a href="http://www.nasa.gov/about/highlights/HP_Management.html">The President's Management Agenda</a></li>
-              <li><a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy and Important Notices</a></li>
-              <li><a href="http://oig.nasa.gov/hotline.html">Inspector General Hotline</a></li>
-              <li><a href="http://www.hq.nasa.gov/office/codee/nofear.html">Equal Employement Opportunity Data Posted Pursuant to the No Fear Act</a></li>
-              <li><a href="http://www.nasa.gov/about/contact/information_inventories_schedules.html">Information-Dissemination Priorities and Inventories</a></li>
-              <li><a href="http://www.usa.gov/">USA.gov</a></li>
-              <li><a href="http://www.whitehouse.gov/omb/expectmore/">ExpectMore.gov</a></li>
-              <li class="nav-header">NASA</li>
-              <li>NASA Official: <a href="Deandrea.M.Peters@nasa.gov">Deedy Peters</a></li>
-              <li>Site Curator: <a href="cbrunner@nasa.gov@nasa.gov">Christopher Brunner</a></li>
               {% endblock %} {# leftnav #}
             </ul>
           </div><!--/.well -->
