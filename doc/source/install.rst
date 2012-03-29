@@ -24,10 +24,11 @@ Create and activate a virtualenv in this directory; note the trailing dot::
 Install django, sphinx
 ----------------------
 
-Use virtualenv's `pip` to install django framework and sphinx documentation tools::
+Use virtualenv's `pip` to install django framework, sphinx
+documentation tools, and any other packages (e.g.,
+django-bootstrap-form)::
 
-  pip install django
-  pip install sphinx
+  pip install -r requirements.txt
 
 Build docs
 ----------
@@ -90,8 +91,7 @@ Then::
   $  cd pave
   $  virtualenv --no-site-packages --distribute .
   $  source bin/activate
-  $  pip install django
-  $  pip install sphinx
+  $  pip install -r requirements.txt
   $  pushd doc/
   $  make html epub
   $  popd

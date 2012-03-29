@@ -1,77 +1,38 @@
 {% extends "base.html" %}
 
 {% block title %} PAVE Projects List{% endblock %}
-{% block sectionhead %} Projects List {% endblock %}
 
 {% block content %}
+<h1>PAVE Projects List</h1>
+
 {% if limit %}
 <p>Showing {{limit}} most recent Approved and Closed projects.</p>
 {% endif %}
 
+
+
 {% if approved %}
-<h2>Approved ({{approved_num}}){% if limit %} <a href="{% url approved %}">View All</a>{% endif %}</h2>
 
-<table class="project_browse">
-  <thead>
-    <tr>
-      <th>Project ID</th>
-      <th>Position Title</th>
-      <th>Announcement Closing Date</th>
-      <th>Brief Description</th>
-      <th>Targeted Groups</th>
-    </tr>
-  </thead>
-  <tbody>
+<h2>Approved ({{approved_num}})
+  {% if limit %}
+  <a class="btn btn-info"
+     href="{% url approved %}">View All Approved</a>
+  {% endif %}
+</h2>
+{% include "project/project_browse_table.html" with projects=approved %}
 
-    {% for project in approved %}
-    <tr class="{% cycle 'odd' 'even' %}">
-      <td><a href="{% url details object_id=project.id %}">{{project.project_number}}</a></td>
-      <td>{{project.position_title}}</td>
-      <td>{{project.announcement_closes|date:"m/d/Y"}}</td>
-      <td>{{project.brief_description}}</td>
-      <td>
-        <span class="subtitle">Pay Plan:</span> {{project.pay_plan}}<br/>
-        <span class="subtitle">Series:</span>   {{project.series_codes.all|join:", "}}<br/> 
-        <span class="subtitle">Grades:</span>   {{project.grade_levels.all|join:", "}}<br/>
-        <span class="subtitle">Centers:</span>  {{project.nasa_centers.all|join:", "}}
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
 {% endif %}
 
 {% if closed %}
-<h2>Closed ({{closed_num}}){% if limit %} <a href="{% url closed %}">View All</a>{% endif %}</h2>
 
-<table class="project_browse">
-  <thead>
-    <tr>
-      <th>Project ID</th>
-      <th>Position Title</th>
-      <th>Announcement Closing Date</th>
-      <th>Brief Description</th>
-      <th>Targeted Groups</th>
-    </tr>
-  </thead>
-  <tbody>
+<h2>Closed ({{closed_num}})
+  {% if limit %}
+  <a class="btn btn-info"
+     href="{% url closed %}">View All Closed</a>
+  {% endif %}
+</h2>
+{% include "project/project_browse_table.html" with projects=closed %}
 
-    {% for project in closed %}
-    <tr class="{% cycle 'odd' 'even' %}">
-      <td><a href="{% url details object_id=project.id %}">{{project.project_number}}</a></td>
-      <td>{{project.position_title}}</td>
-      <td>{{project.announcement_closes|date:"m/d/Y"}}</td>
-      <td>{{project.brief_description}}</td>
-      <td>
-        <span class="subtitle">Pay Plan:</span> {{project.pay_plan}}<br/>
-        <span class="subtitle">Series:</span>   {{project.series_codes.all|join:", "}}<br/> 
-        <span class="subtitle">Grades:</span>   {{project.grade_levels.all|join:", "}}<br/>
-        <span class="subtitle">Centers:</span>  {{project.nasa_centers.all|join:", "}}
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
 {% endif %}
 
 {% endblock %}

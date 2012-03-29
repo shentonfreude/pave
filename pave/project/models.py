@@ -26,8 +26,8 @@ class GradeLevel(Model):
         return u'%s' % self.name
 
 class JobCode(Model):
-    code        = CharField(max_length=8)  # GS-1550
-    name        = CharField(max_length=64) # GS-1550 - Computer Science
+    code        = CharField(max_length=8)   # GS-1550
+    name        = CharField(max_length=128) # GS-1550 - Computer Science
 
     def __unicode__(self):
         return u'%s' % self.name
@@ -49,13 +49,13 @@ class Applicant(Model):
     anticipated_gain            = TextField(max_length=2000)
 
     def __unicode__(self):
-        return u'%s %s (%s)' % (self.first_name, self.last_name, center)
+        return u'%s %s (%s)' % (self.first_name, self.last_name, self.center)
 
 class Project(Model):
     position_title		= CharField(max_length=80)
     brief_description           = TextField(max_length=2000)
     objectives                  = TextField(max_length=2000, blank=True)
-    contact_name		= CharField(max_length=80)
+    contact_name		= CharField(max_length=150) # For Donnie's over-long name AAAAAA...
     contact_phone		= CharField(max_length=80)
     project_starts		= DateField(help_text="YYYY-MM-DD")
     project_ends		= DateField(help_text="YYYY-MM-DD")
@@ -66,7 +66,7 @@ class Project(Model):
     security_clearance_required = BooleanField()
     nasa_center                 = ForeignKey(Center, related_name='Center')
     office_id                   = CharField(max_length=80)
-    office_title		= CharField(max_length=80)
+    office_title		= CharField(max_length=200)
     skill_mix                   = TextField(max_length=2000, blank=True)
     detail_description          = TextField(max_length=2000, blank=True)
     pay_plan                    = CharField(max_length=80, default='GS') # GS, are there others?

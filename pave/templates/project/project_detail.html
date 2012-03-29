@@ -1,38 +1,68 @@
 {% extends "base.html" %}
 
-{% block title %} Project Detail {% endblock %}
-{% block sectionhead %} Project Detail {% endblock %}
+{% block title %} PAVE: Project Detail {{ object.project_number }} {% endblock %}
+
 
 {% block content %}
-<h1>{{object.position_title}}</h1>
-<h2>{{object.project_number}}</h1>
+<h1>Project Detail: {{object.project_number}}</h1>
 
-<table>
-  <tr><th>Position Title             </th> <td>{{ object.position_title }}</td></tr>
-  <tr><th>Brief Description          </th> <td>{{ object.brief_description }}</td></tr>
-  <tr><th>Objectives                 </th> <td>{{ object.objectives }}</td></tr>
-  <tr><th>Contact Name               </th> <td>{{object.contact_name}}</td></tr>
-  <tr><th>Contact Phone              </th> <td>{{object.contact_phone}}</td></tr>
-  <tr><td></td></tr>
-  <tr><th>Project Starts             </th> <td>{{object.project_starts}}</td></tr>
-  <tr><th>Project Ends               </th> <td>{{object.project_ends}}</td></tr>
-  <tr><th>Announcement Closes        </th> <td>{{object.announcement_closes}}</td></tr>
-  <tr><td></td></tr>
-  <tr><th>Security Clearance Required</th> <td>{{object.security_clearance_required}}</td></tr>
-  <tr><td></td></tr>
-  <tr><th>NASA Center                </th> <td>{{object.nasa_center}}                </td></tr>
-  <tr><th>Office ID                  </th> <td>{{object.office_id}}                  </td></tr>
-  <tr><th>Office Title	             </th> <td>{{object.office_title}}	       </td></tr>
-  <tr><td></td></tr>
-  <tr><th>Skill Mix                  </th> <td>{{object.skill_mix}}                  </td></tr>
-  <tr><th>Detail Description         </th> <td>{{object.detail_description}}         </td></tr>
-  <tr><th>Pay Plan                   </th> <td>{{object.pay_plan}}                   </td></tr>
-  <tr><td></td></tr>
-  <tr><th>Series Codes	             </th> <td>{{object.series_codes.all|join:", "}}	       </td></tr>
-  <tr><th>Grade Levels	             </th> <td>{{object.grade_levels.all|join:", "}}	       </td></tr>
-  <tr><th>NASA Centers	             </th> <td>{{object.nasa_centers.all|join:", "}}	       </td></tr>
-  <tr><td></td></tr>
-  <tr><th>Owner                      </th> <td>{{object.owner}}                      </td></tr>
-  <tr><th>Applicant                  </th> <td>{{object.applicant}}                  </td></tr>
-</table>
+<div class="row-fluid">
+  <div class="span8">
+    <h2>Overview</h2>
+    <dl > <!-- class="dl-horizontal" -->
+      <dt>Project Number             </dt> <dd>{{object.project_number}}</dd>
+      <dt>Position Title             </dt> <dd>{{ object.position_title }}</dd>
+      <dt>Brief Description          </dt> <dd>{{ object.brief_description }}</dd>
+      <dt>Objectives                 </dt> <dd>{{ object.objectives }}</dd>
+    </dl>
+  </div>
+  <div class="span4">
+    <h2>Dates and Contact</h2>
+    <dl > <!-- class="dl-horizontal" -->
+      <dt>Announcement Closes        </dt> <dd>{{object.announcement_closes}}</dd>
+      <dt>Project Starts             </dt> <dd>{{object.project_starts}}</dd>
+      <dt>Project Ends               </dt> <dd>{{object.project_ends}}</dd>
+      <dt>Contact Name               </dt> <dd>{{object.contact_name}}</dd>
+      <dt>Contact Phone              </dt> <dd>{{object.contact_phone}}</dd>
+    </dl>
+  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span8">
+    <h2>Details</h2>
+    <dl>
+      <dt>Detail Description         </dt> <dd>{{object.detail_description}}         </dd>
+      <dt>Skill Mix                  </dt> <dd>{{object.skill_mix}}                  </dd>
+    </dl>
+  </div>
+  <div class="span4">
+    <h2>Location</h2>
+    <dl>
+      <dt>NASA Center                </dt> <dd>{{object.nasa_center}}                </dd>
+      <dt>Office ID                  </dt> <dd>{{object.office_id}}                  </dd>
+      <dt>Office Title	         </dt> <dd>{{object.office_title}}	       </dd>
+      <dt>Pay Plan                   </dt> <dd>{{object.pay_plan}}                   </dd>
+    </dl>
+  </div>
+</div>
+
+<div class="row-fluid">
+  <div class="span8">
+    <h2>Requirements</h2>
+    <dl> <!-- class="dl-horizontal" -->
+      <dt>Series Codes	         </dt> <dd>{{object.series_codes.all|join:", "}} </dd>
+      <dt>Grade Levels	         </dt> <dd>{{object.grade_levels.all|join:", "}} </dd>
+      <dt>Security Clearance Required</dt> <dd>{{object.security_clearance_required}}</dd>
+      <dt>NASA Centers	         </dt> <dd>{{object.nasa_centers.all|join:", "}} </dd>
+    </dl>
+  </div>
+  <div class="span4">
+    <h2>Applicant</h2>
+    <dl>
+      <dt>Owner                      </dt> <dd>{{object.owner}}                      </dd>
+      <dt>Applicant                  </dt> <dd>{{object.applicant}}                  </dd>
+    </dl>
+  </div>
+</div>
 {% endblock %}

@@ -5,69 +5,44 @@
 {% endblock %}
 
 {% block content %}
-<h1>Purpose</h1>
-<p>
-  PAVE is designed to openly solicit applicants for high profile
-  assignments which may lead to greater visibility and career
-  enhancement for the PAVE applicant. The PAVE program enables NASA
-  managers and supervisors to advertise special opportunities to NASA
-  civil servants.
-</p>
-<p class="warning">
-  Please Note PAVE is not a part of the merit promotion and competitive placement plan
-</p>
-<h2>What is PAVE?</h2>
-<p>
-  The Project Announcement Visibility Effort (PAVE) is a program that
-  enables NASA managers and NASA supervisors to advertise special
-  opportunities to NASA Civil Servants. These opportunities are
-  details or one time only special projects that have an Objective,
-  Who to Contact for questions, a Start Date, an End Date, Skill Mix
-  and a Detailed Description. A NASA supervisor/manager can
-  specifically target an announcement/opportunity to a specific
-  audience(s) (i.e. Series, Grade, Pay Plan and/or all of NASA or
-  certain Centers) through the system.
-<h2>Who is Eligible?</h2>
-<p>
-  The PAVE communicates to NASA Civil Servants, opportunities where
-  interested parties can apply on-line with minimal effort. PAVE does
-  not replace Competitive Placement Plan vacancy announcements that
-  require competition through merit promotion procedures.
-</p>
-<p>
-  Employees must seek their Supervisor's approval prior to applying to
-  a PAVE opportunity.
-</p>
-<p>
-  **NASA Full-time Permanent Civil Servants only can apply
-</p>
+<div class="hero-unit">
+  <h1>Welcome to PAVE</h1>
+  <p>
+    The Project Announcement Visibility Effort (PAVE) is designed to
+    openly solicit applicants for high profile assignments which may
+    lead to greater visibility and career enhancement for the PAVE
+    applicant. The PAVE program enables NASA managers and supervisors
+    to advertise special opportunities to NASA civil servants.
+  </p>
+  <p><a class="btn btn-primary btn-large" a href="{% url about %}">Learn more &raquo;</a></p>
+</div>
 
-<h1>View Projects</h1>
 
-<p>
-  You do not need an account to <a href="/project">view and apply for a PAVE project</a>.
-</p>
-<p>
-  (To apply to any project you must have your Supervisor's permission.)
-</p>
-
-<h1>Manage your announcements</h1>
-
-<p>
-  If you are already registered for PAVE, please Login to manage your
-  announcements. Eventually we'll be using eAuth...
-
-  <form id="loginform" method="POST" action=".">
-    <label>Username
-      <input id="username" />
-    </label>
-    <label>Password
-      <input id="password" />
-    </label>
-    <input type="submit" id="submit" value="Login"/>
-  </form>
-
-</p>
+<div class="row-fluid">
+  <div class="span6">
+    <h2>View Projects</h2>
+    <p>You do not need an account to view and apply
+    for a PAVE project</a>.</p>
+    <p>To apply to any project you must have your Supervisor's
+    permission.</p>
+    <p><a class="btn" href="{% url projects %}">View projects &raquo;</a></p>
+  </div>
+  <div class="span6">
+    <h2>Manage Your Announcements</h2>
+    <p>If you are already registered for PAVE, please Login to manage
+      your announcements. Eventually we'll be using eAuth...
+      <form id="loginform" method="POST" action=".">
+        <label>Username
+          <input id="username" />
+        </label>
+        <label>Password
+          <input id="password" />
+        </label>
+        <input type="submit" id="submit" value="Login"/>
+      </form>
+    </p>
+  </div>
+</div>
 
 {% endblock %}
 
