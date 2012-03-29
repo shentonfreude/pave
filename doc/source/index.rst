@@ -14,7 +14,9 @@ Contents:
    install.rst
    todo.rst
    warts.rst
-
+   features.rst
+   data_sources.rst
+   presentation_script.rst
 
 Indices and tables
 ==================

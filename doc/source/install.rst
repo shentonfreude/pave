@@ -1,5 +1,9 @@
-Installation
-============
+==============
+ Installation
+==============
+
+Install on Development Machine
+==============================
 
 Get the code
 ------------
@@ -47,12 +51,6 @@ doesn't exist. The location is specified in the settings.py file::
 
   cd pave
   ./manage.py syncdb
-  ./manage.py loaddata fixtures/*json
-
-(Note that if you change your models/schema, a syncdb won't *change*
-existing table schemas; you'll need to wipe the .sqlite DB file and
-reload fixtures. There are 'evolution' mechanisms and we could dump
-and reload via fixtures.)
 
 Load fixture data
 -----------------
@@ -63,6 +61,10 @@ PAVE::
 
   ./manage.py loaddata fixtures/*.json
 
+(Note that if you change your models/schema, a syncdb won't *change*
+existing table schemas; you'll need to wipe the .sqlite DB file and
+reload fixtures. There are 'evolution' mechanisms and we could dump
+and reload via fixtures.)
 
 Run it
 ------
