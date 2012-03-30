@@ -1,6 +1,8 @@
+from datetime import datetime
 from django.contrib.auth.models import User
 from django.db.models import Model, ForeignKey, ManyToManyField
 from django.db.models import BooleanField, CharField, DateField, EmailField, IntegerField, TextField
+from autoslug import AutoSlugField
 
 # TBD for forms get choices:
 # class ProfileForm(forms.ModelForm):
@@ -51,6 +53,33 @@ class Applicant(Model):
     def __unicode__(self):
         return u'%s %s (%s)' % (self.first_name, self.last_name, self.center)
 
+def _create_slug(instance):
+    """Return urPAVE-shaped slug: PAVE-yy-center-officeid-###
+    yy:         last 2 digites of year
+    center:     like HQ
+    officeid:   like LM020
+    ####:       monotonically-increasing nubmer
+    For ###, can't use .id as we don't have it yet, instance isn't saved;
+    let AutoSlugify uniqify it.
+    This doesn't fit urPAVE as the uniqififier is only appended if needed, so we get
+      pave-12-hq-lmao
+      pave-12-hq-lmao-2
+    but we want
+      pave-12-hq-lmao-376
+      pave-12-hq-lmao-377
+
+    Note that the Admin UI doesn't change the slug if the fields are changed.
+
+    IMHO it's *wrong* to encode information in a unique ID.
+    What happens if someone needs to change the Center? the URL changes.
+    """
+    return 'PAVE %02d %s %s' % (
+        datetime.now().year % 100,
+        instance.nasa_center,
+        instance.office_id,
+        )
+
+
 class Project(Model):
     position_title		= CharField(max_length=80)
     brief_description           = TextField(max_length=2000)
@@ -62,7 +91,7 @@ class Project(Model):
     announcement_closes         = DateField(help_text="YYYY-MM-DD")
     cancel_date                 = DateField(blank=True, null=True, help_text="YYYY-MM-DD") # move these to end of schema?
     cancel_reason               = TextField(max_length=2000, blank=True)
-    project_number		= CharField(max_length=80)#generated PAVE-yy-center-orgcode-###
+    project_number		= AutoSlugField(unique=True, populate_from=_create_slug)
     security_clearance_required = BooleanField()
     nasa_center                 = ForeignKey(Center, related_name='Center')
     office_id                   = CharField(max_length=80)
@@ -79,6 +108,5 @@ class Project(Model):
 
     def __unicode__(self):
         return u'%s' % self.position_title
-
 
 
