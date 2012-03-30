@@ -60,10 +60,29 @@ No, you have to issue the memorable::
 
   sqlplus 'username/password@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=hostname.example.com)(PORT=1521)))(CONNECT_DATA=(SID=sidname)))'
 
-With the single-quotes to hide the special characters from the shell.
+The single-quotes are needed to hide the special characters from the shell.
 
 You better be using this within Emacs or something because there's no
-command line history or editing. Welcome to the 1960's.
+command line history or editing. Welcome to the 1960's. 
+
+You can create a `.tnsnames.ora` (note the leading dot) in your home
+directory like::
+
+  mydb = 
+    (DESCRIPTION=
+      (ADDRESS_LIST=
+        (ADDRESS=
+          (PROTOCOL=TCP)
+          (HOST=hostname.example.com)
+          (PORT=1521)))
+      (CONNECT_DATA=(SID=sidname))
+    )
+
+then you'll be able to invoke like::
+
+  sqlplus mydb
+
+And this will work with Emacs' `sql-oracle` mode as well.
 
 
 NED: Email
