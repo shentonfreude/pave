@@ -27,6 +27,7 @@ Inferred from unauthenticated public PAVE
   - review number of applicants selected by criteria
   - submit for notification by email
 * Notify: send opportunity by email to individuals by: multiple centers, multiple GS levels
+* Sane URLs like .../project/2012/hq/dm000/policy-analyst-2 allowing listing within Year, Center, Office.
 * Migrate: existing data from old into new PAVE
 * Provide automated tests suite: unit, functional, integration tests
 
