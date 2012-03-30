@@ -6,6 +6,7 @@ Pygments==1.4
 Sphinx==1.1.2
 distribute==0.6.24
 django-bootstrap-form==2.0.3
+django-autoslug==1.5.0
 docutils==0.8.1
 wsgiref==0.1.2
 psycopg2==2.4.4
