@@ -15,20 +15,42 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-DATABASES = {
-    'default': {
-        # Local development:
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(PROJECT_PATH, "db/pave.sqlite3"),  # Or path to database file if using sqlite3.
-        #
-        # Heroku: 'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        #'NAME': 'pave',
-        'USER': 'pave',                      # Not used with sqlite3.
-        'PASSWORD': 'PaveThePlanet',                  # Not used with sqlite3.
-        'HOST': '/tmp',                      # Need /tmp for Postgres running as my username; Set to empty string for localhost. Not used with sqlite3.
-        'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
-    }
-}
+## Pull in Stackato's production settings
+## This example demonstrates how to access the bound MySQL service
+import os
+if 'VCAP_SERVICES' in os.environ:
+    import json
+    vcap_services = json.loads(os.environ['VCAP_SERVICES'])
+    # XXX: avoid hardcoding here
+    ## MYSQL:
+    db_srv = vcap_services['mysql-5.1'][0]
+    ## POSTGRES: db_srv = vcap_services['postgresql-8.4'][0]
+    cred = db_srv['credentials']
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': cred['name'],
+            'USER': cred['user'],
+            'PASSWORD': cred['password'],
+            'HOST': cred['hostname'],
+            'PORT': cred['port'],
+            }
+        }
+else:
+  DATABASES = {
+      'default': {
+          # Local development:
+          'ENGINE': 'django.db.backends.sqlite3',
+          'NAME': os.path.join(PROJECT_PATH, "db/pave.sqlite3"),  # Or path to database file if using sqlite3.
+          #
+          # Heroku: 'ENGINE': 'django.db.backends.postgresql_psycopg2',
+          #'NAME': 'pave',
+          'USER': 'pave',                      # Not used with sqlite3.
+          'PASSWORD': 'PaveThePlanet',                  # Not used with sqlite3.
+          'HOST': '/tmp',                      # Need /tmp for Postgres running as my username; Set to empty string for localhost. Not used with sqlite3.
+          'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
+      }
+  }
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name

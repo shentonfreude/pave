@@ -1,0 +1,24 @@
+name: pave
+
+env:
+  DJANGO_SETTINGS_MODULE: settings
+
+requirements:
+  pypm:
+    - django
+    - mysql-python
+
+ignores:
+  - .git
+  - dev.db
+  - db.sqlite
+  - bin
+  - include
+  - lib
+  - doc
+  - pave/db
+  
+processes:
+  web: $STACKATO_UWSGI
+
+
