@@ -8,6 +8,11 @@ requirements:
     - django
     - mysql-python
 
+services:
+  mysql: mysql-pave
+
+#postgresql: postgresql-pave
+
 ignores:
   - .git
   - dev.db
@@ -17,6 +22,7 @@ ignores:
   - lib
   - doc
   - pave/db
+  - apache
   
 processes:
   web: $STACKATO_UWSGI
