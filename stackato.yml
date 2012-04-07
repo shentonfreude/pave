@@ -1,7 +1,10 @@
 name: pave
 
+#PYTHONPATH needed in env so we can find module 'project'
+
 env:
   DJANGO_SETTINGS_MODULE: settings
+  PYTHONPATH: pave
 
 requirements:
   pypm:
