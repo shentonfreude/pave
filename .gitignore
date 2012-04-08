@@ -6,3 +6,4 @@
 /doc/build/
 /pave/db/pave.sqlite3
 /.DS_Store
+/pave/static-collected/
