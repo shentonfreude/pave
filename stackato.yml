@@ -27,11 +27,12 @@ ignores:
   - pave/db
   - apache
   
-processes:
-  web: $STACKATO_UWSGI --check-static $HOME/pave/static-collected
+# Serve the app and map "/static" to our collected static dir
 
-#django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app without having set the STATIC_ROOT setting.
-#hooks:
-#  post-staging:
+processes:
+  web: $STACKATO_UWSGI --static-map /static=$HOME/pave/static-collected
+
+hooks:
+  post-staging:
+    - python pave/manage.py collectstatic --noinput
 #    - python pave/manage.py syncdb --noinput
-#    - python pave/manage.py collectstatic --noinput
