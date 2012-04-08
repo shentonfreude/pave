@@ -1,6 +1,10 @@
+# See hints in: https://github.com/kencochrane/django-cms-stackato/blob/master/mycms/settings.py
+
 import os
 
-PROJECT_PATH = os.path.abspath(os.path.split(__file__)[0])
+#PROJECT_PATH = os.path.abspath(os.path.split(__file__)[0])
+# better? from kencochrane
+PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
 
 ###print "###settings.py PROJECT_PATH=%s" % PROJECT_PATH
 
@@ -84,10 +88,15 @@ MEDIA_ROOT = ''
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
 MEDIA_URL = ''
 
+####django.core.exceptions.ImproperlyConfigured:
+#### The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+
+
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
+###os.path.join(PROJECT_PATH, "static") # at what level? do I need to pre-create? CONFLICTS 
 STATIC_ROOT = ''
 
 # URL prefix for static files.
@@ -100,6 +109,7 @@ STATIC_URL = '/static/'
 ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 # Additional locations of static files
+# 2012-04-07 conflicts with same setting of STATIC_ROOT?? even if commented
 STATICFILES_DIRS = (
     os.path.join(PROJECT_PATH, "static"), # put /css/ and /js/ under this
 )
