@@ -31,3 +31,7 @@ processes:
   web: $STACKATO_UWSGI
 
 
+#django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app without having set the STATIC_ROOT setting.
+#hooks:
+#  post-staging:
+#    - python pave/manage.py collectstatic --noinput
