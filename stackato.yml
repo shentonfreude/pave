@@ -28,7 +28,6 @@ ignores:
   - apache
   
 processes:
-  web: $STACKATO_UWSGI
   web: $STACKATO_UWSGI --check-static $HOME/pave/static-collected
 
 #django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app without having set the STATIC_ROOT setting.
