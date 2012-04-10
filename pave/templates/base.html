@@ -64,6 +64,9 @@
         <div class="span3">
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
+
+              {# TBD: leftsearch autocompletion from ROSA #}
+
               {% block leftnav %}
               <li class="nav-header">PAVE</li>
               <li><a href="{% url whats_new %}">What's new</a></li>
@@ -118,8 +121,8 @@
           <div class="span3">
             <div class="alert-info">
               <ul>
-                <li>NASA Official: <a href="Deandrea.M.Peters@nasa.gov">Deedy Peters</a></li>
-                <li>Site Curator: <a href="cbrunner@nasa.gov@nasa.gov">Christopher Brunner</a></li>
+                <li>NASA Official: <a href="mailto:Deandrea.M.Peters@nasa.gov">Deedy Peters</a></li>
+                <li>Site Curator: <a href="mailto:Chris.Shenton@nasa.gov">Chris Shenton</a></li>
               </ul>
             </div>
           </div>
@@ -133,6 +136,11 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="{{STATIC_URL}}js/jquery.js"></script>
+
+    {% block extrascript %}
+    {# for including javascript document ready style functions #}
+    {% endblock %}
+
     <script src="{{STATIC_URL}}bootstrap/js/bootstrap-transition.js"></script>
     <script src="{{STATIC_URL}}bootstrap/js/bootstrap-alert.js"></script>
     <script src="{{STATIC_URL}}bootstrap/js/bootstrap-modal.js"></script>

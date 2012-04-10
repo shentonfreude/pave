@@ -1,15 +1,30 @@
+import logging
+import time
+import json
+
 from django.core.context_processors import csrf
 from django.db.models import Q
 from django.forms import Form, CharField, DateField, ModelMultipleChoiceField
 from django.forms import SelectMultiple
+from django.forms import TextInput
 
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 
 from models import Project, Center, Status
 
+logging.basicConfig(level=logging.INFO)
+
+class QuickSearchForm(Form):
+    text        = CharField(max_length=80, required=True)
+    
 class SearchForm(Form):
-    project_id   = CharField(max_length=80, required=False)
+    project_id   = CharField(max_length=80, required=False,
+                             help_text="this field auto-completes",
+                             widget=TextInput(attrs={'data-provider':'typeahead'}))
+    text = CharField(max_length=80, required=False,
+                     label="Descriptive Text",
+                     help_text="find in Title, Descriptions, Objectives, Skills")
     status       = ModelMultipleChoiceField(queryset=Status.objects.all(), required=False,
                                             widget=SelectMultiple(attrs={'size':len(Status.objects.all())}))
     nasa_centers = ModelMultipleChoiceField(queryset=Center.objects.all(), required=False,
@@ -18,6 +33,64 @@ class SearchForm(Form):
     date         = DateField(required=False, help_text="MM/DD/YYYY or YYYY-MM-DD")
     date_start   = DateField(required=False, help_text="MM/DD/YYYY or YYYY-MM-DD")
     date_end     = DateField(required=False, help_text="MM/DD/YYYY or YYYY-MM-DD")
+
+def quicksearch(request):
+    """QuickSearch is autocompleting free text search on every page.
+    We search for Center, Office, descriptoin, title, etc.
+    """
+    # TODO: queries like 'HQ' are too broad so auto-suggesting those is dumb,
+    # unless we're going to be clever and search for Center or OrgCode first,
+    # then fall back to longer text in other non-auto-suggesting fields.
+    # And we'd have to worry about queries like "hq secretary"
+    # which we now just treat as an atomic string query.
+    if request.method == 'POST':
+        form = QuickSearchForm(data=request.POST)
+        if form.is_valid():
+            text = form.cleaned_data['text'].strip()
+            logging.info("quicksearch: text='%s'" % text)
+            q = Q()
+            q = q | Q(position_title__icontains=text)
+            q = q | Q(brief_description__icontains=text)
+            q = q | Q(objectives__icontains=text)
+            q = q | Q(project_number__icontains=text)
+            q = q | Q(office_id__iexact=text)
+            q = q | Q(office_title__icontains=text)
+            q = q | Q(skill_mix__icontains=text)
+            q = q | Q(detail_description__icontains=text)
+            q = q | Q(nasa_center__name__iexact=text)
+            q = q | Q(nasa_centers__name__iexact=text)
+            #q = q | Q(grade_levels__iexact=text) # DEREF
+            #import pdb; pdb.set_trace()
+            projects = Project.objects.filter(q)
+            return render_to_response('project/search_results.html',
+                                      {'object_list': projects},
+                                      context_instance=RequestContext(request));
+    else:
+        form = SearchForm()
+    return render_to_response('search.html',
+                              {'form': form},
+                              context_instance=RequestContext(request));
+
+
+# TODO: memoize this
+def _field_suggestions(*args):
+    """Provide suggestions based on one or more fields to a search box.
+    """
+    now = time.time()
+    words_q = Project.objects.values(*args).distinct()
+    wordset = set()
+    for worddict in words_q:
+        vals = worddict.values()
+        for val in vals:
+            wordset.add(val)
+    words = [word for word in wordset if word]
+    words.sort()
+    logging.info("_field_suggestions len=%d time=%f" % (len(words), time.time() - now))
+    return json.dumps(words)
+
+def _suggestions_project_numbers():
+    project_numbers = _field_suggestions('project_number')
+    return project_numbers
 
 def search(request):
     if request.method == 'POST':
@@ -29,6 +102,14 @@ def search(request):
             project_id = form.cleaned_data['project_id'].strip()
             if project_id:
                 q = q & Q(project_number=project_id)
+            text = form.cleaned_data['text']
+            if text:
+                q = q & (Q(position_title__icontains=text)
+                         | Q(brief_description__icontains=text)
+                         | Q(detail_description__icontains=text)
+                         | Q(objectives__icontains=text)
+                         | Q(skill_mix__icontains=text)
+                         )
             nasa_centers = form.cleaned_data['nasa_centers']
             if nasa_centers:
                 q = q & Q(nasa_centers__in=nasa_centers)
@@ -45,12 +126,15 @@ def search(request):
                     q = q & Q(project_starts__lte=date_start) & Q(project_ends__gte=date_end)
             projects = Project.objects.filter(q)
             return render_to_response('project/search_results.html',
-                                      {'object_list': projects},
+                                      {'object_list': projects,
+                                       },
                                       context_instance=RequestContext(request));
     else:
         form = SearchForm()
     return render_to_response('search.html',
-                              {'form': form},
+                              {'form': form,
+                               'suggestions_project_numbers' : _suggestions_project_numbers(),
+                               },
                               context_instance=RequestContext(request));
 
 

@@ -2,13 +2,22 @@
 
 {% block title %} PAVE: Project Detail {{ object.project_number }} {% endblock %}
 
+{% block leftnav %}
+<li class="nav-header">Jump to...</li>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#datesandcontact">Dates and Contact</a></li>
+<li><a href="#details">Details</a></li>
+<li><a href="#location">Location</a></li>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#applicant">Applicant</a></li>
+{% endblock %}
 
 {% block content %}
 <h1>Project Detail: {{object.project_number}}</h1>
 
 <div class="row-fluid">
   <div class="span8">
-    <h2>Overview</h2>
+    <h2 id="overview">Overview</h2>
     <dl > <!-- class="dl-horizontal" -->
       <dt>Project Number             </dt> <dd>{{object.project_number}}</dd>
       <dt>Position Title             </dt> <dd>{{ object.position_title }}</dd>
@@ -17,7 +26,7 @@
     </dl>
   </div>
   <div class="span4">
-    <h2>Dates and Contact</h2>
+    <h2 id="datesandcontact">Dates and Contact</h2>
     <dl > <!-- class="dl-horizontal" -->
       <dt>Announcement Closes        </dt> <dd>{{object.announcement_closes}}</dd>
       <dt>Project Starts             </dt> <dd>{{object.project_starts}}</dd>
@@ -30,14 +39,14 @@
 
 <div class="row-fluid">
   <div class="span8">
-    <h2>Details</h2>
+    <h2 id="details">Details</h2>
     <dl>
       <dt>Detail Description         </dt> <dd>{{object.detail_description}}         </dd>
       <dt>Skill Mix                  </dt> <dd>{{object.skill_mix}}                  </dd>
     </dl>
   </div>
   <div class="span4">
-    <h2>Location</h2>
+    <h2 id="location">Location</h2>
     <dl>
       <dt>NASA Center                </dt> <dd>{{object.nasa_center}}                </dd>
       <dt>Office ID                  </dt> <dd>{{object.office_id}}                  </dd>
@@ -49,7 +58,7 @@
 
 <div class="row-fluid">
   <div class="span8">
-    <h2>Requirements</h2>
+    <h2 id="requirements">Requirements</h2>
     <dl> <!-- class="dl-horizontal" -->
       <dt>Series Codes	         </dt> <dd>{{object.series_codes.all|join:", "}} </dd>
       <dt>Grade Levels	         </dt> <dd>{{object.grade_levels.all|join:", "}} </dd>
@@ -58,7 +67,7 @@
     </dl>
   </div>
   <div class="span4">
-    <h2>Applicant</h2>
+    <h2 id="applicant">Applicant</h2>
     <dl>
       <dt>Owner                      </dt> <dd>{{object.owner}}                      </dd>
       <dt>Applicant                  </dt> <dd>{{object.applicant}}                  </dd>

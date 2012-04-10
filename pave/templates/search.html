@@ -1,5 +1,15 @@
 {% extends "base.html" %}
+
 {% load bootstrap %}
+
+{% block extrascript %}
+<script>
+  jQuery(document).ready(function () {
+    var suggestions_project_numbers = {{suggestions_project_numbers|safe}};
+    $('#id_project_id').typeahead({source: suggestions_project_numbers, items: 5})
+  });
+</script>
+{% endblock %}
 
 {% block title %} PAVE Search{% endblock %}
 
@@ -8,11 +18,13 @@
 
 <!-- To customize form UI see https://docs.djangoproject.com/en/dev/topics/forms/ -->
 
-<p>You can multi-select Centers and Project Statuses.<p>
+<p>Each field is "AND"-ed with the others, so you can -- for example
+-- find projects which are Approved <em>AND</em> at HQ.</p>
+
+<p>You can multi-select Centers and Project Statuses.  Multiselected fields are "OR"-ed so you can find projects at HQ <em>OR</em> GSFC.<p>
 
 <p>Specify the singular Date, or the pair of Date start and Date end.
 (Yeah, this is a hack: we need to understand the use case.)</p>
-
 
 <form id="search" method="POST" action="." class="well form-horizontal">{% csrf_token %}
   <table>
