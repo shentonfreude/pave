@@ -129,6 +129,9 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
+    'django.contrib.contenttypes',
+    'django.contrib.messages',
+    'django.contrib.sessions',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     # For django-bootstrap-form:
