@@ -18,6 +18,7 @@ Contents:
    features.rst
    data_sources.rst
    presentation_script.rst
+   leave_behind_info.rst
 
 Indices and tables
 ==================
