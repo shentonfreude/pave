@@ -19,6 +19,7 @@ Contents:
    data_sources.rst
    presentation_script.rst
    leave_behind_info.rst
+   government-django.rst
 
 Indices and tables
 ==================
