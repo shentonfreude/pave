@@ -27,11 +27,12 @@
 (Yeah, this is a hack: we need to understand the use case.)</p>
 
 <form id="search" method="POST" action="." class="well form-horizontal">{% csrf_token %}
-  <table>
+  {#<table>#}
   {# {{ form.as_table }} <!-- also: as_p, as_ul --> #}
-  {{ form|bootstrap }}
-  </table>
-  </br>
+  {#{ form|bootstrap }#}
+  {#</table>#}
+  {{form.as_p}}
+  <br/>
   <button type="submit" class="btn btn-primary"><i class="icon-search icon-white"></i> Search</button>
 </form>
 
