@@ -23,6 +23,19 @@ system health), behind the C3 portal. I found you can access it with
 your NDC password, just like you use for your email, but had to use
 'cshenton' instead of 'ndc\cshenton' like I do for mail.
 
+Mark Friedenbach from ARC wrotes
+that the following public-facing sites are in Django:
+
+http://astrobiology.nasa.gov/
+https://c3.nasa.gov/dashlink/
+
+and that Django was used to collect and manage submissions for FETTSS
+(From Earth to the Solar System), a competition to find the "best"
+photos of astrobiology field sites. I don't think the submission site
+is still online, but you can at least view the results here:
+
+http://fettss.arc.nasa.gov/collection/
+
 The management interface for the NASA Nebula computing cloud system is
 written in Django.
 
