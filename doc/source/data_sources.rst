@@ -92,7 +92,7 @@ How to query::
 
   ldapsearch -x -h dir.nasa.gov -b ou=people,dc=nasa,dc=gov "(&(givenName=firstname)(sn=lastname))"
 
-Interesting attributes from results::
+Interesting attributes from results (internal information elided)::
 
   nasaSupervisor: [employeeNumber elided]
   nasaEmployer: NASA
