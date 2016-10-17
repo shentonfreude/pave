@@ -117,21 +117,24 @@ Can we get more attributes if we're authenticate? GS level? other target attrs?
 
 As search of the public directory outside the firewall only gives::
 
-  cshenton@Asylum/source$ ldapsearch -x -h pubdir.nasa.gov -b ou=people,dc=nasa,dc=gov "(&(givenName=liteshia)(sn=dennis))"
+  $ ldapsearch -x -h pubdir.nasa.gov -b ou=people,dc=nasa,dc=gov "(&(givenName=chris)(sn=shenton))"
 
-  # 626370252, people, nasa.gov
-  dn: employeenumber=626370252,ou=people, dc=nasa, dc=gov
-  objectClass: nasaperson
-  objectClass: inetOrgPerson
-  objectClass: organizationalPerson
+  # 243414432, people, nasa.gov
+  dn: employeenumber=243414432,ou=people,dc=nasa,dc=gov
+  sn: Shenton
+  employeeNumber: 243414432
+  cn: Chris Shenton
+  givenName: Chris
+  mail: chris.shenton@nasa.gov
+  mail: chris.shenton-1@nasa.gov
+  mail: shenton@hq.nasa.gov
+  mail: cshenton@hq.nasa.gov
+  mail: chris@hq.nasa.gov
+  nasaPrimaryEmail: chris.shenton@nasa.gov
+  objectClass: inetorgperson
   objectClass: person
-  objectClass: top
   objectClass: sunAMAuthAccountLockout
-  givenName: LITESHIA
-  sn: DENNIS
-  employeeNumber: 626370252
-  mail: liteshia.b.dennis@nasa.gov
-  initials: BEAMON
-  cn: LITESHIA BEAMON DENNIS
-  telephoneNumber: 202.358.4778
-
+  objectClass: top
+  objectClass: organizationalPerson
+  objectClass: nasaperson
+  telephoneNumber: 571.527.5832
