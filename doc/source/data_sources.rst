@@ -90,7 +90,7 @@ NED: Email
 
 How to query::
 
-  ldapsearch -x -h dir.nasa.gov -b ou=people,dc=nasa,dc=gov "(&(givenName=liteshia)(sn=dennis))"
+  ldapsearch -x -h dir.nasa.gov -b ou=people,dc=nasa,dc=gov "(&(givenName=firstname)(sn=lastname))"
 
 Interesting attributes from results::
 
